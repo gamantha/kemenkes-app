@@ -32,6 +32,21 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
+<script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+<script src="https://www.amcharts.com/lib/3/xy.js"></script>
+<script src="https://www.amcharts.com/lib/3/plugins/responsive/responsive.min.js"></script>
+<script src="https://amcharts.com/lib/3/plugins/export/export.js"></script>
+<script src="js/data.js"></script>
+<style>
+#chartdiv {
+  width: 100%;
+  height: 100%;
+  min-width: 300px;
+  min-height: 700px;
+  max-width: 700px;
+  max-height: 700px;
+}
+</style>
 </head>
 
 <body class="fix-header">
@@ -165,10 +180,9 @@
                         </div>
                     </div>
                 </div>
-
 				
                 <div class="row">
-                    <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4">
+                     <div class="col-lg-4 col-sm-6 col-xs-12">
                         <div class="white-box">
                             <h5 class="box-title">Komposisi peserta<br/>berdasarkan level jabatan</h5>
 							<hr/>
@@ -177,9 +191,21 @@
 							
                         </div>
                     </div>
-                </div>
+
+                    <div class="col-lg-8 col-sm-6 col-xs-12">
+                        <div class="white-box">
+                            <h5 class="box-title">Ninecell Summary</h5>
+							<hr/>
+                        
+                            <div id="chartdiv"></div>
+							
+                        </div>
+                    </div>
+                </div>	
 				
+
 				
+			
 
             </div>
             <!-- /.container-fluid -->
