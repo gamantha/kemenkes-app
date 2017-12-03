@@ -56,6 +56,27 @@
 .filterable .filters input[disabled]:-ms-input-placeholder {
     color: #333;
 }
+th.rotate {
+  /* Something you can count on */
+  height: 180px;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+th.rotate > div {
+  transform: 
+    /* Magic Numbers */
+    translate(0px, 80px)
+    /* 45 is really 360 - 45 */
+    rotate(270deg);
+  width: 30px;
+  text-decoration: none;
+}
+th.rotate > div > span {
+  border-bottom: 1px solid #ccc;
+  padding: 5px 10px;
+  text-decoration: none;
+}
 </style>
 </head>
 
@@ -117,7 +138,7 @@
             <div class="container-fluid">
                 <div class="row bg-title">
                     <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
-                        <h4 class="page-title">Daftar Assessee</h4> </div>
+                        <h4 class="page-title">Rekapitulasi</h4> </div>
 
                     <!-- /.col-lg-12 -->
                 </div>
@@ -127,18 +148,51 @@
 <div class="container">
     <div class="row">
         <div class="panel panel-primary filterable">
+		<!--
             <div >
                 <div class="pull-right">
                     <button class="btn btn-default btn-xs btn-filter"><span class="glyphicon glyphicon-filter"></span> Filter</button>
                 </div>
             </div>
-            <table class="table">
+		-->
+            <table border="1px" style="text-align:center">
                 <thead>
-                    <tr class="filters">
-                        <th><input type="text" class="form-control" placeholder="NIP" disabled></th>
-                        <th><input type="text" class="form-control" placeholder="NAMA" disabled></th>
-                        <th><input type="text" class="form-control" placeholder="POSISI" disabled></th>
-                    </tr>
+                    <tr>
+                        <th style="text-align:center" >NAMA</th>
+						<th class="rotate"><div><span>INTELIGENSI UMUM</span></div></th>
+						<th class="rotate"><div><span>BERPIKIR ANALITIS</span></div></th>
+						<th class="rotate"><div><span>LOGIKA BERFIKIR</span></div></th>
+						<th class="rotate"><div><span>KEMAMPUAN BELAJAR</span></div></th>
+						<th class="rotate"><div><span>EQ</span></div></th>
+						<th class="rotate"><div><span>SISTEMATIKA KERJA</span></div></th>
+						<th class="rotate"><div><span>TEMPO KERJA</span></div></th>
+						<th class="rotate"><div><span>KETELITIAN</span></div></th>
+						<th class="rotate"><div><span>KETEKUNAN</span></div></th>
+						<th class="rotate"><div><span>MOTIVASI</span></div></th>
+						<th class="rotate"><div><span>KONSEP DIRI</span></div></th>
+						<th class="rotate"><div><span>EMPATI</span></div></th>
+						<th class="rotate"><div><span>PEMAHAMAN SOSIAL</span></div></th>
+						<th class="rotate"><div><span>PENGATURAN DIRI</span></div></th>
+						<th class="rotate"><div><span>INT</span></div></th>
+						<th class="rotate"><div><span>BPL</span></div></th>
+						<th class="rotate"><div><span>KSN</span></div></th>
+						<th class="rotate"><div><span>PFS</span></div></th>
+						<th class="rotate"><div><span>BST</span></div></th>
+						<th class="rotate"><div><span>ATP</span></div></th>
+						<th class="rotate"><div><span>BKS</span></div></th>
+						<th class="rotate"><div><span>BAN</span></div></th>
+						<th class="rotate"><div><span>BKU</span></div></th>
+						<th class="rotate"><div><span>KTO</span></div></th>
+						<th class="rotate"><div><span>PKP</span></div></th>
+						<th class="rotate"><div><span>INO</span></div></th>
+						<th class="rotate"><div><span>PPO</span></div></th>
+						<th class="rotate"><div><span>PIN</span></div></th>
+						<th class="rotate"><div><span>KPT</span></div></th>
+						<th class="rotate"><div><span>NGO</span></div></th>
+						<th class="rotate"><div><span>ITP</span></div></th>
+						<th class="rotate"><div><span>MOL</span></div></th>
+						<th class="rotate"><div><span>TOTAL LKJ</span></div></th>	
+					</tr>				
                 </thead>
                 <tbody>
 <?
@@ -157,21 +211,49 @@
       echo "";
    }
 
-   $sql ='select a.profile_id,a.nip,a.first_name, a.level, a.current_position,a.unit, b.project_Activity_id  from kemenkes_master_profile a
-left join mappingKemenkes b on a.profile_id = b.profile_id';
+   $sql ='select * from kemenkes_master_table_final';
 
    $ret = $db->query($sql);
    while($row = $ret->fetchArray(SQLITE3_ASSOC) ){
 ?>
 								
 									
-                                        <tr>
-                                            <td><?=$row['nip'];?></td>
-                                            <td ><?=$row['first_name'];?></td>
-                                            <td ><?=str_replace('<br>','',$row['current_position']);?></td>
-                                            <td>
-											<a class="btn btn-success" href="profile.php?profile_id=<?=$row['profile_id'];?>&project_activity_id=<?=$row['project_Activity_id'];?>">
-											view</a></td>
+                                        <tr style="text-align:center;font-size:11px;">
+                                            
+                                            <td style="text-align:left;font-size:11px;"><b><?=$row['name'];?></b></td>
+                                            <td ><?=$row['inteligensi_umum'];?></td>
+                                            <td ><?=$row['berpikir_analitis'];?></td>
+                                            <td ><?=$row['logika_berfikir'];?></td>
+                                            <td ><?=$row['kemampuan_belajar'];?></td>
+                                            <td ><?=$row['eq'];?></td>
+                                            <td ><?=$row['sistematika_kerja'];?></td>
+                                            <td ><?=$row['tempo_kerja'];?></td>
+                                            <td ><?=$row['ketelitian'];?></td>
+                                            <td ><?=$row['ketekunan'];?></td>
+                                            <td ><?=$row['motivasi'];?></td>
+                                            <td ><?=$row['konsep_diri'];?></td>
+                                            <td ><?=$row['empati'];?></td>
+                                            <td ><?=$row['pemahaman_sosial'];?></td>
+                                            <td ><?=$row['pengaturan_diri'];?></td>
+                                            <td ><?=$row['int'];?></td>
+                                            <td ><?=$row['bpl'];?></td>
+                                            <td ><?=$row['ksn'];?></td>
+                                            <td ><?=$row['pfs'];?></td>
+                                            <td ><?=$row['bst'];?></td>
+                                            <td ><?=$row['atp'];?></td>
+                                            <td ><?=$row['bks'];?></td>
+                                            <td ><?=$row['ban'];?></td>
+                                            <td ><?=$row['bku'];?></td>
+                                            <td ><?=$row['kto'];?></td>
+                                            <td ><?=$row['pkp'];?></td>
+                                            <td ><?=$row['ino'];?></td>
+                                            <td ><?=$row['ppo'];?></td>
+                                            <td ><?=$row['pin'];?></td>
+                                            <td ><?=$row['kpt'];?></td>
+                                            <td ><?=$row['ngo'];?></td>
+                                            <td ><?=$row['itp'];?></td>
+                                            <td ><?=$row['mol'];?></td>
+                                            <td ><?=$row['total_lkj'];?></td>
                                         </tr>
 <?										
    }

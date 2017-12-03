@@ -74,7 +74,7 @@
                     </li>					
 
                     <li>
-                        <a href="404.html" class="waves-effect"><i class="fa fa-info-circle fa-fw" aria-hidden="true"></i>Error 404</a>
+                        <a href="rekapitulasi.php" class="waves-effect"><i class="fa fa-info-circle fa-fw" aria-hidden="true"></i>Rekapitulasi</a>
                     </li>
 
                 </ul>
