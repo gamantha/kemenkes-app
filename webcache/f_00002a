@@ -1,0 +1,1429 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>drg. AGUS SUPRAPTO, M.Kes.</title>
+
+  <!-- Normalize or reset CSS with your favorite library -->
+  <link rel="stylesheet" type="text/css" href="/css/normalize.css">
+
+  <!-- Load paper.css for happy printing  -->
+  <link rel="stylesheet" type="text/css"href="/css/paper.css">
+ 
+  <link rel="stylesheet" type="text/css" href="/css/psikogramTable.css">
+
+  <!-- Set page size here: A5, A4 or A3 -->
+  <!-- Set also "landscape" if you need -->
+
+  <script src="/js/d3.min.js" charset="utf-8"></script>
+
+  
+  
+</head>
+
+<body class="A4">
+
+  <!-- Each sheet element should have the class "sheet" -->
+  <!-- "padding-**mm" is optional: you can set 10, 15, 20 or 25 -->
+  <section class="sheet padding-0mm">
+  <div style= "width: 210mm; height: 296mm; margin:0; background-image: url('/images/1/coverlaporan.png'); 
+ background-position: center; background-repeat: no-repeat;background-size: 210mm 296mm" >
+<article>
+   
+
+ </div>
+ <div style="font-size: 18pt;position:absolute; left: 250px; top: 500px;"><b>drg. AGUS SUPRAPTO, M.Kes.</b></div>
+ <div style="font-size: 18pt;position:absolute; left: 250px; top: 550px;"><b>196408131991011001</b></div>
+
+ <div style="font-size: 18pt;position:absolute;left: 50%;top: 690px;transform: translateX(-50%);"><b>
+ 
+ 9 - 11 Oktober 2017  
+  
+  </b></div>
+
+
+</article>
+</section>
+<section class="sheet padding-25mm">
+<div class="headerReport">
+<h2>RAHASIA</h2>
+<hr></div>
+<img style="position:absolute; right: 100px; top: 50px;" src="/images/ppsdm-logo-atas.png">
+<article>
+
+
+<div class='center'>
+<h3>
+LAPORAN<br/>
+ASSESSMENT PSIKOLOGIK DAN KOMPETENSI<br/>
+BAGI JABATAN PIMPINAN TINGGI PRATAMA,<br/>
+JABATAN ADMINISTRATOR DAN JABATAN PENGAWAS<br/>
+KEMENTERIAN KESEHATAN REPUBLIK INDONESIA 2017</h3>
+</div>
+
+<br/>
+
+<div style="font-size: 18pt;position:absolute; right: 95px; top: 290px;">
+<img src="/project-uploads/1/photos/1034.jpg" alt="--missing image--" style="max-width:150px;max-height:150px"></div>
+
+<table class='cover'>
+<tbody>
+<tr>
+<td>Nomor Test</td><td>:</td><td>0002/EVAL/ESELON2/KEMENKES/091017/X/2017 </td></tr>
+<tr>
+<td>Nama Lengkap</td><td>:</td><td><b>drg. AGUS SUPRAPTO, M.Kes.</b></td></tr>
+<tr>
+<td>Tempat / Tgl. Lahir</td><td>:</td><td>Ngawi , 13/08/1964</td></tr>
+<tr>
+<td>Jabatan Saat ini</td><td>:</td><td>Kepala Pusat Penelitian dan <br>Pengembangan Upaya Kesehatan Masyarakat</td></tr>
+<tr>
+<td>Satuan Kerja</td><td>:</td><td>Pusat Penelitian dan Pengembangan Upaya Kesehatan Masyarakat</td></tr>
+<tr>
+<td>Pendidikan Terakhir</td><td>:</td><td>S2 Biostatistika</td></tr>
+<tr>
+<td>Tujuan Pemeriksaan</td><td>:</td><td>PEMETAAN POTENSI & KOMPETENSI</td></tr>
+<tr> 
+<td>Tempat / Tgl Test</td><td>:</td><td>Jakarta, 
+
+9 - 11 Oktober 2017  
+
+
+
+</td>
+
+
+
+</tr>
+</tbody>
+</table>
+
+<div class='center'>
+<br/>
+<br/>
+    Jakarta, 30 Oktober 2017<br/>
+    <b>PPSDM Consultant</b>
+</div>
+<br/>
+<table>
+<tr>
+<td>
+<div class='kananTandaTangan'>
+<div class='center'>
+	Assesor<br/>
+	<b>Dra. Anita Mayanti, Psikolog<b>
+</div>
+</div>
+</td>
+<td width='200px'>
+</td>
+<td>
+<div class='kiriTandaTangan'>
+<div class='center'>
+	Penanggung jawab<br/>
+	<strong>Drs. Budiman Sanusi, MPsi.
+	<br/>
+	SIP : 0723-12-2-1</strong>
+</div>
+</div>
+</td>
+</tr>
+</table>
+
+<div class="footerReport">
+
+<hr>
+<table width=100%><tr><td style="padding-right:10px;">
+<i>Assessment Psikologik dan Kompetensi Bagi Jabatan Tinggi Pratama,</i> <br/>
+<i>Jabatan Administrator, dan Jabatan Pengawas </i><br/>
+<i>Kementerian Kesehatan RI 2017 </i></div>
+</td>
+<td  style="text-align:left;border-left: solid  1px #000000;padding-left:10px;" valign="top">
+<div id="pageFooter"></div>
+</td>
+</tr>
+</table>
+
+</article>
+</section>
+
+
+
+
+<section class="sheet padding-25mm">
+<div class="headerReport">
+<h2>RAHASIA</h2>
+<hr></div>
+<img style="position:absolute; right: 100px; top: 48px;" src="/images/ppsdm-logo-atas.png">
+<article>
+
+<div class='center'>
+<h3>EXECUTIVE SUMMARY</h3>
+</div>
+<div style="margin-bottom:60px;text-align:justify;text-justify:inter-word;font-size: 12;";>
+<p>Sdr. drg. AGUS SUPRAPTO, M.Kes lulus sebagai dokter gigi, menjadi wisudawan terbaik serta mahasiswa teladan. Sebagai magister ia mengambil jurusan Biostatistika yang diselesaikan tahun 2001. Semua pendidikannya dijalani di Universitas Airlangga dan merencanakan untuk meneruskan ke tingkat Doktoral. Tetapi tahun 2009 ia tidak dapat lagi menolak tawaran yang sudah pernah ia tolak sebelumnya untuk menjadi Kapuslitbang Sistem dan Kebijakan Kesehatan yang belakangan sempat berganti nama menjadi Humaniora dan Kebijakan Kesehatan. Pada saat itu ia menjadi orang termuda sampai sekarang yang menjadi eselon 2 A dalam usia 46 tahun. Tahun 2015 ia dimutasi menjadi Kapuslitbang Ukesmas Badan Litbangkes sampai sekarang.</p><p>Potensi intelektualnya berada pada golongan rata-rata batas atas. Daya analisanya baik untuk diterapkan pada permasalahan sulit yang membutuhkan kedalaman berpikir. Potensi kecerdasannya ini agaknya yang membantu keberhasilannya di pekerjaan hingga bisa mendapat kepercayaan untuk mengemban tanggungjawab lebih tinggi. Ia memiliki kemampuan belajar yang baik, memungkinkannya cepat menyesuaikan diri dengan perubahan dan hal baru. Ia sendiri senang membaca untuk meningkatkan wawasan dan pengetahuan yang tidak terbatas hanya berkaitan dengan <i>hard skill</i> nya saja tetapi juga yang bersifat <i>soft skill</i>. Itu sebabnya ia senang membawa buku bacaan pengetahuan.</p><p>Dalam bekerja ia lebih merupakan tipe pelaku lapangan yang menetapkan tindakannya lebih banyak didasarkan pada pengalaman lalu. Hal ini mempengaruhi pola kerjanya yang cenderung lebih mengandalkan keluwesan yang disesuaikan dengan tuntutan situasi sesaat. Pendekatan terhadap masalah bersifat praktis yang lebih dilandasi oleh keyakinan diri dalam bertindak sesuai dengan pengetahuan praktisnya. Hanya saja pola kerjanya kurang sistimatis atau terarah. Ia pun kurang terampil dalam membuat keputusan yang harus melewati pertimbangan cermat dan membutuhkan kemampuan antisipasi. </p><p>Nampaknya pengalaman membuatnya terbiasa untuk sering bertemu orang lain. Ini menumbuhkan keyakinan diri dalam berinteraksi sosial termasuk untuk memimpin. Minat sosialnya tumbuh kuat, menumbuhkan kebutuhan agar keberadaannya diterima kelompok. Untuk itu ia aktif menjalin hubungan sosial dan komunikasi secara luas, juga berusaha memenuhi tuntutan agar menunjukkan kinerjanya sebaik mungkin. Di sisi lain ia bukan orang yang memiliki aspirasi tinggi dalam bekerja. Tidak mudah baginya memenuhi tuntutan untuk menunjukkan prestasi tinggi. Tetapi kendati dibutuhkan usaha besar untuk itu, ia didukung oleh sikap tidak mudah menyerah. Dengan kegigihannya ia cukup mampu mengatasi kendala yang menghambat pencapaian
+<div class="footerReport">
+
+<hr>
+<table width=100%><tr><td style="padding-right:10px;">
+<i>Assessment Psikologik dan Kompetensi Bagi Jabatan Tinggi Pratama,</i> <br/>
+<i>Jabatan Administrator, dan Jabatan Pengawas </i><br/>
+<i>Kementerian Kesehatan RI 2017 </i></div>
+</td>
+<td  style="text-align:left;border-left: solid  1px #000000;padding-left:10px;" valign="top">
+<div id="pageFooter"></div>
+</td>
+</tr>
+</table>
+
+</b></p></article>
+</section>
+<section class="sheet padding-25mm">
+<div class="headerReport">
+<h2>RAHASIA</h2>
+<hr></div>
+<img style="position:absolute; right: 100px; top: 50px;" src="/images/ppsdm-logo-atas.png">
+<article><br/>kinerjanya.</p><!--------------------komen--------------------------><!--------------------komen--------------------------><!--------------------komen--------------------------><!--------------------komen--------------------------><!--------------------komen--------------------------><!--------------------komen--------------------------><!--------------------komen--------------------------><!--------------------komen--------------------------><!--------------------komen--------------------------><!--------------------komen--------------------------><p>Meski senang berkomunikasi dan berinteraksi sosial namun ia kurang terampil dalam mengekspresikan diri. Adakalanya ia keliru menangkap inti pembicaraan sehingga memberikan tanggapan yang kurang tepat. Selain itu sikap kurang peka terhadap orang lain kadang menghambat dalam percakapan di mana ia cenderung berbicara terlalu cepat dan kurang memberikan kesempatan kepada lawan bicara untuk memberikan tanggapan. Hal ini membuat lawan bicara sulit mengikuti maksudnya dan percakapan kurang dapat berjalan dua arah.</p><p>Memperhatikan perbandingan antara potensi dan kompetensinya, diperoleh gambaran bahwa dalam 9 cells ia termasuk dalam kelompok <i>Questionable Fit</i> di mana unjuk kerjanya buruk namun masih cukup dapat dikembangkan karena pada dasarnya memiliki potensi intelektual yang tergolong baik.</p><p>Pada dasarnya ia mengalami kesulitan untuk mengenali aspek yang masih harus ia kembangkan dari dirinya. Tetapi ia menunjukkan sikap kooperatif pada sesi <i>feedback</i> dan menerima masukan yang disampaikan dengan sikap terbuka. </p><p>Secara keseluruhan diperoleh gambaran bahwa dari 10 kompetensi yang ditetapkan ia dapat memenuhi 1 di antaranya yaitu Perencanaan dan Pengorganisasian.Tetapi ada 9 kompetensi yang belum memenuhi tuntutan minimal untuk menduduki posisi terkait, yaitu Integritas, Berorientasi pada Pelayanan, Kerjasama untuk Sinergi, Profesionalitas, Berpikir Strategis, Berpikir Konseptual, Berorientasi Pada Kualitas, Pengambilan Keputusan, dan Inovasi. </p></div>
+
+
+
+<div class="footerReport">
+
+<hr>
+<table width=100%><tr><td style="padding-right:10px;">
+<i>Assessment Psikologik dan Kompetensi Bagi Jabatan Tinggi Pratama,</i> <br/>
+<i>Jabatan Administrator, dan Jabatan Pengawas </i><br/>
+<i>Kementerian Kesehatan RI 2017 </i></div>
+</td>
+<td  style="text-align:left;border-left: solid  1px #000000;padding-left:10px;" valign="top">
+<div id="pageFooter"></div>
+</td>
+</tr>
+</table>
+
+</article>
+</section>
+
+
+
+
+<section class="sheet padding-25mm">
+<div class="headerReport">
+<h2>RAHASIA</h2>
+<hr></div>
+<img style="position:absolute; right: 100px; top: 52px;" src="/images/ppsdm-logo-atas.png">
+<article>
+
+<div class='center'>
+<h3>DIAGRAM KOMPETENSI</H3>
+
+ <div class="radarChart" style=" background-image: url('/images/1/27.png'); 
+ background-position: center; background-repeat: no-repeat;background-size: 400px 420px;"></div>
+ <script src="/js/radarChart.js"></script>
+
+ 
+		<script>
+      
+      /* Radar chart design created by Nadieh Bremer - VisualCinnamon.com */
+      
+			////////////////////////////////////////////////////////////// 
+			//////////////////////// Set-Up ////////////////////////////// 
+			////////////////////////////////////////////////////////////// 
+
+			var margin = {top: 10, right: 50, bottom: 35, left: 50},
+				width = Math.min(500, window.innerWidth - 10) - margin.left - margin.right,
+				height = Math.min(width, window.innerHeight - margin.top - margin.bottom - 20);
+					
+			////////////////////////////////////////////////////////////// 
+			////////////////////////// Data ////////////////////////////// 
+			////////////////////////////////////////////////////////////// 
+			var data = [
+				[
+			{axis:'',value:'4'},{axis:'',value:'4'},{axis:'',value:'3'},{axis:'',value:'4'},{axis:'',value:'4'},{axis:'',value:'3'},{axis:'',value:'4'},{axis:'',value:'3'},{axis:'',value:'4'},{axis:'',value:'3'},				],[
+					{axis:'',value:'3'},{axis:'',value:'3'},{axis:'',value:'2'},{axis:'',value:'3'},{axis:'',value:'3'},{axis:'',value:'2'},{axis:'',value:'3'},{axis:'',value:'2'},{axis:'',value:'3'},{axis:'',value:'3'},				]
+			  ];
+
+			////////////////////////////////////////////////////////////// 
+			//////////////////// Draw the Chart ////////////////////////// 
+			////////////////////////////////////////////////////////////// 
+
+			var color = d3.scale.ordinal()
+			.range(['#AEDFFB','#35274E']);
+			
+			var radarChartOptions = {
+			w: width,
+			h: height,
+			margin: margin,
+			maxValue: 6,
+			levels: 5,
+			roundStrokes: false,
+			color: color,
+			opacityArea: 0.5,
+			opacityCircles: 0,
+			dotRadius: 3,
+			strokeWidth: 2, 
+			wrapWidth: 10,
+			labelFactor: 10,
+			};
+			//Call function to draw the Radar chart
+			RadarChart(".radarChart", data, radarChartOptions);
+		</script>
+</div>
+
+
+<div class='center'>
+
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse:
+ collapse;width:100%">
+	<colgroup>
+		<col span="1">
+		<col span="18" style="width:20pt" width="26">
+	</colgroup>
+	<tr>
+		<td class="kompetensi1" colspan="12" height="20" style="height: 15.0pt; width: 240pt" width="312">
+		Kompetensi</td>
+		<td class="kompetensi1" colspan="2" style="width: 40pt" width="52">LKJ</td>
+		<td class="kompetensi2" colspan="2" style="width: 40pt" width="52">LKI</td>
+		<td class="kompetensi2" colspan="2" style="width: 40pt" width="52">GAP</td>
+		<td class="kompetensi2" colspan="2" style="width: 40pt" width="52">PCT</td>
+	</tr>
+	<tr>
+		<td class="kompetensi3" colspan="2"  rowspan="4" style="height: 70.0pt;">
+		<div style= "transform: rotate(-90deg);">KOMPETENSI<br/>GENERIK</div></td>
+		<td class="kompetensi4" colspan="8">Integritas</td>
+		<td class="kompetensi5" colspan="2">INT</td>
+		<td class="kompetensi6" colspan="2">4</td>
+		<td class="kompetensi5" colspan="2">3</td>
+		<td class="kompetensi7" colspan="2" >
+		1</td>
+		<td class="kompetensi7" colspan="2" >
+		75%</td>
+	</tr>
+	<tr>
+	<td class="kompetensi4" colspan="8">Berorientasi pada pelayanan</td>
+	<td class="kompetensi5" colspan="2">BPL</td>
+	<td class="kompetensi6" colspan="2">4</td>
+	<td class="kompetensi5" colspan="2">3</td>
+	<td class="kompetensi7" colspan="2" >
+	1</td>
+	<td class="kompetensi7" colspan="2" >
+	75%</td>
+	</tr>
+	<tr>
+	<td class="kompetensi4" colspan="8">Kerjasama untuk sinergi</td>
+	<td class="kompetensi5" colspan="2">KSN</td>
+	<td class="kompetensi6" colspan="2">3</td>
+	<td class="kompetensi5" colspan="2">2</td>
+	<td class="kompetensi7" colspan="2" >
+	1</td>
+	<td class="kompetensi7" colspan="2" >
+	67%</td>
+	</tr>
+	<tr>
+	<td class="kompetensi4" colspan="8">Profesionalitas</td>
+	<td class="kompetensi5" colspan="2">PFS</td>
+	<td class="kompetensi6" colspan="2">4</td>
+	<td class="kompetensi5" colspan="2">3</td>
+	<td class="kompetensi7" colspan="2" >
+	1</td>
+	<td class="kompetensi7" colspan="2" >
+	75%</td>
+	</tr>
+	<!--
+	<tr>
+		<td class="kompetensi18" colspan="8" height="20" style="height: 15.0pt">
+		&nbsp;</td>
+		<td class="kompetensi19" colspan="2">&nbsp;</td>
+		<td class="kompetensi20" colspan="2">15</td>
+		<td class="kompetensi21" colspan="2">0</td>
+		<td class="kompetensi21" colspan="2" >
+		-15</td>
+		<td class="kompetensi21" colspan="2" >
+		0%</td>
+	</tr>
+	-->
+	<tr>
+	<td class="kompetensi23" colspan="2" height="140" rowspan="7" style="height: 105.0pt; ">
+	<div style= "transform: rotate(-90deg);">KOMPETENSI <br>SPESIFIK</div></td>
+	<td class="kompetensi24" colspan="8">Berfikir strategis</td>
+	<td class="kompetensi25" colspan="2">BST</td>
+	<td class="kompetensi26" colspan="2">4</td>
+	<td class="kompetensi25" colspan="2">3</td>
+	<td class="kompetensi27" colspan="2" >1</td>
+	<td class="kompetensi27" colspan="2" >75%</td>
+	</tr>
+	<tr>
+	<td class="kompetensi24" colspan="8">Berpikir konseptual</td>
+	<td class="kompetensi25" colspan="2">BKS</td>
+	<td class="kompetensi26" colspan="2">3</td>
+	<td class="kompetensi25" colspan="2">2</td>
+	<td class="kompetensi27" colspan="2" >1</td>
+	<td class="kompetensi27" colspan="2" >67%</td>
+	</tr>
+	<tr>
+	<td class="kompetensi24" colspan="8">Berorientasi pada kualitas</td>
+	<td class="kompetensi25" colspan="2">BKU</td>
+	<td class="kompetensi26" colspan="2">4</td>
+	<td class="kompetensi25" colspan="2">3</td>
+	<td class="kompetensi27" colspan="2" >1</td>
+	<td class="kompetensi27" colspan="2" >75%</td>
+	</tr>
+	<tr>
+	<td class="kompetensi24" colspan="8">Pengambilan keputusan</td>
+	<td class="kompetensi25" colspan="2">PKP</td>
+	<td class="kompetensi26" colspan="2">3</td>
+	<td class="kompetensi25" colspan="2">2</td>
+	<td class="kompetensi27" colspan="2" >1</td>
+	<td class="kompetensi27" colspan="2" >67%</td>
+	</tr>
+	<tr>
+	<td class="kompetensi24" colspan="8">Inovasi</td>
+	<td class="kompetensi25" colspan="2">INO</td>
+	<td class="kompetensi26" colspan="2">4</td>
+	<td class="kompetensi25" colspan="2">3</td>
+	<td class="kompetensi27" colspan="2" >1</td>
+	<td class="kompetensi27" colspan="2" >75%</td>
+	</tr>
+	<tr>
+	<td class="kompetensi24" colspan="8">Perencanaan dan pengorganisasian</td>
+	<td class="kompetensi25" colspan="2">PPO</td>
+	<td class="kompetensi26" colspan="2">3</td>
+	<td class="kompetensi25" colspan="2">3</td>
+	<td class="kompetensi27" colspan="2" >0</td>
+	<td class="kompetensi27" colspan="2" >100%</td>
+	</tr>
+	<tr>
+		<td class="kompetensi46" colspan="8">&nbsp;</td>
+		<td class="kompetensi45" colspan="2">TOTAL</td>
+		<td class="kompetensi46" colspan="2">36</td>
+		<td class="kompetensi47" colspan="2">27</td>
+		<td class="kompetensi47" colspan="2" >9</td>
+		<td class="kompetensi47" colspan="2" >75%</td>
+	</tr>
+</table>
+<br/>
+
+
+<table class="rekomendasi" align="center">
+
+<tr bgcolor="#B8CCE4">
+<th colspan="2" rowspan="1" scope="col">Kualifikasi</th>
+<th colspan="1" rowspan="1" scope="col">Rekomendasi</th>
+<th colspan="3" rowspan="1" scope="col">Skala</th>
+</tr>
+<tbody>
+<tr bgcolor="#ffffff">
+<td>K-1</td>
+<td>Baik</td>
+<td>Ready Now</td>
+<td>100%</td><td>-</td><td>ke atas</td>
+</tr>
+<tr bgcolor="#C4D79B">
+<td>K-2</td>
+<td>Cukup</td>
+<td>Ready with development</td>
+<td>75%</td><td>-</td><td>99%</td>
+</tr>
+<tr bgcolor="#ffffff">
+<td>K-3</td>
+<td>Kurang</td>
+<td>Not Ready</td>
+<td>74%</td><td>-</td><td>ke bawah</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div class="footerReport">
+
+<hr>
+<table width=100%><tr><td style="padding-right:10px;">
+<i>Assessment Psikologik dan Kompetensi Bagi Jabatan Tinggi Pratama,</i> <br/>
+<i>Jabatan Administrator, dan Jabatan Pengawas </i><br/>
+<i>Kementerian Kesehatan RI 2017 </i></div>
+</td>
+<td  style="text-align:left;border-left: solid  1px #000000;padding-left:10px;" valign="top">
+<div id="pageFooter"></div>
+</td>
+</tr>
+</table>
+
+</article>
+</section>
+
+
+
+
+
+
+
+
+
+
+<section class="sheet padding-25mm">
+<div class="headerReport">
+<h2>RAHASIA</h2>
+<hr></div>
+<img style="position:absolute; right: 100px; top: 50px;" src="/images/ppsdm-logo-atas.png">
+<article>
+
+
+<div class='center'>
+<h3>PSIKOGRAM HASIL PEMERIKSAAN POTENSI PSIKOLOGIK</h3>
+</div>
+<table border="3" cellpadding="0" cellspacing="0" style="border-collapse:collapse;width:100%">
+   <colgroup>
+	   <col span="1"><col span="3"  width="64">
+	   <col  width="60">
+	   <col span="5"  width="64">
+	   <col  width="12">
+	   <col  width="32">
+	   <col  width="28">
+	   <col  width="32">
+	   <col  width="33">
+	   <col width="24">
+	   <col  width="22">
+	   <col  width="32">
+   </colgroup>
+   <tr bgcolor="yellow">
+	   <td class="psikogramtable1" colspan="5" rowspan="2"  >
+	   ASPEK PSIKOLOGIS</td>
+	   <td class="psikogramtable2" colspan="6" rowspan="2" >
+	   KETERANGAN</td>
+	   <td class="psikogramtable3" colspan="7" >P E  N I L A I A N</td>
+   </tr>
+   <tr bgcolor="yellow">
+	   <td class="psikogramtable4" >1</td>
+	   <td class="psikogramtable4" >2</td>
+	   <td class="psikogramtable4" >3</td>
+	   <td class="psikogramtable4" >4</td>
+	   <td class="psikogramtable4" >5</td>
+	   <td class="psikogramtable4" >6</td>
+	   <td class="psikogramtable5" >7</td>
+   </tr>
+   <tr bgcolor="#B8CCE4">
+	   <td class="psikogramtable6"  style="height: 20pt;; width: 25px;">
+	   A</td>
+	   <td class="psikogramtable7" colspan="17">ASPEK INTELEKTUAL</td>
+   </tr>
+   <tr>
+	   <td class="psikogramtable8"  rowspan="5" >
+	   &nbsp;</td>
+	   <td class="psikogramtable9" >1</td>
+	   <td class="psikogramtable10" colspan="3">
+	   
+	   Inteligensi umum</td>
+	   <td class="psikogramtable11" colspan="6" >
+	   Gabungan keseluruhan potensi kecerdasan sebagai perpaduan dari aspek-aspek pembentukan intelektualitas</td>
+	   <td class="psikogramtable12"></td>
+	   <td class="psikogramtable12"></td>
+	   <td class="psikogramtable12"></td>
+	   <td class="psikogramtable13"></td>
+	   <td class="psikogramtable12">X</td>
+	   <td class="psikogramtable12"></td>
+	   <td class="psikogramtable12"></td>
+   </tr>
+   <tr>
+	   <td class="psikogramtable9" >
+	   2</td>
+	   <td class="psikogramtable10" colspan="3">Berpikir Analitis</td>
+	   <td class="psikogramtable11" colspan="6" >
+	   Kemampuan menguraikan masalah  &  melihat kaitan antara satu hal dg hal lainnya hingga menemukan kesimpulan</td>
+	   <td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable13">X</td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+   </tr>
+   <tr>
+	   <td class="psikogramtable9" >
+	   3</td>
+	   <td class="psikogramtable10" colspan="3">Logika Berpikir</td>
+	   <td class="psikogramtable11" colspan="6" >
+	   Kemampuan untuk mengorganisir proses berpikir yang menunjukkan adanya alur berpikir yang sistematis dan logis</td>
+	   <td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12">X</td>
+		<td class="psikogramtable13"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+   </tr>
+   <tr>
+	   <td class="psikogramtable9" >
+	   4</td>
+	   <td class="psikogramtable10" colspan="3">Kemampuan Belajar</td>
+	   <td class="psikogramtable11" colspan="6" >
+	   Kemampuan menguasai dan meningkatkan pengetahuan dan ketrampilan kerja yang baru maupun yang telah dimiliki</td>
+	   <td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable13"></td>
+		<td class="psikogramtable12">X</td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+   </tr>
+   <tr>
+	   <td class="psikogramtable9"  >
+	   5</td>
+	   <td class="psikogramtable10" colspan="3">Emotional Quotient</td>
+	   <td class="psikogramtable11" colspan="6" >
+	   Kecerdasan Emosional, yakni keluasan pengetahuan dan kemampuan mengelola emosi secara optimal</td>
+	   <td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable13"></td>
+		<td class="psikogramtable12">X</td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+   </tr>
+   <tr bgcolor="bf8f00">
+	   <td class="psikogramtable6"  style="height: 20pt;; width: 25px;">
+	   B</td>
+	   <td class="psikogramtable7" colspan="17">ASPEK SIKAP KERJA</td>
+   </tr>
+   <tr>
+	   <td class="psikogramtable8"  rowspan="5" >
+	   &nbsp;</td>
+	   <td class="psikogramtable9" >1</td>
+	   <td class="psikogramtable10" colspan="3">Sistematika Kerja</td>
+	   <td class="psikogramtable11" colspan="6" >
+	   Kemampuan dan ketrampilan menyelesaikan suatu tugas secara runut, proporsional, sesuai dengan skala prioritas tertentu</td>
+	   <td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12">X</td>
+		<td class="psikogramtable13"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+   </tr>
+   <tr>
+	   <td class="psikogramtable9" >
+	   2</td>
+	   <td class="psikogramtable10" colspan="3">Tempo Kerja</td>
+	   <td class="psikogramtable11" colspan="6" >
+	   Kecepatan dan kecekatan kerja, yang menunjukkan kemampuan menyelesaikan sejumlah tugas dalam batas waktu tertentu <span style="mso-spacerun:yes">&nbsp;</span></td>
+	   <td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12">X</td>
+		<td class="psikogramtable13"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+   </tr>
+   <tr>
+	   <td class="psikogramtable9" >
+	   3</td>
+	   <td class="psikogramtable10" colspan="3">Ketelitian</td>
+	   <td class="psikogramtable11" colspan="6" >
+	   Kemampuan bekerja dengan sesedikit mungkin melakukan kesalahan atau kekeliruan</td>
+	   <td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12">X</td>
+		<td class="psikogramtable13"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+   </tr>
+   <tr>
+	   <td class="psikogramtable9" >4</td>
+	   <td class="psikogramtable10" colspan="3" style="height: 20pt;">Ketekunan</td>
+	   <td class="psikogramtable11" colspan="6"  width="332">
+	   Daya tahan menghadapi dan menyelesaikan tugas sampai tuntas dalam waktu relatif lama dengan mencapai hasil yang optimal</td>
+	   <td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12">X</td>
+		<td class="psikogramtable13"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+   </tr>
+   <tr>
+	   <td class="psikogramtable9"  >
+	   5</td>
+	   <td class="psikogramtable10" colspan="3">Komunikasi Efektif</td>
+	   <td class="psikogramtable11" colspan="6" >
+	   Kemampuan menyampaikan pendapat secara lancar, sehingga pendengar paham dan bersedia mengikuti pendapatnya</td>
+	   <td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12">X</td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable13"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+   </tr>
+   <tr bgcolor="#00b050">
+	   <td class="psikogramtable6"  style="height: 20pt;; width: 25px;">
+	   C</td>
+	   <td class="psikogramtable7" colspan="17">ASPEK KEPRIBADIAN</td>
+   </tr>
+   <tr>
+	   <td class="psikogramtable8"  rowspan="5" >
+	   &nbsp;</td>
+	   <td class="psikogramtable9" >1</td>
+	   <td class="psikogramtable10" colspan="3">Motivasi</td>
+	   <td class="psikogramtable11" colspan="6" >
+	   Keinginan meningkatkan hasil kerja dan selalu berfokus pada profit opportunities</td>
+	   <td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12">X</td>
+		<td class="psikogramtable13"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+   </tr>
+   <tr>
+	   <td class="psikogramtable9" >
+	   2</td>
+	   <td class="psikogramtable10" colspan="3">Konsep Diri</td>
+	   <td class="psikogramtable11" colspan="6" >
+	   Pemahaman atas kelebihan dan kekurangan diri sendiri</td>
+	   <td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12">X</td>
+		<td class="psikogramtable13"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+   </tr>
+   <tr>
+	   <td class="psikogramtable9" >
+	   3</td>
+	   <td class="psikogramtable10" colspan="3">Empati</td>
+	   <td class="psikogramtable11" colspan="6" >
+	   Kemampuan memahami dan merasakan adanya permasalahan dan kondisi emosional orang lain</td>
+	   <td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12">X</td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable13"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+   </tr>
+   <tr>
+	   <td class="psikogramtable9" >
+	   4</td>
+	   <td class="psikogramtable10" colspan="3">Pemahaman Sosial</td>
+	   <td class="psikogramtable11" colspan="6" >
+	   Kemampuan bereaksi dengan cepat terhadap kebutuhan orang lain atau tuntutan lingkungan, serta memahami norma sosial yang berlaku.</td>
+	   <td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12">X</td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable13"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+   </tr>
+   <tr>
+	   <td class="psikogramtable9"  >
+	   5</td>
+	   <td class="psikogramtable10" colspan="3">Pengaturan Diri</td>
+	   <td class="psikogramtable11" colspan="6" >
+	   Kemampuan mengendalikan diri dalam situasi-situasi sulit dan kemampuan melakukan perencanaan sebelum bertindak.   <span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;</span></td>
+	   <td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable13">X</td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+		<td class="psikogramtable12"></td>
+   </tr>
+   <tr bgcolor="#B8CCE4">
+	   <td class="psikogramtable18" colspan="11" width="444">
+	   TOTAL SKOR<font class="font5">.</font></td>
+	   <td class="psikogramtable2" colspan="7">56</td>
+   </tr>
+</table>
+		
+<br/>
+
+<table width="100%" class="rekomendasi">
+<thead>
+<tr>
+<td style='font-size:12px;' colspan="6"><strong>REKOMENDASI : </strong>Memperhatikan seluruh Gambaran  aspek psikologis yang dimiliki, dikaitkan dengan kemungkinan keberhasilannya untuk memikul beban tugas dan tanggung jawab yang lebih besar, maka Potensi Psikologinya secara umum tergolong :</td>
+</tr>
+</thead>
+<tbody>
+<tr bgcolor="#B8CCE4">
+<th colspan="2" rowspan="1" scope="col">Kualifikasi</th>
+<th colspan="1" rowspan="1" scope="col">Rekomendasi</th>
+<th colspan="3" rowspan="1" scope="col">Skala</th>
+</tr>
+<tr bgcolor="#ffffff">
+<td>K-1</td>
+<td>Baik</td>
+<td>Mampu berkembang secara wajar</td>
+<td>100%</td><td>-</td><td>ke atas</td>
+</tr>
+<tr bgcolor="#C4D79B">
+<td>K-2</td>
+<td>Cukup</td>
+<td>Mampu berkembang spesifik</td>
+<td>75%</td><td>-</td><td>99%</td>
+</tr>
+<tr bgcolor="#ffffff">
+<td>K-3</td>
+<td>Kurang</td>
+<td>Kemampuan perkembangannya terbatas</td>
+<td>74%</td><td>-</td><td>ke bawah</td>
+</tr>
+</tbody>
+</table>
+
+<div class="footerReport">
+
+<hr>
+<table width=100%><tr><td style="padding-right:10px;">
+<i>Assessment Psikologik dan Kompetensi Bagi Jabatan Tinggi Pratama,</i> <br/>
+<i>Jabatan Administrator, dan Jabatan Pengawas </i><br/>
+<i>Kementerian Kesehatan RI 2017 </i></div>
+</td>
+<td  style="text-align:left;border-left: solid  1px #000000;padding-left:10px;" valign="top">
+<div id="pageFooter"></div>
+</td>
+</tr>
+</table>
+
+</article>
+</section>
+
+
+<section class="sheet padding-25mm">
+<div class="headerReport">
+<h2>RAHASIA</h2>
+<hr></div>
+<img style="position:absolute; right: 100px; top: 50px;" src="/images/ppsdm-logo-atas.png">
+<article>
+
+<br/>
+	<div class='center' style="border-style: solid;"><h3>GAMBARAN POSISI 9-CELL (KOMPETENSI DAN POTENSI)</h3></div>
+
+
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart'], 'language': 'id'});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Potensi', 'Kompetensi'],
+          [ 85,  75], //ini harus diisi
+
+        ]);
+
+        var options = {
+         
+          hAxis: {
+              //title: 'Potensi', minValue: 0, maxValue: 100,
+              gridlines:{color: '#eee', count: 7},
+			  ticks: [0, 20, 40, 60, 80, 100, 120, 140, ]
+              },
+          vAxis: {
+             // title: 'Kompetensi', minValue: 0, maxValue: 100, 
+             gridlines:{color: '#eee', count: 7},
+			 ticks: [0, 20, 40, 60,  80,100, 120, 140, ]
+             },
+          crosshair: { trigger: 'both' },
+          legend: 'none',
+          backgroundColor: { fill:'transparent' }
+          //vAxis.gridlines:{color: '#333', count: 4}
+        };
+
+        var chart = new google.visualization.ScatterChart(document.getElementById('chart_div'));
+
+        chart.draw(data, options);
+      }
+    </script>  	
+<table class="center">
+<tr>
+<td align="left">
+
+<img height='450' width='130' src=/images/kompetensiSumbuY-middle.png>
+</td>
+<td>
+<div id="chart_div" 
+    style="width: 600px; height: 600px; 
+    background-image: url('/images/ninecell.png'); 
+    background-repeat: no-repeat;
+    background-position: center; 
+    ">
+    </div>
+ </td></tr>
+ <tr>
+ <td>
+ 
+<div style= "margin:10px;">
+<table style="width: 100%; margin-left: auto; margin-right: auto;" border="1" cellspacing="1" cellpadding="1">
+<tbody>
+<tr>
+<td bgcolor="yellow">X</td>
+<td bgcolor="yellow">85%</td>
+<td rowspan="2"><h2>
+<font style="color:green;">5</font></h2></td>
+</tr>
+<tr >
+<td bgcolor="#B8CCE4">Y</td>
+<td bgcolor="#B8CCE4">75%</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+ </td>
+<td align="left">
+<img height='125' width='500' src=/images/potensiSumbuX-middle.png>
+</td>
+
+
+ </table>  
+ 
+<div class="footerReport">
+
+<hr>
+<table width=100%><tr><td style="padding-right:10px;">
+<i>Assessment Psikologik dan Kompetensi Bagi Jabatan Tinggi Pratama,</i> <br/>
+<i>Jabatan Administrator, dan Jabatan Pengawas </i><br/>
+<i>Kementerian Kesehatan RI 2017 </i></div>
+</td>
+<td  style="text-align:left;border-left: solid  1px #000000;padding-left:10px;" valign="top">
+<div id="pageFooter"></div>
+</td>
+</tr>
+</table>
+
+ </article>
+ </section>
+
+
+ <section class="sheet padding-25mm">
+ <div class="headerReport">
+ <h2>RAHASIA</h2>
+ <hr></div>
+ <img style="position:absolute; right: 100px; top: 68px;" src="/images/ppsdm-logo-atas.png">
+ <article>
+ 
+ <h3> HASIL ASESSMENT BERDASARKAN KOMPETENSI </H3>
+
+ <hr style='border-top: 3px double;'>
+
+ <H3>A. KOMPETENSI GENERIK</H3>
+
+
+
+
+
+
+<table  class="cluster" style = 'width: 100%; height: 100%; overflow: auto;'>
+<tr>
+	 <td class="cluster1" rowspan="3" ><h1>BKS</h1></td>
+	 <td class="cluster3" rowspan="3" ><b>
+	 BERPIKIR KONSEPTUAL</b><br/>
+	 Kemampuan merumuskan atau membuat konsep/ teori/ metode/ sistematika kerja berdasarkan korelasi dari berbagai informasi yang tersedia.
+
+<br><b>Kata Kunci: Membuat konsep</b>
+</td>
+	 <td class="cluster4" >Standar</td>
+	 <td class="cluster4" >3</td>
+ </tr>
+ <tr>
+	 <td class="cluster4" >Individu</td>
+	 <td class="cluster4" >2</td>
+ </tr>
+ <tr>
+	 <td class="cluster4" >Fit %</td>
+	 <td class="cluster4" >67%</td>
+ </tr>
+ <tr>
+	 <td class="cluster5" colspan="4"><p style="font-size:10.7pt">Hasil identifikasi yang dilakukan memperlihatkan kepadanya, ada keterkaitan pola dari beberapa informasi variatif yang terkumpul hingga dapat tergambar adanya kecenderungan penurunan kinerja di lingkup organisasi. Dalam hal ini, ia dapat menemukan faktor-faktor yang menyebabkan proses kerja organisasi mengalami hambatan. Antara lain ia dapat mengenali, selain materi yang banyak sebagai bahan pembuatan laporan, faktor lain apa yang juga menyebabkan ketepatan waktu berbeda-beda pada pelaksanaan riset di beberapa rumah sakit. Faktor itu adalah karena adanya peraturan yang berbeda-beda di setiap rumah sakit. Dengan gambaran demikian waktu penyelesaian riset dalam setiap rumah sakit perlu diperhitungkan sebelumnya. Caranya adalah sebelum membuat proposal riset di rumah sakit tertentu, peneliti perlu lebih dulu mengetahui siapa yang akan menjadi pengolah data risetnya di rumah sakit terkait. Walau demikian dalam hal ini belum terlihat langkah mengelompokkan/memilah berbagai variabel yang ada. Maka kompetensi yang terkait kemampuan berpikir konseptual padanya masih perlu ditingkatkan hingga ia mencapai kemampuan untuk dapat mengembangkan konsep/ teori/metode/sistematika baru sesuai dengan kebutuhan organisasi.</p></td>
+
+
+ </tr>
+ </table>
+ <br/>
+
+<table  class="cluster" style = 'width: 100%; height: 100%; overflow: auto;'>
+<tr>
+	 <td class="cluster1" rowspan="3" ><h1>BKU</h1></td>
+	 <td class="cluster3" rowspan="3" ><b>
+	 BERORIENTASI PADA KUALITAS</b><br/>
+	 Kemampuan untuk melaksanakan tugas- tugas secara berurutan, rinci, akurat dan konsisten dengan mempertimbangkan semua aspek agar sesuai atau melampaui standar yang ditetapkan. <br><b>Kata Kunci: Sesuai/Melampaui Standar</b></td>
+	 <td class="cluster4" >Standar</td>
+	 <td class="cluster4" >4</td>
+ </tr>
+ <tr>
+	 <td class="cluster4" >Individu</td>
+	 <td class="cluster4" >3</td>
+ </tr>
+ <tr>
+	 <td class="cluster4" >Fit %</td>
+	 <td class="cluster4" >75%</td>
+ </tr>
+ <tr>
+	 <td class="cluster5" colspan="4"><p style="font-size:10.7pt">Mencermati kemampuannya yang berkaitan dengan orientasi terhadap kualitas hasil kerja, diperoleh gambaran bahwa ia memiliki kesadaran untuk melakukan identifikasi terhadap berbagai sumber daya yang ada. Hal itu juga disertai dengan aspek-aspek terkait yang dapat mempengaruhi hingga bisa memperoleh mutu kerja yang sesuai. Ia menunjukkan upaya konkritnya untuk melakukan evaluasi terhadap proses yang kritikal dari prosedur standar yang berlaku. Ia juga melakukan identifikasi adanya kemungkinan-kemungkinan penyebab masalah, sebagai akibat dari pelaksanaan tugas yang dilakukan. Seperti yang ia pahami bahwa titik kritis dari sedikitnya penelitian yang dilakukan adalah karena motivasi menulis yang rendah dari para peneliti. Dari hasil evaluasi terhadap kondisi demikian, ia memperoleh gambaran bahwa umumnya mereka lebih senang melakukan penelitian sebab tersedia dana yang cukup untuk itu sehingga tugas menulis agak terabaikan padahal hal itu diperlukan untuk meningkatkan kualitas mereka sebagai peneliti di mata dunia. Kalau pun ada yang menulis, tidak jarang yang dilakukan adalah duplikasi dari tulisan peneliti lain. Maka ia membuat sistem monitoring riset yang diharapkan dapat meminimalkan peluang melakukan duplikasi, yang juga bermanfaat untuk menjadi <i>bank proposal.</i> Walau cara tersebut cukup efektif tetapi ia masih perlu meningkatkan kompetensinya itu hingga sampai pada kemampuan untuk mengembangkan dan menentukan standar serta sistem kerja baru untuk menciptakan kualitas kerja dan sistem organisasi yang lebih efektif.</p></td>
+
+
+ </tr>
+ </table>
+ <br/>
+
+<div class="footerReport">
+
+<hr>
+<table width=100%><tr><td style="padding-right:10px;">
+<i>Assessment Psikologik dan Kompetensi Bagi Jabatan Tinggi Pratama,</i> <br/>
+<i>Jabatan Administrator, dan Jabatan Pengawas </i><br/>
+<i>Kementerian Kesehatan RI 2017 </i></div>
+</td>
+<td  style="text-align:left;border-left: solid  1px #000000;padding-left:10px;" valign="top">
+<div id="pageFooter"></div>
+</td>
+</tr>
+</table>
+
+</article>
+</section>
+
+
+<section class="sheet padding-25mm">
+ <div class="headerReport">
+ <h2>RAHASIA</h2>
+ <hr></div>
+ <img style="position:absolute; right: 100px; top: 45px;" src="/images/ppsdm-logo-atas.png">
+ <article>
+	 <br/>
+
+<table  class="cluster" style = 'width: 100%; height: 100%; overflow: auto;'>
+<tr>
+<td class="cluster1" rowspan="3" ><h1>BPL</h1></td>
+<td class="cluster3" rowspan="3" ><b>
+BERORIENTASI PADA PELAYANAN</b><br/>
+Kemampuan untuk memahami dan memenuhi kebutuhan pelanggan (internal dan eksternal) dan/atau memenuhi standar pelayanan minimal. 
+
+<br><b>Kata Kunci: Kebutuhan Pelanggan</b>
+</td>
+<td class="cluster4" >Standar</td>
+<td class="cluster4" >4</td>
+</tr>
+ <tr>
+	 <td class="cluster4" >Individu</td>
+	 <td class="cluster4" >3</td>
+ </tr>
+ <tr>
+	 <td class="cluster4" >Fit %</td>
+	 <td class="cluster4" >75%</td>
+ </tr>
+ <tr>
+	 <td class="cluster5" colspan="4">Dalam area kompetensi Berorientasi pada Pelayanan, ia memiliki cukup kemampuan untuk membuat alternatif pelayanan terbaik yang dibutuhkan guna memastikan terpenuhinya kebutuhan pelanggannya. Ia membuat langkah perbaikan pelayanan tersebut sebagai tindak lanjut atas informasi yang diperolehnya sehubungan dengan adanya kebutuhan dan permintaan pelanggannya di luar standar yang telah ditetapkan. Ia menyelesaikan sampai tuntas termasuk mengumpulkan para ahli apabila diperlukan. Kualitas pelayanannya antara lain terlihat dalam melayani pihak pemda pada saat mereka membutuhkan data mengenai sampling riset tentang kematian. Ia tidak hanya memberikan data yang mereka butuhkan tetapi juga sekaligus membantu membuatkan sistem risetnya. Dalam hal ini ia belum dapat memenuhi tuntutan untuk membuat standar pelayanan yang tinggi guna mencapai kepuasan pelanggan mau pun mendorong seluruh individu di satuan kerja agar tercipta nilai dan semangat pelayanan.</p></td>
+ </tr>
+ </table>
+ <br/>
+
+<table  class="cluster" style = 'width: 100%; height: 100%; overflow: auto;'>
+<tr>
+<td class="cluster1" rowspan="3" ><h1>BST</h1></td>
+<td class="cluster3" rowspan="3" ><b>
+BERFIKIR STRATEGIS</b><br/>
+Kemampuan berpikir jangka panjang, luas dan dalam yang berkaitan dengan eksistensi dan masa depan organisasi.
+
+<br><b>Kata Kunci: Jangka Panjang.</b>
+</td>
+<td class="cluster4" >Standar</td>
+<td class="cluster4" >4</td>
+</tr>
+ <tr>
+	 <td class="cluster4" >Individu</td>
+	 <td class="cluster4" >3</td>
+ </tr>
+ <tr>
+	 <td class="cluster4" >Fit %</td>
+	 <td class="cluster4" >75%</td>
+ </tr>
+ <tr>
+	 <td class="cluster5" colspan="4">Ia cukup mampu menjelaskan peran satuan kerjanya dalam mengindentifikasi berbagai peluang yang mungkin diraih, sekaligus dampak risiko yang mungkin dihadapi oleh lingkup satuan kerjanya pada masa mendatang. Ia memahami titik kritis dari sifat pekerjaan di unitnya adalah ketepatan waktu yang berbeda-beda ketika melakukan riset di rumah sakit yang berbeda-beda. Hal itu karena di samping materi laporan banyak, masing-masing rumah sakit juga memiliki aturan berbeda-beda. Supaya pelaksanaan riset bisa cepat selesai, ia mengingatkan agar sebelum membuat proposal, setiap peneliti sudah lebih dulu mengenali siapa yang akan menjadi pengolah hasil risetnya di rumah sakit terkait. Sungguhpun demikian, kompetensinya ini tampak masih belum berkembang sesuai dengan tuntutan organisasi, karena pemikirannya belum sampai mengevaluasi/menganalisis berbagai informasi yang ada secara komprehensif. Dengan demikian, pemikiran strategisnya masih perlu ditingkatkan hingga mencapai tahap mampu merumuskan rencana strategi organisasi untuk jangka panjang dikaitkan dengan instansi lain di lingkup nasional atau internasional.</p></td>
+ </tr>
+ </table>
+ <br/>
+
+<div class="footerReport">
+
+<hr>
+<table width=100%><tr><td style="padding-right:10px;">
+<i>Assessment Psikologik dan Kompetensi Bagi Jabatan Tinggi Pratama,</i> <br/>
+<i>Jabatan Administrator, dan Jabatan Pengawas </i><br/>
+<i>Kementerian Kesehatan RI 2017 </i></div>
+</td>
+<td  style="text-align:left;border-left: solid  1px #000000;padding-left:10px;" valign="top">
+<div id="pageFooter"></div>
+</td>
+</tr>
+</table>
+
+ </article>
+</section>
+
+
+
+
+
+
+
+
+<section class="sheet padding-25mm">
+<div class="headerReport">
+<h2>RAHASIA</h2>
+<hr></div>
+<img style="position:absolute; right: 100px; top: 50px;" src="/images/ppsdm-logo-atas.png">
+<article>
+
+
+ <H3>B. KOMPETENSI SPESIFIK</H3>
+
+ 
+<table  class="cluster" style = 'width: 100%; height: 100%; overflow: auto;'>
+<tr>
+<td class="cluster1" rowspan="3" ><h1>INO</h1></td>
+<td class="cluster3" rowspan="3" ><b>
+INOVASI</b><br/>
+Kemampuan untuk menghasilkan produk/ layanan/metode baru yang lebih efektif dan lebih efisien, dalam rangka pencapaian visi dan misi organisasi. 
+
+<br><b>Kata Kunci: Metode baru</b<
+</td>
+<td class="cluster4" >Standar</td>
+<td class="cluster4" >4</td>
+</tr>
+ <tr>
+	 <td class="cluster4" >Individu</td>
+	 <td class="cluster4" >3</td>
+ </tr>
+ <tr>
+	 <td class="cluster4" >Fit %</td>
+	 <td class="cluster4" >75%</td>
+ </tr>
+ <tr>
+ <td class="cluster5" colspan="4">Ditinjau dari segi Inovasi, kemampuannya tampak sudah berkembang secara memadai. Guna meningkatkan efisiensi dan efektivitas organisasi. Ia berusaha melakukan modifikasi terhadap gagasan yang sudah ada dengan penyesuaian terhadap situasi di satuan kerja untuk diterapkan dalam penyelesaian pekerjaan/tugas-tugasnya. Ia melihat bahwa para peneliti mengalami penurunan motivasi untuk melakukan penulisan. Kalau pun mereka membuatnya dihawatirkan beberapa di antara mereka membuat duplikasi. Maka sebagai rambu-rambu ia membuat metoda monitoring riset. Selain diharapkan dapat meminimalkan kemungkinan mereka melakukan duplikasi, proposal penelitian yang mereka buat juga diharapkan dapat digunakan sebagai proposal ke bank. Walau demikian, ia belum sampai menemukan gagasan-gagasan baru yang bersifat asli dan orisinal dari hasil olah pikirnya.</p></td>
+ </tr>
+ </table>
+ <br/>
+
+<table  class="cluster" style = 'width: 100%; height: 100%; overflow: auto;'>
+<tr>
+<td class="cluster1" rowspan="3" ><h1>INT</h1></td>
+<td class="cluster3" rowspan="3" ><b>
+INTEGRITAS</b><br/>
+Kemampuan mematuhi peraturan/ etika organisasi, menegakkan kejujuran, menyesuaikan tindakan dengan kata-kata yang diucapkan, bertanggungjawabatas segala risiko akibat tindakan/ keputusan yang dibuat. 
+
+<br><b>Kata Kunci: Kejujuran</b></td>
+<td class="cluster4" >Standar</td>
+<td class="cluster4" >4</td>
+</tr>
+ <tr>
+	 <td class="cluster4" >Individu</td>
+	 <td class="cluster4" >3</td>
+ </tr>
+ <tr>
+	 <td class="cluster4" >Fit %</td>
+	 <td class="cluster4" >75%</td>
+ </tr>
+ <tr>
+ <td class="cluster5" colspan="4">Membicarakan aspek Integritas, drg. AGUS SUPRAPTO, M.Kes sudah mampu untuk menunjukkan orientasi diri yang terlihat lebih mengedepankan kepentingan organisasi daripada kepentingan kelompok, atau pun pribadi. Untuk kepentingan pekerjaan, ia tidak ragu ketika memutuskan untuk memberhentikan dua orang bawahan yang merupakan pegawai negeri sipil, karena sikap kerja mereka ia nilai tidak memuaskan dan mengganggu proses kerja. Tetapi hal itu ia lakukan setelah melalui langkah-langkah peneguran sesuai dengan aturan perusahaan. Dalam kesempatan lain ia juga menegur Kepala Dinasnya yang diketahui menyalah gunakan wewenang untuk keuntungan pribadi terkait dengan hal keuangan. Sejauh ini sikap dan tindakannya itu cukup menunjukkan integritasnya walau pun penerapan sikapnya itu masih berada dalam tataran diri pribadi. Langkahnya itu belum sampai memberikan teladan mau pun menciptakan situasi kerja yang membuat seluruh unit utama menerapkan etika dan norma organisasi dalam segala situasi dari kondisi secara konsisten. Dengan pertimbangan demikian, kompetensinya dalam hal ini masih perlu ditingkatkan.</p></td>
+ </tr>
+ </table>
+ <br/>
+
+<div class="footerReport">
+
+<hr>
+<table width=100%><tr><td style="padding-right:10px;">
+<i>Assessment Psikologik dan Kompetensi Bagi Jabatan Tinggi Pratama,</i> <br/>
+<i>Jabatan Administrator, dan Jabatan Pengawas </i><br/>
+<i>Kementerian Kesehatan RI 2017 </i></div>
+</td>
+<td  style="text-align:left;border-left: solid  1px #000000;padding-left:10px;" valign="top">
+<div id="pageFooter"></div>
+</td>
+</tr>
+</table>
+
+</article>
+</section>
+
+<section class="sheet padding-25mm">
+<div class="headerReport">
+<h2>RAHASIA</h2>
+<hr></div>
+<img style="position:absolute; right: 100px; top: 50px;" src="/images/ppsdm-logo-atas.png">
+<article>
+
+<br/>
+
+ 
+<table  class="cluster" style = 'width: 100%; height: 100%; overflow: auto;'>
+<tr>
+<td class="cluster1" rowspan="3" ><h1>KSN</h1></td>
+<td class="cluster3" rowspan="3" ><b>
+KERJASAMA UNTUK SINERGI</b><br/>
+Kemampuan menjalin dan membina kerjasama kelompok/ satuan kerja/ antar satuan kerja/ antar bagian/ antar biro/ antar direktorat/ antar instansi dan mengupayakan terciptanya Sinergi. 
+
+<br><b>Kata Kunci: Tercipta sinergi</b>
+</td>
+<td class="cluster4" >Standar</td>
+<td class="cluster4" >3</td>
+</tr>
+ <tr>
+	 <td class="cluster4" >Individu</td>
+	 <td class="cluster4" >2</td>
+ </tr>
+ <tr>
+	 <td class="cluster4" >Fit %</td>
+	 <td class="cluster4" >67%</td>
+ </tr>
+ <tr>
+ <td class="cluster5" colspan="4">Kemampuannya untuk menjalin dan membina kerjasama kelompok ditunjukkan dengan keaktifannya selalu hadir pada saat tim kerjanya melakukan kegiatan. Hal ini menggambarkan bahwa ia bersedia membantu satuan kerjanya dalam menyelesaikan tugas bersama serta mendukung secara aktif keputusan tim dalam satuan kerjanya. Ia selalu melakukan pekerjaan bersama-sama dengan anggota lain, saling membantu dan memberikan dukungan secara terbuka, agar setiap orang merasa dihargai. Namun demikian, ia masih harus meningkatkan performa agar dapat mencapai tingkat profisiensi sesuai tuntutan jabatan. Untuk meningkatkan kelancaran hubungan kerjasama mau pun membangun hubungan sinerji, ia tidak hanya melakukan hubungan formal tetapi juga menggunakan pendekatan informal. Cara ini cukup efektif meski pun untuk memenuhi tuntutan posisi, ia masih harus meningkatkan kompetensi ini sampai pada tahap di mana ia mampu memebri dukungan fisik mau pun non fisik dan secara obyektif serta terbuka memberikan penghargaan kepada orang lain yang memiliki kinerja baik.</p></td>
+ </tr>
+ </table>
+ <br/>
+
+<table  class="cluster" style = 'width: 100%; height: 100%; overflow: auto;'>
+<tr>
+<td class="cluster1" rowspan="3" ><h1>PFS</h1></td>
+<td class="cluster3" rowspan="3" ><b>
+PROFESIONALITAS</b><br/>
+Kemampuan menguasai bidang pengetahuan yang terkait dengan pekerjaan (teknik, manajerial maupun profesional) dan motivasi untuk mengembangkan, memakai dan membagikan pengetahuan itu kepada orang lain. 
+
+<br><b>Kata Kunci: Pengetahuan dalam bekerja</b>
+</td>
+<td class="cluster4" >Standar</td>
+<td class="cluster4" >4</td>
+</tr>
+ <tr>
+	 <td class="cluster4" >Individu</td>
+	 <td class="cluster4" >3</td>
+ </tr>
+ <tr>
+	 <td class="cluster4" >Fit %</td>
+	 <td class="cluster4" >75%</td>
+ </tr>
+ <tr>
+ <td class="cluster5" colspan="4">Ia memiliki pemahaman yang baik tentang bagaimana penugasannya harus dilaksanakan dengan hasil kerja yang sesuai dengan sasaran kerja yang diharapkan darinya. Penguasaan akan bidang tugasnya ini membantu kelancaran dalam melakukan evaluasi yang mengarah pada efektivitas kerja termasuk memberikan rekomendari mengenai perbaikan yang harus dilakukannya. Hal itu terlihat pada saat melakukan penelitian di mana jumlah yang diwawancara melibatkan ratusan ribu orang. Dalam kodisi demikian ia tetap dapat menjalankannya dengan baik sekali pun menghadapi kendala antara lain dari sisi keragaman suku, komunikasi mau pun kesulitan transportasi. Untuk mengatasi kendala tersebut ia memberdayakan penduduk setempat dengan mengajak beberapa warga untuk ditugaskan sebagai pekerja yang membantunya di lapangan. Kemampuannya pada kompetensi ini memadai untuk mendukung keberhasilan kerja kendati masih dapat dikembangkan lagi untuk mencapai kinerja yang optimal dengan menyusun rencana perbaikan tugas dan fungsi guna mendukung visi. misi, dan nilai di satuan tugasnya.</p></td>
+ </tr>
+ </table>
+ <br/>
+
+<div class="footerReport">
+
+<hr>
+<table width=100%><tr><td style="padding-right:10px;">
+<i>Assessment Psikologik dan Kompetensi Bagi Jabatan Tinggi Pratama,</i> <br/>
+<i>Jabatan Administrator, dan Jabatan Pengawas </i><br/>
+<i>Kementerian Kesehatan RI 2017 </i></div>
+</td>
+<td  style="text-align:left;border-left: solid  1px #000000;padding-left:10px;" valign="top">
+<div id="pageFooter"></div>
+</td>
+</tr>
+</table>
+
+</article>
+</section>
+
+
+<section class="sheet padding-25mm">
+<div class="headerReport">
+<h2>RAHASIA</h2>
+<hr></div>
+<img style="position:absolute; right: 100px; top: 50px;" src="/images/ppsdm-logo-atas.png">
+<article>
+
+<br/>
+ 
+<table  class="cluster" style = 'width: 100%; height: 100%; overflow: auto;'>
+<tr>
+<td class="cluster1" rowspan="3" ><h1>PKP</h1></td>
+<td class="cluster3" rowspan="3" ><b>
+PENGAMBILAN KEPUTUSAN</b><br/>
+Kemampuan untuk menyederhanakan permasalahan, melihat hubungan sebab- akibat, membuat alternatif pemecahan, menganalisis alternatif dan mengambil keputusan.
+
+<br><b>Kata Kunci: Mengambil keputusan.</b></td>
+<td class="cluster4" >Standar</td>
+<td class="cluster4" >3</td>
+</tr>
+ <tr>
+	 <td class="cluster4" >Individu</td>
+	 <td class="cluster4" >2</td>
+ </tr>
+ <tr>
+	 <td class="cluster4" >Fit %</td>
+	 <td class="cluster4" >67%</td>
+ </tr>
+ <tr>
+ <td class="cluster5" colspan="4">Dalam membuat suatu keputusan kompetensinya tampak berada pada tingkat di mana ia berusaha untuk mengambil keputusan dengan mengidentifikasi, serta membuat alternatif pemecahan masalah yang masuk akal sebagai bahan/dasar pertimbangannya. Sejauh ini, alternatif solusi yang dihasilkannya pun cukup logis. Selain itu, ia juga berusaha untuk mengakomodir kepentingan berbagai pihak-pihak lain untuk kemudian mengambil suatu keputusan yang terbaik. Pertimbangan demikian melandasi keputusannya memberdayakan warga dari masyarakat lokal untuk membantunya dalam pelaksanaan penelitian yang ia lakukan di daerah mereka. Ia menjadikan mereka sebagai peneliti lokal. Hanya saja meski pun cara demikian cukup efektif namun ia masih belum sampai melakukan analisis data secara mendalam.</p></td>
+ </tr>
+ </table>
+ <br/>
+
+<table  class="cluster" style = 'width: 100%; height: 100%; overflow: auto;'>
+<tr>
+<td class="cluster1" rowspan="3" ><h1>PPO</h1></td>
+<td class="cluster3" rowspan="3" ><b>
+PERENCANAAN DAN PENGORGANISASIAN</b><br/>
+Kemampuan menyusun perencanaan, menetapkan tujuan, cara mencapai tujuan, dan berbagi tugas/fungsi serta mengoptimalkan sumber daya yang ada dalam rangka pencapaian tujuan organisasi. 
+
+<br><b>Kata Kunci: Merencanakan pembagian tugas.</b>
+</td>
+<td class="cluster4" >Standar</td>
+<td class="cluster4" >3</td>
+</tr>
+ <tr>
+	 <td class="cluster4" >Individu</td>
+	 <td class="cluster4" >3</td>
+ </tr>
+ <tr>
+	 <td class="cluster4" >Fit %</td>
+	 <td class="cluster4" >100%</td>
+ </tr>
+ <tr>
+ <td class="cluster5" colspan="4">Mencermati kompetensinya dalam hal perencanaan dan pengorganisasian tugas, tampak berkembang pada tahap, di mana ia sudah mampu menyusun rencana-rencana sesuai dengan program kerja, serta melakukan pemantauan dan evaluasi terhadap kegiatan yang dijalankan. Dalam hal ini, ia tidak ragu menyusun <i>run down</i> kegiatan, termasuk mempersiapkan <i>check list</i> secara terperinci untuk menunjang kegiatan rutin hariannya. Dalam bekerja acuannya adalah arahan dari Menteri dan Kepala Badan, mengenai antara lain apa judul penelitian dari riset setiap peneliti, berapa dana yang diperlukan, siapa yang menjadi PIC nya yang dalam hal ini sumber dayanya sudah ditetapkan. Ketika perlu dilakukan perubahan, ia memperhatikan apa yang menjadi skala prioritasnya. Dengan demikian meski alokasi waktu terganggu namun ada antisipasi yang dilakukan sehingga dapat meminimalkan dampak perubahan tersebut terhadap kegiatan secara keseluruhan. Kompetensinya ini tentu masih dapat terus ditingkatkan, agar perencanaan yang disusunnya tidak hanya sebatas pada rencana-rencana kerja rutin harian saja.</p></td>
+ </tr>
+ </table>
+ <br/>
+
+<div class="footerReport">
+
+<hr>
+<table width=100%><tr><td style="padding-right:10px;">
+<i>Assessment Psikologik dan Kompetensi Bagi Jabatan Tinggi Pratama,</i> <br/>
+<i>Jabatan Administrator, dan Jabatan Pengawas </i><br/>
+<i>Kementerian Kesehatan RI 2017 </i></div>
+</td>
+<td  style="text-align:left;border-left: solid  1px #000000;padding-left:10px;" valign="top">
+<div id="pageFooter"></div>
+</td>
+</tr>
+</table>
+
+</article>
+</section>
+
+
+
+ <section class="sheet padding-25mm">
+ <div class="headerReport">
+ <h2>RAHASIA</h2>
+ <hr></div>
+ <img style="position:absolute; right: 100px; top: 50px;" src="/images/ppsdm-logo-atas.png">
+ <article>
+
+
+
+ <h3>KESIMPULAN</H3>
+ <hr style='border-top: 3px double;'>
+ <STRONG>A. HAL HAL POSITIF YANG MENUNJANG TAMPILNYA KINERJA YANG OPTIMAL</STRONG>
+
+ <div style="text-align:justify;">
+ <ul><li>Potensi intelektualnya memadai untuk menangani masalah kompleks yang membutuhkan pemikiran mendalam. drg. AGUS SUPRAPTO, M.Kes juga mampu belajar hal baru, mendukung ketertarikannya terhadap perubahan. Ia menyukai perubahan dan hal baru, memudahkannya menyesuaikan diri dengan tuntutan situasi sesaat. Demikian pula dengan pola kerjanya yang fleksibel, terbuka terhadap banyak kemungkinan baru.</li><li>Minat sosialnya kuat, mewarnai sikap terhadap orang lain. Ia menampilkan diri dengan ramah yang membuat hubungan dengan orang lain dapat berjalan lancar dan mendukung keberadaannya di kelompok. Ia juga menunjukkan keyakinan diri dalam memimpin, sehingga dapat diharapkan mengarahkan kelompok yang dipimpinnya untuk memenuhi sasaran kerja. </li><li>Pengalaman yang telah dilalui, membuatnya terbiasa untuk sering bertemu orang lain dan hal Ini menumbuhkan
+keyakinan diri dalam berinteraksi sosial termasuk untuk memimpin. Guna menunjang peran yang dijalankanya, ia pun aktif menjalin komunikasi dengan terbuka dan dengan lingkup lebih luas lagi, serta berusaha
+memenuhi tuntutan agar mampu menunjukkan kinerjanya yang baik dan sesuai
+dengan tuntutan jabatan.</li></ul> </div>
+ 
+ <STRONG>B. HAL HAL NEGATIF YANG MENGHAMBAT TAMPILNYA KINERJA YANG OPTIMAL</STRONG>
+ <div style="text-align:justify;">
+ <ul><li>Hasrat berprestasinya tidak tinggi, ia cenderung mudah puas dengan pencapaian sesaat mengikuti standar minimal. Sasaran kerjanya lebih dipengaruhi oleh dorongan untuk mengikuti prosedur mau pun harapan orang lain terhadapnya. Sikap demikian juga membuatnya terkendala dalam membuat keputusan dengan cepat sebab kurang terampil dalam menentukan sikap secara tegas.</li><li>Pertimbangannya lebih banyak mengandalkan pengalaman dan melakukan pendekatan praktis terhadap masalah yang dihadapi. Pola kerja individualnya cenderung spontan, kurang terencana secara terarah dan sistimatis. Ia kurang terampil melakukan pertimbangan terhadap teori dan konsep yang membutuhkan ketajaman berpikir dan kemampuan antisipasi jangka panjang ke depan. </li><li>Di bawah tekanan kecepatan kerjanya menurun, mempengaruhi tempo kerjanya yang menjadi lebih lama. Hal itu dipengaruhi oleh kesulitannya menjaga daya konsentrasinya agar tetap terfokus. Selain itu aspek ketelitian juga terpengaruh, menjadikan kualitas kerjanya menurun.</li></ul></div>
+
+ 
+<div class="footerReport">
+
+<hr>
+<table width=100%><tr><td style="padding-right:10px;">
+<i>Assessment Psikologik dan Kompetensi Bagi Jabatan Tinggi Pratama,</i> <br/>
+<i>Jabatan Administrator, dan Jabatan Pengawas </i><br/>
+<i>Kementerian Kesehatan RI 2017 </i></div>
+</td>
+<td  style="text-align:left;border-left: solid  1px #000000;padding-left:10px;" valign="top">
+<div id="pageFooter"></div>
+</td>
+</tr>
+</table>
+
+ </article>
+ </section>
+
+
+
+ <section class="sheet padding-25mm">
+ <div class="headerReport">
+ <h2>RAHASIA</h2>
+ <hr></div>
+ <img style="position:absolute; right: 100px; top: 50px;" src="/images/ppsdm-logo-atas.png">
+ <article>
+
+
+
+ <H3>SARAN PENGEMBANGAN</h3>
+ <hr style='border-top: 3px double;'>
+ <p><b>A. UNTUK PENUGASAN</b></p><ul>
+		<li>Berikan satu proyek perbaikan terhadap prosedur kerja di unitnya dan merealisasikan bersama tim. Minta drg. AGUS SUPRAPTO, M.Kes membuat rumusan program kerja, khususnya target <i>improvement</i> atau perbaikan kerja secara berkala di lingkup tugasnya, dan menjadikan hal tersebut sebagai salah satu dari target kerja yang harus dicapai/sebagai kriteria penilaian kerja</li>
+		<li>Lebih banyak diajak berpikir hal-hal yang strategis, mendapat kesempatan untuk mengambil keputusan penting dan berorientasi jangka panjang. Diberikan tugas khusus di mana ia harus menyelesaikan masalah yang kompleks. Berikan arahan mengenai proses berpikir yang diharapkan sampai dapat memunculkan alternatif penyelesaian masalah berikut konsekuensinya. Gagasan yang ditampilkan hendaknya bersifat strategis dengan mengacu pada visi organisasi. Di samping itu gagasan dituangkan dalam konsep, di mana penyusunan konsep ini melibatkan berbagai fungsi kerja.</li>
+		<li>Berikan tugas untuk menangani masalah yang menantang, beri kesempatan untuk belajar menangani tekanan dan stress yang berkaitan dengan tugas tersebut. Hal itu disertai dengan masukan atasan yang mengingatkan untuk bertindak lebih tenang dalam menghadapi masalah agar lebih tepat dan tidak disalah-tafsirkan oleh orang lain.</li>
+	</ul><!--------------------komen--------------------------><!--------------------komen--------------------------><!--------------------komen--------------------------><!--------------------komen--------------------------><!--------------------komen--------------------------><!--------------------komen--------------------------><!--------------------komen--------------------------><!--------------------komen--------------------------><!--------------------komen--------------------------><!--------------------komen--------------------------><p><b>B. UNTUK PENGEMBANGAN DIRI </b></p><ul>
+		<li>Susunlah target kerja yang lebih menantang dan bersifat “SMART” (Spesific, Measurable, Achievable, Realistic dan memiliki Time Constraint) dengan standar kerja yang telah ditetapkan sebelumnya dan periksalah kemajuan kerja secara teratur dan berkelanjutan.</li>
+		<li>Mencoba berlatih menuangkan gagasan mengenai hal hal baru yang dapat disumbangkan pada proses kerja dengan cara lebih sering berdiskusi dengan unit-unit lain mengenai masalah organisasi dan pemecahannya secara lebih luas.</li>
+		<li>Mengingatkan diri sendiri untuk menenangkan emosi dalam diri dan tidak cepat bersikap reaktif dalam menghadapi kondisi yang kurang menyenangkan, misalnya dengan menarik nafas sehingga ada waktu untuk memikirkan tindakan
+<div class="footerReport">
+
+<hr>
+<table width=100%><tr><td style="padding-right:10px;">
+<i>Assessment Psikologik dan Kompetensi Bagi Jabatan Tinggi Pratama,</i> <br/>
+<i>Jabatan Administrator, dan Jabatan Pengawas </i><br/>
+<i>Kementerian Kesehatan RI 2017 </i></div>
+</td>
+<td  style="text-align:left;border-left: solid  1px #000000;padding-left:10px;" valign="top">
+<div id="pageFooter"></div>
+</td>
+</tr>
+</table>
+
+</b></p></article>
+</section>
+<section class="sheet padding-25mm">
+<div class="headerReport">
+<h2>RAHASIA</h2>
+<hr></div>
+<img style="position:absolute; right: 100px; top: 50px;" src="/images/ppsdm-logo-atas.png">
+<article><br/>yang akan ditampilkan. Dengan demikian diharapkan ketahanan mental lebih terlatih dalam menangani masalah-masalah yang menekan perasaan.</li>
+	</ul>
+ <div class ='signatureRekomendasi'>
+<div class='center'>
+	Jakarta, 30 Oktober 2017<br/>
+	<strong>A.n PSIKOLOGI PEMERIKSA :<br/>
+	<img height="60" width="230"src="/images/1/signature.png">
+	<br/>
+Drs. BUDIMAN SANUSI, M.Psi., Psikolog<br/>
+No. SIP : 07231221
+</strong>
+</div>
+</div>
+
+<div class="footerReport">
+
+<hr>
+<table width=100%><tr><td style="padding-right:10px;">
+<i>Assessment Psikologik dan Kompetensi Bagi Jabatan Tinggi Pratama,</i> <br/>
+<i>Jabatan Administrator, dan Jabatan Pengawas </i><br/>
+<i>Kementerian Kesehatan RI 2017 </i></div>
+</td>
+<td  style="text-align:left;border-left: solid  1px #000000;padding-left:10px;" valign="top">
+<div id="pageFooter"></div>
+</td>
+</tr>
+</table>
+
+ </article>
+ </section>
+
+
+
+</body>

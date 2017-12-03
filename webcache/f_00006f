@@ -1,0 +1,1489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Nirwan Adi Praesta">
+    <link rel="icon" type="image/png" sizes="16x16" href="../plugins/images/favicon.png">
+    <title>Kementerian Kesehatan Republik Indonesia</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Menu CSS -->
+    <link href="../plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css" rel="stylesheet">
+    <!-- toast CSS -->
+    <link href="../plugins/bower_components/toast-master/css/jquery.toast.css" rel="stylesheet">
+    <!-- morris CSS -->
+    <link href="../plugins/bower_components/morrisjs/morris.css" rel="stylesheet">
+    <!-- chartist CSS -->
+    <link href="../plugins/bower_components/chartist-js/dist/chartist.min.css" rel="stylesheet">
+    <link href="../plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.css" rel="stylesheet">
+    <!-- animation CSS -->
+    <link href="css/animate.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- color CSS -->
+    <link href="css/colors/default.css" id="theme" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<style>
+.filterable {
+    margin-top: 15px;
+}
+.filterable .panel-heading .pull-right {
+    margin-top: -20px;
+}
+.filterable .filters input[disabled] {
+    background-color: transparent;
+    border: none;
+    cursor: auto;
+    box-shadow: none;
+    padding: 0;
+    height: auto;
+}
+.filterable .filters input[disabled]::-webkit-input-placeholder {
+    color: #333;
+}
+.filterable .filters input[disabled]::-moz-placeholder {
+    color: #333;
+}
+.filterable .filters input[disabled]:-ms-input-placeholder {
+    color: #333;
+}
+</style>
+</head>
+
+<body class="fix-header">
+    <!-- ============================================================== -->
+    <!-- Preloader -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+        </svg>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Wrapper -->
+    <!-- ============================================================== -->
+    <div id="wrapper">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+<!DOCTYPE html>
+<nav class="navbar navbar-default navbar-static-top m-b-0">
+	<div class="navbar-header">
+		<div class="top-left-part">
+			<span class="hidden-xs">
+				<img src="../plugins/images/logokemenkes.jpg" alt="home" class="logokemenkes.jpg" />
+			</span>
+		</div>
+                <!-- /Logo -->
+                <ul class="nav navbar-top-links navbar-right pull-right">
+                    <li>
+                        <a class="profile-pic" href="http://wwww.ppsdm.com"><b class="hidden-xs">PPSDM</b></a>
+                    </li>
+                </ul>
+	</div>
+</nav>        <!-- End Top Navigation -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+		<br/>
+        <div class="navbar-default sidebar" role="navigation">
+            <div class="sidebar-nav slimscrollsidebar">
+                <div class="sidebar-head">
+                    <h3><span class="fa-fw open-close"><i class="ti-close ti-menu"></i></span> <span class="hide-menu">Navigation</span></h3>
+                </div>
+				<br/>
+                <ul class="nav" id="side-menu">
+                    <li style="padding: 70px 0 0;">
+                        <a href="index.php" class="waves-effect"><i class="fa fa-clock-o fa-fw" aria-hidden="true"></i>Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="blank.php" class="waves-effect"><i class="fa fa-columns fa-fw" aria-hidden="true"></i>Pengantar</a>
+                    </li>					
+                    <li>
+                        <a href="basic-table.php" class="waves-effect"><i class="fa fa-table fa-fw" aria-hidden="true"></i>Daftar Assessee</a>
+                    </li>					
+
+                     <li>
+                        <a href="rekapitulasi.php" class="waves-effect"><i class="fa fa-info-circle fa-fw" aria-hidden="true"></i>Rekapitulasi</a>
+                    </li>
+
+                </ul>
+
+            </div>
+            
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page Content -->
+        <!-- ============================================================== -->
+        <div id="page-wrapper">
+            <div class="container-fluid">
+                <div class="row bg-title">
+                    <div class="col-lg-10 col-md-5 col-sm-4 col-xs-12">
+                        <h4 class="page-title">
+						<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="basic-table.php"><i class="fa fa-circle m-r-5 text-info"></i>SELURUH PEGAWAI</a>
+						<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="eselon2.php"><i class="fa fa-circle m-r-5 text-info"></i>ESELON 2</a>
+						<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="eselon3.php"><i class="fa fa-circle m-r-5 text-info"></i>ESELON 3</a>
+						<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="eselon4.php"><i class="fa fa-circle m-r-5 text-info"></i>ESELON 4</a>
+						</h4> 
+						
+						</div>
+
+                    <!-- /.col-lg-12 -->
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="white-box">
+						<h3 class="box-title">ESELON 3 (ADMINISTRATOR)</h3>
+						<hr/>
+<div class="container">
+    <div class="row">
+        <div class="panel panel-primary filterable">
+            <div >
+                <div class="pull-right">
+                    <button class="btn btn-default btn-xs btn-filter"><span class="glyphicon glyphicon-filter"></span> Filter</button>
+                </div>
+            </div>
+            <table class="table">
+                <thead>
+                    <tr class="filters">
+                        <th><input type="text" class="form-control" placeholder="NIP" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="NAMA" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="POSISI" disabled></th>
+                    </tr>
+                </thead>
+                <tbody>
+								
+									
+                                        <tr>
+                                            <td>196411271996032001</td>
+                                            <td >dr. TETY RACHMAWATI, M.Si.</td>
+                                            <td >Kepala Bidang Humaniora Kesehatan</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=294&project_activity_id=241">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196604201988031002</td>
+                                            <td >BAMBANG WIDODO, S.E, M.Sc.</td>
+                                            <td >Kepala Bagian Hukum,  Organisasi, dan Kepegawaian</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=295&project_activity_id=242">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196109231982121001</td>
+                                            <td >SETYADI NUGROHO, S.H., M.H.</td>
+                                            <td >Kepala Bagian Hukum, Organisasi, dan  Hubungan Masyarakat</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=296&project_activity_id=243">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197406012002121001</td>
+                                            <td >dr. MAWARI EDY, M.Epid.</td>
+                                            <td >Kepala Bidang Pendayagunaan Sumber Daya Manusia  Kesehatan Dalam Negeri</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=297&project_activity_id=244">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196202131988032003</td>
+                                            <td >Dra. MINDARWATI, Apt.</td>
+                                            <td >Kepala Bagian Kepegawaian dan Umum</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=298&project_activity_id=245">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196301121991032001</td>
+                                            <td >Dra. RULLY MAKARAWO, Apt.</td>
+                                            <td >Kepala Subdirektorat Penilaian   Alat Kesehatan Kelas A dan B</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=299&project_activity_id=246">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196408261993032002</td>
+                                            <td >Dra. VITA PICOLA HALOHO, Apt.</td>
+                                            <td >Kepala Subdirektorat Narkotika,  Psikotropika, dan Prekursor Farmasi</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=300&project_activity_id=247">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196409111991032001</td>
+                                            <td >Dra. ARDIYANI, Apt., MSi.</td>
+                                            <td >Kepala Subdirektorat Seleksi Obat dan  Alat Kesehatan</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=301&project_activity_id=248">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196501181990032004</td>
+                                            <td >drg. WARA PERTIWI O, M.A.</td>
+                                            <td >Kepala Subdirektorat Kesehatan  Usia Reproduksi</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=302&project_activity_id=249">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196508091990112001</td>
+                                            <td >dr. RUSMIYATI, M.QIH.</td>
+                                            <td >Kepala Subdirektorat Kapasitas Kerja</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=303&project_activity_id=250">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196106111988022001</td>
+                                            <td >dr. B. EKA ANOEGRAHI WAHJOENI, M.Kes.</td>
+                                            <td >Kepala Subdirektorat Mutu dan  Akreditasi Pelayanan Kesehatan Rujukan</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=304&project_activity_id=251">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196303101988031001</td>
+                                            <td >Ir. HANAFI, MT.</td>
+                                            <td >Kepala Subdirektorat Fasilitas  Pelayanan Kesehatan Lainnya</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=305&project_activity_id=252">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196305231997032001</td>
+                                            <td >YULIANA SRIWAHYUNI, S.H.,M.H.</td>
+                                            <td >Kepala Bagian Hukum, Organisasi, dan  Hubungan Masyarakat</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=306&project_activity_id=253">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197504012002121002</td>
+                                            <td >dr. BUDI SYLVANA, MARS.</td>
+                                            <td >Kepala Subdirektorat Pelayanan Gawat Darurat Terpadu</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=307&project_activity_id=254">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197507172003122002</td>
+                                            <td >Dr. dr. YOUT SAVITHRI, MARS.</td>
+                                            <td >Kepala Subdirektorat Pengelolaan Rujukan dan Pemantauan Rumah Sakit</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=308&project_activity_id=255">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197511012005011010</td>
+                                            <td >dr. GANDA RAJA PARTOGI SINAGA, M.KM.</td>
+                                            <td >Kepala Subdirektorat  Pusat Kesehatan Masyarakat</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=309&project_activity_id=256">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196209191991032001</td>
+                                            <td >dr. LINA REGINA MANGAWEANG, Sp. Kj.</td>
+                                            <td >Kepala Subdirektorat  Masalah Kesehatan Jiwa Anak dan Remaja</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=310&project_activity_id=257">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197209272002122002</td>
+                                            <td >dr. RATNA BUDI HAPSARI, M.K.M.</td>
+                                            <td >Kepala Sub Direktorat Penyakit Infeksi Emerging</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=312&project_activity_id=259">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197601202002122002</td>
+                                            <td >dr. ELVIEDA SARIWATI, M.Epid.</td>
+                                            <td >Kepala Sub Direktorat Malaria</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=313&project_activity_id=260">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196307131985031006</td>
+                                            <td >SUBAGIYO, S.Sos, M.Si.</td>
+                                            <td >Kepala Bagian Registrasi</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=314&project_activity_id=261">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196312281985012001</td>
+                                            <td >LILIS SETYOWATI, S.E.</td>
+                                            <td >Kepala Bagian Kearsipan dan Administrasi</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=315&project_activity_id=262">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196701061996032002</td>
+                                            <td >dr. LENY EVANITA, M.M.</td>
+                                            <td >Kepala Bidang Analisis Perilaku dan Kesehatan Inteligensia</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=316&project_activity_id=263">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196801081992031003</td>
+                                            <td >RAHMAT KURNIADI, B.Sc., S.Sos, M.Kes.</td>
+                                            <td >Kepala Bagian APBN II</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=317&project_activity_id=264">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196306121993032001</td>
+                                            <td >Dra. HIDAYATI MASUD, Apt.</td>
+                                            <td >Kepala Subdirektorat Pengendalian Obat Publik dan  Perbekalan Kesehatan</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=318&project_activity_id=265">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197109181995031001</td>
+                                            <td >ROSIDI ROSLAN, SKM., S.H., M.PH.</td>
+                                            <td >Kepala Bagian Tata Usaha</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=319&project_activity_id=266">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196404181984031002</td>
+                                            <td >R. HERRY BAGDJA, SH., M.Si</td>
+                                            <td >Kepala Bagian Tata Usaha</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=325&project_activity_id=267">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197004032000031002</td>
+                                            <td >Dr. dr. HARIMAT HENDARWAN, M.Kes.</td>
+                                            <td >Kepala Bidang Sumber Daya Kesehatan</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=326&project_activity_id=268">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197406162002121007</td>
+                                            <td >dr. JEHEZKIEL PANJAITAN</td>
+                                            <td >Kepala Bagian Keuangan dan Barang Milik Negara</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=327&project_activity_id=269">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196810281994031005</td>
+                                            <td >AKEMAT, S.Kp., M.Kes.</td>
+                                            <td >Kepala Bidang Fasilitasi Akreditasi dan  Pengendalian Mutu Pendidikan</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=328&project_activity_id=270">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197305251997032001</td>
+                                            <td >EMMILYA ROSA, S.K.M., M.K.M.</td>
+                                            <td >Kepala Bidang Perencanaan  Sumber Daya Manusia Kesehatan</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=329&project_activity_id=271">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197708242003122002</td>
+                                            <td >ELZA GUSTANTI, S.Si., Apt.</td>
+                                            <td >Kepala Bagian Hukum, Organisasi, dan Hubungan Masyarakat</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=330&project_activity_id=272">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196206081986012001</td>
+                                            <td >DYAH YUNIAR SETIAWATI, S.K.M., M.P.S.</td>
+                                            <td >Kepala Subdirektorat Pengelolaan Konsumsi Gizi</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=331&project_activity_id=273">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196411271984032001</td>
+                                            <td >Dra. SRI MULYANI, MM</td>
+                                            <td >Kepala Bagian Kepegawaian dan Umum</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=332&project_activity_id=274">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197205021998032003</td>
+                                            <td >TUTUT INDRA WAHYUNI, S.K.M., M.Kes.</td>
+                                            <td >Kepala Subdirektorat Penyehatan Pangan</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=333&project_activity_id=275">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196303111989032001</td>
+                                            <td >dr. NANI HIDAYANTI WIDODO, Sp.M.</td>
+                                            <td >Kepala Subdirektorat Pelayanan  Medik dan Keperawatan</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=334&project_activity_id=276">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196411021996031002</td>
+                                            <td >dr. KAMBA MOHAMAD TAUFIQ, M.Kes.</td>
+                                            <td >Kepala Subdirektorat Mutu dan Akreditasi Pelayanan Kesehatan Primer</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=335&project_activity_id=277">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196303261987031002</td>
+                                            <td >DEDY NURHIDAYAT, S.E., M.M.</td>
+                                            <td >Kepala Bagian Kepegawaian dan Umum</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=336&project_activity_id=278">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196310291991032002</td>
+                                            <td >drh. SITTI GANEFA PAKKI, M.Epid.</td>
+                                            <td >Kepala Sub Direktorat Filariasis dan Kecacingan</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=337&project_activity_id=279">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197112222002122001</td>
+                                            <td >dr. ENDANG BUDI HASTUTI</td>
+                                            <td >Kepala Subdirektorat HIV AIDS dan Penyakit Infeksi Menular Seksual</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=338&project_activity_id=280">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197201092001122001</td>
+                                            <td >dr. LILY BANONAH RIVAI, M.Epid.</td>
+                                            <td >Kepala Sub Direktorat Kekarantinaan Kesehatan</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=339&project_activity_id=281">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197706282001121002</td>
+                                            <td >HENDRO SANTOSO, S.Kp., M.Kep.,Sp.Kom.</td>
+                                            <td >Kepala Bagian Analisis dan  Pelaporan Tindak Lanjut Hasil Pengawasan</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=340&project_activity_id=282">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196307061986021001</td>
+                                            <td >BUSRONI, S.I.P.</td>
+                                            <td >Kepala Bagian Opini Publik,  Produksi Komunikasi dan Peliputan</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=341&project_activity_id=283">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196409011988011001</td>
+                                            <td >AGUS HENDROYONO, S.K.M., M.A.</td>
+                                            <td >Kepala Bidang Pencegahan, Mitigasi, dan  Kesiapsiagaan</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=342&project_activity_id=284">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196608041997031001</td>
+                                            <td >ALI USMAN, S.H.</td>
+                                            <td >Kepala Bagian Peraturan Perundang-Undangan I</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=343&project_activity_id=285">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196705081992031003</td>
+                                            <td >KARDI, S.H.</td>
+                                            <td >Kepala Bagian Akuntansi dan Pelaporan Keuangan</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=344&project_activity_id=286">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196808021994031007</td>
+                                            <td >drg. RUDY KURNIAWAN, M.Kes.</td>
+                                            <td >Kepala Bidang Pengelolaan Data dan Informasi</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=345&project_activity_id=287">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197104112005012001</td>
+                                            <td >dr. SHEILA KADIR. M.K.M.</td>
+                                            <td >Kepala Bagian Kerja Sama Kesehatan Bilateral</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=346&project_activity_id=288">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197109212002122001</td>
+                                            <td >dr. DYAH ARMI RIANA, MARS.</td>
+                                            <td >Kepala Bagian Tata Usaha Pimpinan dan Protokol</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=347&project_activity_id=289">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196908121993031001</td>
+                                            <td >TASRIPIN, S.K.M., M.K.M.</td>
+                                            <td >Kepala Sub Direktorat Lingkungan Kerja</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=348&project_activity_id=290">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197208312000032001</td>
+                                            <td >dr. SITI NADIA TARMIZI, M.Epid.</td>
+                                            <td >Kepala Bagian Program dan Informasi</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=349&project_activity_id=291">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196207101988031001</td>
+                                            <td >PURWANTA, S.H., M.H., M.Kes.</td>
+                                            <td >Kepala Bagian Advokasi Hukum</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=350&project_activity_id=292">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197401272002121004</td>
+                                            <td >drg. DONI ARIANTO, M.K.M.</td>
+                                            <td >Kepala Bidang Jaminan Kesehatan</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=351&project_activity_id=293">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197311231998032002</td>
+                                            <td >DITA NOVIANTI S A, S.Si., Apt., M.M.</td>
+                                            <td >Kepala Subdirektorat Kemandirian Obat dan Bahan Baku Sediaan Farmasi</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=352&project_activity_id=294">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197702062000121004</td>
+                                            <td >FERDINAN SAMSON T, S.K.M., M.K.M.</td>
+                                            <td >Kepala Bagian Kerja Sama Kesehatan Regional</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=353&project_activity_id=295">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196807161992021001</td>
+                                            <td >NIRMALA AHMAD MA RUF, S.K.M., M.Si.</td>
+                                            <td >Kepala Bagian Program dan Informasi</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1348&project_activity_id=1111">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196812281993031006</td>
+                                            <td >MUHAMMAD RIJADI, S.K.M., M.Sc.PH.</td>
+                                            <td >Kepala Bagian Tata Usaha</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1349&project_activity_id=1112">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197310121999031003</td>
+                                            <td >NAGIOT CANSALONY T, S.K.M., M.E.</td>
+                                            <td >Kepala Bagian Tata Usaha</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1350&project_activity_id=1113">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196310241994031001</td>
+                                            <td >Drs. MOCHAMMAD ROYAN, M.Kes.</td>
+                                            <td >Kepala Bidang Pengendalian Mutu Pelatihan</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1351&project_activity_id=1114">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196709191994041001</td>
+                                            <td >drg. DIONO SUSILO YUSKASRAN, M.P.H.</td>
+                                            <td >Kepala Bidang Pendayagunaan Sumber Daya Manusia Kesehatan Luar Negeri</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1352&project_activity_id=1115">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196805071988032002</td>
+                                            <td >YUYUN WIDYANINGSIH, S.Kp., M.K.M.</td>
+                                            <td >Kepala Bidang Penyelenggaraan Pendidikan</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1353&project_activity_id=1116">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196603221993032002</td>
+                                            <td >Dra. PRIHATIWI SETIATI, Apt.M.Kes.</td>
+                                            <td >Kepala Subdirektorat Pemantauan Pasar Obat Publik dan Perbekalan Kesehatan</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1354&project_activity_id=1117">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196710151994021002</td>
+                                            <td >Drs. HERU SUNARYO, Apt.</td>
+                                            <td >Kepala Subdirektorat Penggunaan Obat Rasional</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1355&project_activity_id=1118">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196510081989021001</td>
+                                            <td >R. GIRI WURJANDARU, S.K.M., M.Kes.</td>
+                                            <td >Kepala Subdirektorat Kewaspadaan Gizi</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1356&project_activity_id=1119">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196205151982121001</td>
+                                            <td >BONAR SIANTURI, S.H., M.H.</td>
+                                            <td >Kepala Bagian Hukum, Organisasi, dan Hubungan Masyarakat</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1357&project_activity_id=1120">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196703181989032002</td>
+                                            <td >RR DHIAN PROBHOYEKTI, S.K.M., M.A.</td>
+                                            <td >Kepala Subdirektorat Pemberdayaan Masyarakat</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1358&project_activity_id=1121">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196210251989012002</td>
+                                            <td >dr. TENGKU DJUMALA SARI</td>
+                                            <td >Kepala Subdirektorat Rumah Sakit Pendidikan</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1359&project_activity_id=1122">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196301281987112001</td>
+                                            <td >YAYAT ROHAYATI, S.H., M.M.</td>
+                                            <td >Kepala Bagian Kepegawaian dan Umum</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1360&project_activity_id=1123">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197611252005011004</td>
+                                            <td >dr. JEFRI THOMAS ALPHA EDISON, M.K.M.</td>
+                                            <td >Kepala Bidang Pengembangan Jabatan Fungsional</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1361&project_activity_id=1124">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196208061986031007</td>
+                                            <td >Drs. WARMO SUDRAJAT S, M.Kes., M.H.</td>
+                                            <td >Kepala Bagian Keuangan dan Barang Milik Negara</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1362&project_activity_id=1125">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196407051995031003</td>
+                                            <td >dr. ASIK, M.P.P.M.</td>
+                                            <td >Kepala Subdirektorat Tuberkulosis</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1363&project_activity_id=1126">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196704041994032003</td>
+                                            <td >drh. ENDANG BURNI PRASETYOWATI, M.Kes.</td>
+                                            <td >Kepala Subdirektorat Zoonosis</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1364&project_activity_id=1127">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196812242002122001</td>
+                                            <td >dr. NANCY DIAN ANGGRAENI, M.Epid.</td>
+                                            <td >Kepala Subdirektorat Surveilans</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1365&project_activity_id=1128">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196812312002122006</td>
+                                            <td >dr. NIKEN WASTU PALUPI, M.K.M.</td>
+                                            <td >Kepala Subdirektorat Penyakit Kanker dan Kelainan Darah</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1366&project_activity_id=1129">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196110231985011001</td>
+                                            <td >PUDJO HARTONO, M.P.S.</td>
+                                            <td >Kepala Bagian APBN I</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1367&project_activity_id=1130">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196205141987031002</td>
+                                            <td >INDRA RIZON, S.K.M., M.Kes.</td>
+                                            <td >Kepala Bagian Hubungan Media dan Lembaga</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1368&project_activity_id=1131">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197302062006041001</td>
+                                            <td >dr. MUKTI EKA RAHADIAN, MARS</td>
+                                            <td >Kepala Bidang Analisis Lingkungan Strategis</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1369&project_activity_id=1132">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196812011997031001</td>
+                                            <td >R. BIMO SATRIO R, S.H., M.Kes., M.H.</td>
+                                            <td >Kepala Bagian Pelayanan Hukum</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1370&project_activity_id=1133">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197305151997032002</td>
+                                            <td >EMMY AMALIA, S.K.M., M.P.H.</td>
+                                            <td >Kepala Bagian Pengadaan Pegawai</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1371&project_activity_id=1134">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197503241997031003</td>
+                                            <td >SUMARJAYA, S.Sos., S.K.M., M.M.</td>
+                                            <td >Kepala Bagian Gaji dan Tata Usaha</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1372&project_activity_id=1135">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197603192006041001</td>
+                                            <td >dr. YUDHI PRAMONO, MARS</td>
+                                            <td >Kepala Bagian Tata Usaha</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1373&project_activity_id=1136">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196302111994032005</td>
+                                            <td >Dra. LILI SADIAH JUSUF, Apt.</td>
+                                            <td >Kepala Subdirektorat Produk Perbekalan Kesehatan Rumah Tangga dan Produk Mandiri</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1374&project_activity_id=1137">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196203201982112001</td>
+                                            <td >DEDEH SYA ADAH, S.K.M., M.K.M.</td>
+                                            <td >Kepala Bidang Analisis Kompetensi dan Kebutuhan Pelatihan</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1375&project_activity_id=1138">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197511282005011003</td>
+                                            <td >dr. R. MALIKI ARIF BUDIANTO, M.K.M.</td>
+                                            <td >Kepala Bidang Pembimbingan dan Pengendalian Faktor Risiko Kesehatan Haji</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1376&project_activity_id=1139">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197711272005021004</td>
+                                            <td >LUPI TRILAKSONO , S.F., M.M., Apt.</td>
+                                            <td >Kepala Subdirektorat Alat Kesehatan Kelas C dan D</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1377&project_activity_id=1140">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197408032003121002</td>
+                                            <td >dr. INDRO MURWOKO</td>
+                                            <td >Kepala Bidang Pendayagunaan Sumber Daya danFasilitasi Pelayanan Kesehatan Haji</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1378&project_activity_id=1141">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197205232002121005</td>
+                                            <td >dr. H. ASRAL HASAN</td>
+                                            <td >Kepala Subdirektorat Pelayanan Penunjang</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1379&project_activity_id=1142">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197107072001122001</td>
+                                            <td >drg. WILDAN, M.P.H.</td>
+                                            <td >Kepala Bagian Pengembangan Pegawai</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1380&project_activity_id=1143">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197012061999031001</td>
+                                            <td >dr. MUHAMMAD KARYANA, M.Kes.</td>
+                                            <td >Kepala Bidang Pelayanan Kesehatan</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1381&project_activity_id=1144">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196803061992031013</td>
+                                            <td >SAKRI SABATMAJA, S.K.M., M.Si.</td>
+                                            <td >Kepala Subdirektorat Advokasi dan Kemitraan</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1382&project_activity_id=1145">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197309032002122002</td>
+                                            <td >dr. GITA SWISARI, M.K.M.</td>
+                                            <td >Kepala Subdirektorat Pelayanan KesehatanTradisional Integrasi</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1383&project_activity_id=1146">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197112222002122001</td>
+                                            <td >dr. ENDANG BUDI HASTUTI</td>
+                                            <td >Kepala Subdirektorat HIV AIDS danPenyakit Infeksi Menular Seksual</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1384&project_activity_id=1147">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196203251992032001</td>
+                                            <td >Dr. FITRAH ERNAWATI, M.Sc.</td>
+                                            <td >Kepala Bidang Teknologi Dasar Kesehatan</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1385&project_activity_id=1148">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196209231988031002</td>
+                                            <td >AGUS SRI SUKOCO, S.Kp., M.Kes.</td>
+                                            <td >Kepala Bagian Keuangan dan Barang Milik Negara</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1386&project_activity_id=1149">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196603151991032001</td>
+                                            <td >Dra. SRI ENDAH SUHARTATIK, Apt.</td>
+                                            <td >Kepala Subdirektorat Pengendalian Harga  dan Pengaturan Pengadaan</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1387&project_activity_id=1150">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197711302003122002</td>
+                                            <td >INDAH SUSANTI DONIMANDO, S.Si., Apt.</td>
+                                            <td >Kepala Bagian Program dan Informasi</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1388&project_activity_id=1151">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196406231991032001</td>
+                                            <td >Dra. CUCU CAKRAWATI KOSIM, M.Kes.</td>
+                                            <td >Kepala Subdirektorat Penyehatan Udara, Tanah, dan Kawasan</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1389&project_activity_id=1152">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196106221984031002</td>
+                                            <td >GALOPONG SIANTURI, S.K.M., M.P.H.</td>
+                                            <td >Kepala Subdirektorat Peningkatan Mutu dan Kecukupan Gizi</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1390&project_activity_id=1153">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197208042003122002</td>
+                                            <td >dr. MAYANG SARI, MARS</td>
+                                            <td >Kepala Subdirektorat Kesehatan Balita dan Anak Prasekolah</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1391&project_activity_id=1154">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196405021989021002</td>
+                                            <td >Ir.. RAKHMAT NUGROHO, M.BAT.</td>
+                                            <td >Kepala Subdirektorat Fasilitas Pelayanan Kesehatan Primer</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1392&project_activity_id=1155">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196908271993031003</td>
+                                            <td >HARTONO, S.K.M., M.Kes.</td>
+                                            <td >Kepala Bagian Keuangan dan Barang Milik Negara</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1393&project_activity_id=1156">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197110162005011002</td>
+                                            <td >dr. KAMAL AMIRUDDIN, MARS</td>
+                                            <td >Kepala Subdirektorat Mutu dan Akreditasi Pelayanan Kesehatan Lainnya</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1394&project_activity_id=1157">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196701131998031002</td>
+                                            <td >dr. EDDUWAR IDUL RIYADI, Sp.KJ.</td>
+                                            <td >Kepala Subdirektorat Masalah Kesehatan Jiwa Dewasa dan Lanjut Usia</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1395&project_activity_id=1158">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197106261994032001</td>
+                                            <td >LITA RENATA SIANIPAR, S.K.M., M.Epid.</td>
+                                            <td >Kepala Subdirektorat Penyakit Tropis Menular Langsung</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1396&project_activity_id=1159">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197211261993031002</td>
+                                            <td >WAHONO, S.T., M.M.</td>
+                                            <td >Kepala Bagian Keuangan dan Barang Milik Negara</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1397&project_activity_id=1160">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196304131993122001</td>
+                                            <td >drg. WIDYAWATI, M.K.M.</td>
+                                            <td >Kepala Bagian Pelayanan Masyarakat</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1398&project_activity_id=1161">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196307021986031002</td>
+                                            <td >SUMANTO, S.K.M., M.PHL.</td>
+                                            <td >Kepala Bagian Pengadaan Barang/Jasa</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1399&project_activity_id=1162">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196310241986032001</td>
+                                            <td >CHILDA MAISNI, S.K.M.,M.Kes.</td>
+                                            <td >Kepala Bagian Administrasi Umum Dan Hubungan Masyarakat</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1400&project_activity_id=1163">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196602181994031003</td>
+                                            <td >YUDIANTO, S K M., M.Si.</td>
+                                            <td >Kepala Bidang Pengembangan Sistem Informasi</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1401&project_activity_id=1164">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197002101996031002</td>
+                                            <td >IMIN SURYAMAN, S.Sos.</td>
+                                            <td >Kepala Bagian Rumah Tangga</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1402&project_activity_id=1165">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196208161988032001</td>
+                                            <td >drg. HJ. RADEN ADJENG ERYTA W., MARS</td>
+                                            <td >Kepala Bagian Tata Usaha</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1403&project_activity_id=1166">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197107132002122001</td>
+                                            <td >dr. YULI FARIANTI, M.Epid.</td>
+                                            <td >Kepala Bidang Pembiayaan Kesehatan</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1404&project_activity_id=1167">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197303142002121006</td>
+                                            <td >dr. IMRAN PAMBUDI, M.PHM.</td>
+                                            <td >Kepala Bagian Kerja Sama Kesehatan Multilateral</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1405&project_activity_id=1168">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197411282008121001</td>
+                                            <td >dr. SUSIYO LUCHITO</td>
+                                            <td >Kepala Bagian APBN III</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1406&project_activity_id=1169">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196105051993022001</td>
+                                            <td >Dra. NUR RATIH PURNAMA, Apt., M.Si.</td>
+                                            <td >Kepala Subdirektorat Obat Tradisional dan  Kosmetika</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1407&project_activity_id=1170">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196701031993012001</td>
+                                            <td >drg. ANGGER RINA WIDOWATI, M.K.M.</td>
+                                            <td >Kepala Bidang Pendidikan Berkelanjutan</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1408&project_activity_id=1171">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196111101986032022</td>
+                                            <td >Dra. TRINI NURWATI, M.Kes.</td>
+                                            <td >Kepala Bidang Fasilitasi Standardisasi dan Profesi Tenaga Kesehatan</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1409&project_activity_id=1172">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196106221985031003</td>
+                                            <td >Dr. SONNY PRIAJAYA W, SKM., M.Kes.</td>
+                                            <td >Kepala Sub Direktorat Penyehatan Air dan Sanitasi Dasar</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1410&project_activity_id=1173">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196409101996032001</td>
+                                            <td >dr. LIDWINA SALIM, M.Si.</td>
+                                            <td >Kepala Bagian Tata Usaha</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1411&project_activity_id=1174">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196305201989112001</td>
+                                            <td >dr. ERNA MULATI, M.Sc.,CMFM.</td>
+                                            <td >Kepala Subdirektorat Pengawasan Sarana Produksi dan Distribusi</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1412&project_activity_id=1175">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196407151986031005</td>
+                                            <td >Drs. YULIKARMEN, M.Kes.</td>
+                                            <td >Kepala Bagian Mutasi dan Penilaian Kinerja Pegawai</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1413&project_activity_id=1176">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196211021986032002</td>
+                                            <td >TANTI SISWANTI, S.K.M., M.Kes.</td>
+                                            <td >Kepala Bagian Disiplin dan Kesejahteraan Pegawai</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1414&project_activity_id=1177">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>197206281998032005</td>
+                                            <td >ISMAWININGSIH, S.K.M., MKM.</td>
+                                            <td >Kepala Bagian Kepegawaian dan Umum</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1415&project_activity_id=1178">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+								
+									
+                                        <tr>
+                                            <td>196301281987112001</td>
+                                            <td >YAYAT ROHAYATI, S.H., M.M.</td>
+                                            <td >Kepala Bagian Kepegawaian dan Umum</td>
+                                            <td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=1416&project_activity_id=1179">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
+                                        </tr>
+	
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+                    </div>
+                </div>
+            </div>
+<!-- /.container-fluid -->
+            <footer class="footer text-center"> 2017 &copy; PPSDM </footer>
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Page Content -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="../plugins/bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Menu Plugin JavaScript -->
+    <script src="../plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.js"></script>
+    <!--slimscroll JavaScript -->
+    <script src="js/jquery.slimscroll.js"></script>
+    <!--Wave Effects -->
+    <script src="js/waves.js"></script>
+    <!--Counter js -->
+    <script src="../plugins/bower_components/waypoints/lib/jquery.waypoints.js"></script>
+    <script src="../plugins/bower_components/counterup/jquery.counterup.min.js"></script>
+    <!-- chartist chart -->
+    <script src="../plugins/bower_components/chartist-js/dist/chartist.min.js"></script>
+    <script src="../plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js"></script>
+    <!-- Sparkline chart JavaScript -->
+    <script src="../plugins/bower_components/jquery-sparkline/jquery.sparkline.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/custom.min.js"></script>
+    <script src="js/dashboard1.js"></script>
+    <script src="../plugins/bower_components/toast-master/js/jquery.toast.js"></script>
+	<script>
+	/*
+Please consider that the JS part isn't production ready at all, I just code it to show the concept of merging filters and titles together !
+*/
+$(document).ready(function(){
+    $('.filterable .btn-filter').click(function(){
+        var $panel = $(this).parents('.filterable'),
+        $filters = $panel.find('.filters input'),
+        $tbody = $panel.find('.table tbody');
+        if ($filters.prop('disabled') == true) {
+            $filters.prop('disabled', false);
+            $filters.first().focus();
+        } else {
+            $filters.val('').prop('disabled', true);
+            $tbody.find('.no-result').remove();
+            $tbody.find('tr').show();
+        }
+    });
+
+    $('.filterable .filters input').keyup(function(e){
+        /* Ignore tab key */
+        var code = e.keyCode || e.which;
+        if (code == '9') return;
+        /* Useful DOM data and selectors */
+        var $input = $(this),
+        inputContent = $input.val().toLowerCase(),
+        $panel = $input.parents('.filterable'),
+        column = $panel.find('.filters th').index($input.parents('th')),
+        $table = $panel.find('.table'),
+        $rows = $table.find('tbody tr');
+        /* Dirtiest filter function ever ;) */
+        var $filteredRows = $rows.filter(function(){
+            var value = $(this).find('td').eq(column).text().toLowerCase();
+            return value.indexOf(inputContent) === -1;
+        });
+        /* Clean previous no-result if exist */
+        $table.find('tbody .no-result').remove();
+        /* Show all rows, hide filtered ones (never do that outside of a demo ! xD) */
+        $rows.show();
+        $filteredRows.hide();
+        /* Prepend no-result row if all rows are filtered */
+        if ($filteredRows.length === $rows.length) {
+            $table.find('tbody').prepend($('<tr class="no-result text-center"><td colspan="'+ $table.find('.filters th').length +'">No result found</td></tr>'));
+        }
+    });
+});
+	</script>
+</body>
+
+</html>

@@ -166,6 +166,20 @@
                     </div>
                 </div>
 
+				
+                <div class="row">
+                    <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4">
+                        <div class="white-box">
+                            <h5 class="box-title">Komposisi peserta<br/>berdasarkan level jabatan</h5>
+							<hr/>
+                        
+                            <div id="ct-chart" style="height: 405px;"></div>
+							
+                        </div>
+                    </div>
+                </div>
+				
+				
 
             </div>
             <!-- /.container-fluid -->

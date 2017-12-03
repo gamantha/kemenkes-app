@@ -149,3 +149,388 @@
 - 23:21:19.078 DEBUG: Calling CefQuitMessageLoop()
 - 23:21:20.234 INFO: Ended application
 - 23:21:20.234 INFO: --------------------------------------------------------
+- 01:28:06.063 INFO: --------------------------------------------------------
+- 01:28:06.063 INFO: Started application
+- 01:28:06.063 INFO: Logging to: I:\kemenkes\apps\kemenkes-app\debug.log
+- 01:28:06.063 INFO: Log level = DEBUG4
+- 01:28:06.063 INFO: Starting Mongoose 3.9c web server
+- 01:28:06.063 INFO: WWW directory: I:\kemenkes\apps\kemenkes-app\www\html\
+- 01:28:06.063 INFO: Index files: index.html,index.php
+- 01:28:06.063 INFO: CGI interpreter: I:\kemenkes\apps\kemenkes-app\php\php-cgi.exe
+- 01:28:06.063 INFO: CGI pattern: **.php$
+- 01:28:06.063 INFO: Hide files patterns: 
+- 01:28:06.063 INFO: CGI environment variables set: TMP=C:\Users\nirwana\AppData\Local\Temp\,TEMP=C:\Users\nirwana\AppData\Local\Temp\,TMPDIR=C:\Users\nirwana\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 01:28:06.078 INFO: Web server url: http://127.0.0.1:49423/
+- 01:28:06.078 INFO: remote_debugging_port = 60297
+- 01:28:06.078 DEBUG: Command line string for the browser process: "I:\kemenkes\apps\kemenkes-app\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="I:\kemenkes\apps\kemenkes-app\debug.log" --remote-debugging-port=60297
+- 01:28:06.125 DEBUG: App::OnContextInitialized()
+- 01:28:06.125 DEBUG: Window max width/height = 1512/792
+- 01:28:06.125 DEBUG: GetBrowserWindow(): not found, hwnd = 2949914
+- 01:28:06.125 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 01:28:06.125 DEBUG: BrowserWindow::CreateBrowserControl()
+- 01:28:06.125 DEBUG: StoreBrowserWindow(): hwnd = 2949914
+- 01:28:06.156 DEBUG: ClientHandler::OnAfterCreated()
+- 01:28:06.156 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 01:28:06.172 DEBUG: OnLoadingStateChange: loading=1, url=
+- 01:28:06.016 DEBUG: Command line string for the gpu-process process: "I:\kemenkes\apps\kemenkes-app\phpdesktop-chrome.exe" --type=gpu-process --channel="15764.0.1355465828\1714258584" --no-sandbox --lang=en-US --log-file="I:\kemenkes\apps\kemenkes-app\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x0166 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=9.17.10.2843 --lang=en-US --log-file="I:\kemenkes\apps\kemenkes-app\debug.log" /prefetch:822062411
+- 01:28:06.000 DEBUG: Command line string for the renderer process: "I:\kemenkes\apps\kemenkes-app\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="I:\kemenkes\apps\kemenkes-app\debug.log" --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="15764.1.754103927\369352460" /prefetch:673131151
+- 01:28:06.032 DEBUG: OnBrowserCreated()
+- 01:28:07.484 INFO: GET 200 /
+- 01:28:07.484 INFO: GET 200 /plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css
+- 01:28:07.484 INFO: GET 200 /plugins/bower_components/toast-master/css/jquery.toast.css
+- 01:28:07.484 INFO: GET 200 /plugins/bower_components/morrisjs/morris.css
+- 01:28:07.484 INFO: GET 200 /plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.css
+- 01:28:07.484 INFO: GET 200 /plugins/bower_components/chartist-js/dist/chartist.min.css
+- 01:28:07.266 DEBUG: OnContextCreated()
+- 01:28:07.500 INFO: GET 200 /css/colors/default.css
+- 01:28:07.562 INFO: GET 200 /plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.js
+- 01:28:07.562 INFO: GET 200 /css/animate.css
+- 01:28:07.578 INFO: GET 200 /bootstrap/dist/css/bootstrap.min.css
+- 01:28:07.578 INFO: GET 200 /js/jquery.slimscroll.js
+- 01:28:07.578 INFO: GET 200 /js/waves.js
+- 01:28:07.624 INFO: GET 200 /bootstrap/dist/js/bootstrap.min.js
+- 01:28:07.640 INFO: GET 200 /plugins/bower_components/waypoints/lib/jquery.waypoints.js
+- 01:28:07.687 INFO: GET 200 /plugins/bower_components/jquery/dist/jquery.min.js
+- 01:28:07.687 INFO: GET 200 /plugins/bower_components/counterup/jquery.counterup.min.js
+- 01:28:07.687 INFO: GET 200 /plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js
+- 01:28:07.702 INFO: GET 200 /js/custom.min.js
+- 01:28:07.749 INFO: GET 200 /css/style.css
+- 01:28:07.749 INFO: GET 200 /js/dashboard1.js
+- 01:28:07.765 INFO: GET 200 /plugins/bower_components/toast-master/js/jquery.toast.js
+- 01:28:07.765 INFO: GET 200 /plugins/bower_components/chartist-js/dist/chartist.min.js
+- 01:28:07.765 INFO: GET 200 /plugins/bower_components/jquery-sparkline/jquery.sparkline.min.js
+- 01:28:07.780 INFO: GET 200 /css/spinners.css
+- 01:28:07.796 INFO: GET 200 /plugins/images/logokemenkes.jpg
+- 01:28:07.968 INFO: GET 200 /less/icons/font-awesome/fonts/fontawesome-webfont.woff2?v=4.5.0
+- 01:28:07.233 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/
+[1204/012807:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:28:12.632 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/
+- 01:28:12.570 DEBUG: OnContextCreated()
+- 01:28:12.819 INFO: GET 200 /basic-table.php
+- 01:28:12.913 INFO: GET 200 /bootstrap/dist/fonts/glyphicons-halflings-regular.woff2
+- 01:28:13.365 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/basic-table.php
+[1204/012813:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:28:16.345 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/basic-table.php
+- 01:28:16.282 DEBUG: OnContextCreated()
+- 01:28:16.532 INFO: GET 200 /eselon4.php
+- 01:28:16.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/eselon4.php
+[1204/012816:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:28:17.186 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/eselon4.php
+- 01:28:18.123 DEBUG: OnContextCreated()
+- 01:28:18.357 INFO: GET 200 /eselon3.php
+- 01:28:18.529 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/eselon3.php
+[1204/012818:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:28:19.590 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/eselon3.php
+- 01:28:19.543 DEBUG: OnContextCreated()
+- 01:28:19.792 INFO: GET 200 /eselon2.php
+- 01:28:19.917 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/eselon2.php
+[1204/012819:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:28:20.056 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/eselon2.php
+- 01:28:20.009 DEBUG: OnContextCreated()
+- 01:28:20.259 INFO: GET 200 /basic-table.php
+- 01:28:21.680 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/basic-table.php
+[1204/012821:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:28:22.632 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/basic-table.php
+- 01:28:22.834 INFO: GET 200 /eselon2.php
+- 01:28:22.600 DEBUG: OnContextCreated()
+- 01:28:22.975 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/eselon2.php
+[1204/012822:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:28:23.176 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/eselon2.php
+- 01:28:24.098 DEBUG: OnContextCreated()
+- 01:28:24.348 INFO: GET 200 /eselon3.php
+- 01:28:24.519 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/eselon3.php
+[1204/012824:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:28:25.564 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/eselon3.php
+- 01:28:25.486 DEBUG: OnContextCreated()
+- 01:28:25.736 INFO: GET 200 /eselon4.php
+- 01:28:25.032 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/eselon4.php
+[1204/012825:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:28:31.257 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/eselon4.php
+- 01:28:32.210 DEBUG: OnContextCreated()
+- 01:28:32.444 INFO: GET 200 /eselon3.php
+- 01:28:32.600 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/eselon3.php
+[1204/012832:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:28:33.786 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/eselon3.php
+- 01:28:33.723 DEBUG: OnContextCreated()
+- 01:28:33.957 INFO: GET 200 /eselon2.php
+- 01:28:33.067 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/eselon2.php
+[1204/012833:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:28:34.143 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/eselon2.php
+- 01:28:35.081 DEBUG: OnContextCreated()
+- 01:28:35.315 INFO: GET 200 /basic-table.php
+- 01:28:35.689 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/basic-table.php
+[1204/012835:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:28:36.000 DEBUG: Command line string for the utility process: "I:\kemenkes\apps\kemenkes-app\phpdesktop-chrome.exe" --type=utility --channel="15764.2.651148106\2016993916" --lang=en-US --no-sandbox --no-sandbox --lang=en-US --log-file="I:\kemenkes\apps\kemenkes-app\debug.log" /prefetch:-645351001
+- 01:28:39.104 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/basic-table.php
+- 01:28:40.057 DEBUG: OnContextCreated()
+- 01:28:40.353 INFO: GET 200 /rekapitulasi.php
+- 01:28:41.461 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/rekapitulasi.php
+[1204/012841:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:28:47.278 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/rekapitulasi.php
+- 01:28:48.481 INFO: GET 200 /basic-table.php
+- 01:28:48.263 DEBUG: OnContextCreated()
+- 01:28:48.887 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/basic-table.php
+[1204/012848:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:28:56.061 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/basic-table.php
+- 01:28:56.217 INFO: GET 200 /blank.php
+- 01:28:56.999 DEBUG: OnContextCreated()
+- 01:28:57.326 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/blank.php
+[1204/012857:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:28:58.761 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/blank.php
+- 01:28:58.684 DEBUG: OnContextCreated()
+- 01:28:58.918 INFO: GET 200 /index.php
+- 01:28:58.027 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/index.php
+[1204/012858:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:31:15.606 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/index.php
+- 01:31:15.512 DEBUG: OnContextCreated()
+- 01:31:15.762 INFO: GET 200 /index.php
+- 01:31:15.855 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/index.php
+[1204/013115:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:31:17.431 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/index.php
+- 01:31:17.602 INFO: GET 200 /blank.php
+- 01:31:17.368 DEBUG: OnContextCreated()
+- 01:31:17.696 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/blank.php
+[1204/013117:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:31:18.835 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/blank.php
+- 01:31:18.757 DEBUG: OnContextCreated()
+- 01:31:18.006 INFO: GET 200 /basic-table.php
+- 01:31:19.412 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/basic-table.php
+[1204/013119:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:31:21.783 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/basic-table.php
+- 01:31:21.721 DEBUG: OnContextCreated()
+- 01:31:21.955 INFO: GET 200 /eselon2.php
+- 01:31:21.080 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/eselon2.php
+[1204/013121:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:31:23.452 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/eselon2.php
+- 01:31:23.374 DEBUG: OnContextCreated()
+- 01:31:23.608 INFO: GET 200 /profile.php?profile_id=1034&project_activity_id=801
+- 01:31:24.560 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/profile.php?profile_id=1034&project_activity_id=801
+- 01:31:35.057 DEBUG: ClientHandler::OnBeforePopup()
+- 01:31:35.057 DEBUG: Window max width/height = 1512/792
+- 01:31:35.823 DEBUG: OnBrowserCreated()
+- 01:31:35.057 DEBUG: ClientHandler::OnAfterCreated()
+- 01:31:35.057 DEBUG: GetBrowserWindow(): not found, hwnd = 4523384
+- 01:31:35.057 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 01:31:35.057 DEBUG: StoreBrowserWindow(): hwnd = 4523384
+- 01:31:35.057 DEBUG: Centering popup window relative to its parent
+- 01:31:35.839 DEBUG: OnContextCreated()
+- 01:31:35.073 DEBUG: OnLoadingStateChange: loading=1, url=
+- 01:31:36.260 DEBUG: OnContextCreated()
+- 01:31:37.976 DEBUG: OnLoadingStateChange: loading=0, url=http://projects.ppsdm.com/index.php/projects/activity/pdf?id=801
+- 01:31:57.320 DEBUG: OnBeforeClose() hwnd=4523384
+- 01:31:57.320 DEBUG: RemoveBrowserWindow(): hwnd = 4523384
+- 01:31:57.117 DEBUG: OnBrowserDestroyed()
+- 01:31:59.364 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/profile.php?profile_id=1034&project_activity_id=801
+- 01:31:59.270 DEBUG: OnContextCreated()
+- 01:31:59.582 INFO: GET 200 /rekapitulasi.php
+- 01:32:00.721 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/rekapitulasi.php
+[1204/013200:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:32:15.994 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/rekapitulasi.php
+- 01:32:15.869 DEBUG: OnContextCreated()
+- 01:32:15.165 DEBUG: OnLoadingStateChange: loading=0, url=http://wwww.ppsdm.com/
+- 01:32:17.834 DEBUG: OnLoadingStateChange: loading=1, url=http://wwww.ppsdm.com/
+- 01:32:17.616 DEBUG: OnContextCreated()
+- 01:32:19.316 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/rekapitulasi.php
+[1204/013219:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:32:20.188 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/rekapitulasi.php
+- 01:32:21.360 INFO: GET 200 /basic-table.php
+- 01:32:21.142 DEBUG: OnContextCreated()
+- 01:32:21.859 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/basic-table.php
+[1204/013221:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:32:30.658 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/basic-table.php
+- 01:32:30.814 INFO: GET 200 /blank.php
+- 01:32:30.595 DEBUG: OnContextCreated()
+- 01:32:30.923 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/blank.php
+[1204/013230:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:32:33.043 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/blank.php
+- 01:32:33.965 DEBUG: OnContextCreated()
+- 01:32:33.214 INFO: GET 200 /index.php
+- 01:32:34.339 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/index.php
+[1204/013234:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:48:20.439 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/index.php
+- 01:48:20.361 DEBUG: OnContextCreated()
+- 01:48:20.610 INFO: GET 200 /basic-table.php
+- 01:48:20.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/basic-table.php
+[1204/014820:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:48:22.935 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/basic-table.php
+- 01:48:22.091 INFO: GET 200 /blank.php
+- 01:48:22.872 DEBUG: OnContextCreated()
+- 01:48:22.200 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/blank.php
+[1204/014822:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:48:23.902 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/blank.php
+- 01:48:23.824 DEBUG: OnContextCreated()
+- 01:48:23.073 INFO: GET 200 /basic-table.php
+- 01:48:24.479 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/basic-table.php
+[1204/014824:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:48:24.228 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/basic-table.php
+- 01:48:25.181 DEBUG: OnContextCreated()
+- 01:48:25.415 INFO: GET 200 /basic-table.php
+- 01:48:25.789 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/basic-table.php
+[1204/014825:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:48:26.554 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/basic-table.php
+- 01:48:26.741 INFO: GET 200 /eselon2.php
+- 01:48:26.507 DEBUG: OnContextCreated()
+- 01:48:26.866 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/eselon2.php
+[1204/014826:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:48:27.537 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/eselon2.php
+- 01:48:27.490 DEBUG: OnContextCreated()
+- 01:48:27.724 INFO: GET 200 /eselon3.php
+- 01:48:27.911 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/eselon3.php
+[1204/014827:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:48:28.753 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/eselon3.php
+- 01:48:28.769 DEBUG: OnContextCreated()
+- 01:48:28.019 INFO: GET 200 /eselon4.php
+- 01:48:29.393 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/eselon4.php
+[1204/014829:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:48:59.408 DEBUG: F5 pressed, reloading page
+- 01:48:59.408 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/eselon4.php
+- 01:48:59.345 DEBUG: OnContextCreated()
+- 01:48:59.579 INFO: GET 200 /eselon4.php
+- 01:48:59.610 INFO: GET 200 /plugins/bower_components/toast-master/css/jquery.toast.css
+- 01:48:59.610 INFO: GET 200 /plugins/bower_components/morrisjs/morris.css
+- 01:48:59.610 INFO: GET 200 /plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css
+- 01:48:59.610 INFO: GET 200 /plugins/bower_components/chartist-js/dist/chartist.min.css
+- 01:48:59.610 INFO: GET 200 /plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.css
+- 01:48:59.610 INFO: GET 200 /css/colors/default.css
+- 01:48:59.657 INFO: GET 200 /bootstrap/dist/css/bootstrap.min.css
+- 01:48:59.657 INFO: GET 200 /plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.js
+- 01:48:59.657 INFO: GET 200 /css/animate.css
+- 01:48:59.657 INFO: GET 200 /bootstrap/dist/js/bootstrap.min.js
+- 01:48:59.673 INFO: GET 200 /js/jquery.slimscroll.js
+- 01:48:59.673 INFO: GET 200 /js/waves.js
+- 01:48:59.688 INFO: GET 200 /plugins/bower_components/counterup/jquery.counterup.min.js
+- 01:48:59.688 INFO: GET 200 /plugins/bower_components/waypoints/lib/jquery.waypoints.js
+- 01:48:59.735 INFO: GET 200 /plugins/bower_components/jquery/dist/jquery.min.js
+- 01:48:59.751 INFO: GET 200 /plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js
+- 01:48:59.782 INFO: GET 200 /css/style.css
+- 01:48:59.782 INFO: GET 200 /js/custom.min.js
+- 01:48:59.798 INFO: GET 200 /js/dashboard1.js
+- 01:48:59.813 INFO: GET 200 /plugins/bower_components/chartist-js/dist/chartist.min.js
+- 01:48:59.813 INFO: GET 200 /plugins/bower_components/toast-master/js/jquery.toast.js
+- 01:48:59.813 INFO: GET 200 /plugins/images/logokemenkes.jpg
+- 01:48:59.813 INFO: GET 200 /plugins/bower_components/jquery-sparkline/jquery.sparkline.min.js
+- 01:48:59.860 INFO: GET 200 /css/spinners.css
+- 01:48:59.032 INFO: GET 200 /bootstrap/dist/fonts/glyphicons-halflings-regular.woff2
+- 01:48:59.047 INFO: GET 200 /less/icons/font-awesome/fonts/fontawesome-webfont.woff2?v=4.5.0
+[1204/014900:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:49:00.640 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/eselon4.php
+- 01:49:01.935 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/eselon4.php
+- 01:49:01.982 DEBUG: OnContextCreated()
+- 01:49:01.216 INFO: GET 200 /basic-table.php
+- 01:49:02.668 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/basic-table.php
+[1204/014902:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:49:03.308 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/basic-table.php
+- 01:49:03.588 INFO: GET 200 /eselon2.php
+- 01:49:03.354 DEBUG: OnContextCreated()
+- 01:49:03.744 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/eselon2.php
+[1204/014903:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:49:04.446 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/eselon2.php
+- 01:49:04.384 DEBUG: OnContextCreated()
+- 01:49:04.634 INFO: GET 200 /eselon3.php
+- 01:49:04.836 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/eselon3.php
+[1204/014904:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:49:05.601 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/eselon3.php
+- 01:49:05.554 DEBUG: OnContextCreated()
+- 01:49:05.804 INFO: GET 200 /eselon4.php
+- 01:49:05.100 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/eselon4.php
+[1204/014905:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:49:24.961 DEBUG: F5 pressed, reloading page
+- 01:49:24.961 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/eselon4.php
+- 01:49:24.883 DEBUG: OnContextCreated()
+- 01:49:24.117 INFO: GET 200 /eselon4.php
+- 01:49:24.148 INFO: GET 200 /plugins/bower_components/toast-master/css/jquery.toast.css
+- 01:49:24.148 INFO: GET 200 /plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.css
+- 01:49:24.148 INFO: GET 200 /plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css
+- 01:49:24.148 INFO: GET 200 /plugins/bower_components/chartist-js/dist/chartist.min.css
+- 01:49:24.148 INFO: GET 200 /plugins/bower_components/morrisjs/morris.css
+- 01:49:24.163 INFO: GET 200 /css/colors/default.css
+- 01:49:25.304 INFO: GET 200 /bootstrap/dist/css/bootstrap.min.css
+- 01:49:25.319 INFO: GET 200 /plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.js
+- 01:49:25.319 INFO: GET 200 /css/animate.css
+- 01:49:25.319 INFO: GET 200 /js/jquery.slimscroll.js
+- 01:49:25.335 INFO: GET 200 /js/waves.js
+- 01:49:25.335 INFO: GET 200 /bootstrap/dist/js/bootstrap.min.js
+- 01:49:25.335 INFO: GET 200 /plugins/bower_components/waypoints/lib/jquery.waypoints.js
+- 01:49:25.351 INFO: GET 200 /plugins/bower_components/counterup/jquery.counterup.min.js
+- 01:49:25.351 INFO: GET 200 /plugins/bower_components/jquery/dist/jquery.min.js
+- 01:49:25.351 INFO: GET 200 /plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js
+- 01:49:25.382 INFO: GET 200 /css/style.css
+- 01:49:25.382 INFO: GET 200 /js/custom.min.js
+- 01:49:25.413 INFO: GET 200 /plugins/bower_components/chartist-js/dist/chartist.min.js
+- 01:49:25.413 INFO: GET 200 /js/dashboard1.js
+- 01:49:25.429 INFO: GET 200 /plugins/bower_components/jquery-sparkline/jquery.sparkline.min.js
+- 01:49:25.429 INFO: GET 200 /plugins/bower_components/toast-master/js/jquery.toast.js
+- 01:49:25.429 INFO: GET 200 /css/spinners.css
+- 01:49:25.429 INFO: GET 200 /plugins/images/logokemenkes.jpg
+- 01:49:25.553 INFO: GET 200 /less/icons/font-awesome/fonts/fontawesome-webfont.woff2?v=4.5.0
+- 01:49:25.553 INFO: GET 200 /bootstrap/dist/fonts/glyphicons-halflings-regular.woff2
+- 01:49:25.084 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/eselon4.php
+[1204/014925:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:49:34.399 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/eselon4.php
+- 01:49:34.336 DEBUG: OnContextCreated()
+- 01:49:34.586 INFO: GET 200 /basic-table.php
+- 01:49:34.007 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/basic-table.php
+[1204/014934:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:49:59.686 DEBUG: F5 pressed, reloading page
+- 01:49:59.686 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/basic-table.php
+- 01:49:59.624 DEBUG: OnContextCreated()
+- 01:49:59.858 INFO: GET 200 /basic-table.php
+- 01:49:59.874 INFO: GET 200 /plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css
+- 01:49:59.889 INFO: GET 200 /plugins/bower_components/toast-master/css/jquery.toast.css
+- 01:49:59.889 INFO: GET 200 /plugins/bower_components/morrisjs/morris.css
+- 01:49:59.889 INFO: GET 200 /plugins/bower_components/chartist-js/dist/chartist.min.css
+- 01:49:59.889 INFO: GET 200 /plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.css
+- 01:49:59.905 INFO: GET 200 /css/colors/default.css
+- 01:49:59.936 INFO: GET 200 /bootstrap/dist/css/bootstrap.min.css
+- 01:49:59.936 INFO: GET 200 /bootstrap/dist/js/bootstrap.min.js
+- 01:49:59.936 INFO: GET 200 /css/animate.css
+- 01:49:59.952 INFO: GET 200 /plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.js
+- 01:49:59.952 INFO: GET 200 /js/jquery.slimscroll.js
+- 01:49:59.952 INFO: GET 200 /js/waves.js
+- 01:49:59.967 INFO: GET 200 /plugins/bower_components/jquery/dist/jquery.min.js
+- 01:49:59.983 INFO: GET 200 /plugins/bower_components/waypoints/lib/jquery.waypoints.js
+- 01:49:59.983 INFO: GET 200 /plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js
+- 01:49:59.983 INFO: GET 200 /plugins/bower_components/counterup/jquery.counterup.min.js
+- 01:49:59.998 INFO: GET 200 /css/style.css
+- 01:49:59.998 INFO: GET 200 /plugins/bower_components/chartist-js/dist/chartist.min.js
+- 01:49:59.998 INFO: GET 200 /plugins/bower_components/jquery-sparkline/jquery.sparkline.min.js
+- 01:49:59.998 INFO: GET 200 /js/custom.min.js
+- 01:49:59.998 INFO: GET 200 /js/dashboard1.js
+- 01:49:59.998 INFO: GET 200 /plugins/bower_components/toast-master/js/jquery.toast.js
+- 01:49:59.045 INFO: GET 200 /css/spinners.css
+- 01:49:59.045 INFO: GET 200 /plugins/images/logokemenkes.jpg
+- 01:49:59.186 INFO: GET 200 /bootstrap/dist/fonts/glyphicons-halflings-regular.woff2
+- 01:49:59.186 INFO: GET 200 /less/icons/font-awesome/fonts/fontawesome-webfont.woff2?v=4.5.0
+- 01:50:00.888 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/basic-table.php
+[1204/015000:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:50:12.712 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/basic-table.php
+- 01:50:12.900 INFO: GET 200 /eselon4.php
+- 01:50:12.666 DEBUG: OnContextCreated()
+- 01:50:12.258 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/eselon4.php
+[1204/015012:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:50:13.038 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/eselon4.php
+- 01:50:13.976 DEBUG: OnContextCreated()
+- 01:50:13.226 INFO: GET 200 /eselon3.php
+- 01:50:14.428 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/eselon3.php
+[1204/015014:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:50:14.068 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/eselon3.php
+- 01:50:14.006 DEBUG: OnContextCreated()
+- 01:50:14.255 INFO: GET 200 /eselon2.php
+- 01:50:15.396 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/eselon2.php
+[1204/015015:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 01:50:17.408 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49423/eselon2.php
+- 01:50:17.361 DEBUG: OnContextCreated()
+- 01:50:17.611 INFO: GET 200 /basic-table.php
+- 01:50:17.001 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49423/basic-table.php
+[1204/015017:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:49423/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 02:33:18.601 DEBUG: WM_DESTROY
+- 02:33:18.601 DEBUG: RemoveBrowserWindow(): hwnd = 2949914
+- 02:33:18.601 INFO: Stopping Mongoose web server
+- 02:33:18.601 DEBUG: Mongoose webserver stopped immediately
+- 02:33:18.601 DEBUG: OnBeforeClose() hwnd=329480
+- 02:33:18.601 DEBUG: RemoveBrowserWindow(): hwnd = 329480
+- 02:33:18.601 DEBUG: GetBrowserWindow(): not found, hwnd = 329480
+- 02:33:18.601 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 02:33:18.601 DEBUG: Calling CefQuitMessageLoop()
+- 02:33:18.679 INFO: Ended application
+- 02:33:18.679 INFO: --------------------------------------------------------

@@ -116,14 +116,23 @@
         <div id="page-wrapper">
             <div class="container-fluid">
                 <div class="row bg-title">
-                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
-                        <h4 class="page-title">Daftar Assessee</h4> </div>
+                    <div class="col-lg-10 col-md-5 col-sm-4 col-xs-12">
+                        <h4 class="page-title">
+						<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="basic-table.php"><i class="fa fa-circle m-r-5 text-info"></i>SELURUH PEGAWAI</a>
+						<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="eselon2.php"><i class="fa fa-circle m-r-5 text-inverse"></i>ESELON 2</a>
+						<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="eselon3.php"><i class="fa fa-circle m-r-5 text-inverse"></i>ESELON 3</a>
+						<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="eselon4.php"><i class="fa fa-circle m-r-5 text-inverse"></i>ESELON 4</a>
+						</h4> 
+						
+						</div>
 
                     <!-- /.col-lg-12 -->
                 </div>
                 <div class="row">
                     <div class="col-md-12">
                         <div class="white-box">
+						<h3 class="box-title"></i>CARI SELURUH PEGAWAI</h3>
+						<hr/>
 <div class="container">
     <div class="row">
         <div class="panel panel-primary filterable">
@@ -170,8 +179,8 @@ left join mappingKemenkes b on a.profile_id = b.profile_id';
                                             <td ><?=$row['first_name'];?></td>
                                             <td ><?=str_replace('<br>','',$row['current_position']);?></td>
                                             <td>
-											<a class="btn btn-success" href="profile.php?profile_id=<?=$row['profile_id'];?>&project_activity_id=<?=$row['project_Activity_id'];?>">
-											view</a></td>
+											<a class="btn btn btn-rounded btn-default btn-outline m-r-5" href="profile.php?profile_id=<?=$row['profile_id'];?>&project_activity_id=<?=$row['project_Activity_id'];?>">
+											<i class="ti-check text-success m-r-5"></i>view</a></td>
                                         </tr>
 <?										
    }
