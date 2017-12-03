@@ -1,0 +1,151 @@
+- 02:16:47.124 INFO: --------------------------------------------------------
+- 02:16:47.124 INFO: Started application
+- 02:16:47.124 INFO: Logging to: I:\kemenkes\phpdesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log
+- 02:16:47.124 INFO: Log level = DEBUG4
+- 02:16:47.124 INFO: Starting Mongoose 3.9c web server
+- 02:16:47.124 INFO: WWW directory: I:\kemenkes\phpdesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\www\html\
+- 02:16:47.124 INFO: Index files: index.html,index.php
+- 02:16:47.124 INFO: CGI interpreter: I:\kemenkes\phpdesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\php\php-cgi.exe
+- 02:16:47.124 INFO: CGI pattern: **.php$
+- 02:16:47.124 INFO: Hide files patterns: 
+- 02:16:47.124 INFO: CGI environment variables set: TMP=C:\Users\nirwana\AppData\Local\Temp\,TEMP=C:\Users\nirwana\AppData\Local\Temp\,TMPDIR=C:\Users\nirwana\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 02:16:47.156 INFO: Web server url: http://127.0.0.1:60317/
+- 02:16:47.156 INFO: remote_debugging_port = 58747
+- 02:16:47.156 DEBUG: Command line string for the browser process: "I:\kemenkes\phpdesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="I:\kemenkes\phpdesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --remote-debugging-port=58747
+- 02:16:58.125 INFO: --------------------------------------------------------
+- 02:16:58.125 INFO: Started application
+- 02:16:58.125 INFO: Logging to: I:\kemenkes\phpdesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log
+- 02:16:58.125 INFO: Log level = DEBUG4
+- 02:16:58.125 INFO: Starting Mongoose 3.9c web server
+- 02:16:58.125 INFO: WWW directory: I:\kemenkes\phpdesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\www\html\
+- 02:16:58.125 INFO: Index files: index.html,index.php
+- 02:16:58.125 INFO: CGI interpreter: I:\kemenkes\phpdesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\php\php-cgi.exe
+- 02:16:58.125 INFO: CGI pattern: **.php$
+- 02:16:58.125 INFO: Hide files patterns: 
+- 02:16:58.125 INFO: CGI environment variables set: TMP=C:\Users\nirwana\AppData\Local\Temp\,TEMP=C:\Users\nirwana\AppData\Local\Temp\,TMPDIR=C:\Users\nirwana\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 02:16:58.156 INFO: Web server url: http://127.0.0.1:60321/
+- 02:16:58.172 INFO: remote_debugging_port = 55281
+- 02:16:58.172 DEBUG: Command line string for the browser process: "I:\kemenkes\phpdesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="I:\kemenkes\phpdesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --remote-debugging-port=55281
+- 03:48:34.140 INFO: --------------------------------------------------------
+- 03:48:34.140 INFO: Started application
+- 03:48:34.140 INFO: Logging to: I:\kemenkes\phpdesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log
+- 03:48:34.140 INFO: Log level = DEBUG4
+- 03:48:34.140 INFO: Starting Mongoose 3.9c web server
+- 03:48:34.140 INFO: WWW directory: I:\kemenkes\phpdesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\www\html\
+- 03:48:34.156 INFO: Index files: index.html,index.php
+- 03:48:34.156 INFO: CGI interpreter: I:\kemenkes\phpdesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\php\php-cgi.exe
+- 03:48:34.156 INFO: CGI pattern: **.php$
+- 03:48:34.156 INFO: Hide files patterns: 
+- 03:48:34.156 INFO: CGI environment variables set: TMP=C:\Users\nirwana\AppData\Local\Temp\,TEMP=C:\Users\nirwana\AppData\Local\Temp\,TMPDIR=C:\Users\nirwana\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 03:48:34.187 INFO: Web server url: http://127.0.0.1:49702/
+- 03:48:34.187 INFO: remote_debugging_port = 59241
+- 03:48:34.187 DEBUG: Command line string for the browser process: "I:\kemenkes\phpdesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="I:\kemenkes\phpdesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --remote-debugging-port=59241
+- 05:00:36.203 INFO: --------------------------------------------------------
+- 05:00:36.203 INFO: Started application
+- 05:00:36.203 INFO: Logging to: I:\kemenkes\phpdesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log
+- 05:00:36.203 INFO: Log level = DEBUG4
+- 05:00:36.203 INFO: Starting Mongoose 3.9c web server
+- 05:00:36.203 INFO: WWW directory: I:\kemenkes\phpdesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\www\html\
+- 05:00:36.203 INFO: Index files: index.html,index.php
+- 05:00:36.203 INFO: CGI interpreter: I:\kemenkes\phpdesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\php\php-cgi.exe
+- 05:00:36.203 INFO: CGI pattern: **.php$
+- 05:00:36.203 INFO: Hide files patterns: 
+- 05:00:36.203 INFO: CGI environment variables set: TMP=C:\Users\nirwana\AppData\Local\Temp\,TEMP=C:\Users\nirwana\AppData\Local\Temp\,TMPDIR=C:\Users\nirwana\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 05:00:36.250 INFO: Web server url: http://127.0.0.1:51373/
+- 05:00:36.250 INFO: remote_debugging_port = 59348
+- 05:00:36.250 DEBUG: Command line string for the browser process: "I:\kemenkes\phpdesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="I:\kemenkes\phpdesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --remote-debugging-port=59348
+- 09:17:15.203 INFO: --------------------------------------------------------
+- 09:17:15.203 INFO: Started application
+- 09:17:15.219 INFO: Logging to: I:\kemenkes\phpdesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log
+- 09:17:15.219 INFO: Log level = DEBUG4
+- 09:17:15.219 INFO: Starting Mongoose 3.9c web server
+- 09:17:15.219 INFO: WWW directory: I:\kemenkes\phpdesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\www\html\
+- 09:17:15.219 INFO: Index files: index.html,index.php
+- 09:17:15.219 INFO: CGI interpreter: I:\kemenkes\phpdesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\php\php-cgi.exe
+- 09:17:15.219 INFO: CGI pattern: **.php$
+- 09:17:15.219 INFO: Hide files patterns: 
+- 09:17:15.219 INFO: CGI environment variables set: TMP=C:\Users\nirwana\AppData\Local\Temp\,TEMP=C:\Users\nirwana\AppData\Local\Temp\,TMPDIR=C:\Users\nirwana\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 09:17:15.250 INFO: Web server url: http://127.0.0.1:54027/
+- 09:17:15.250 INFO: remote_debugging_port = 63530
+- 09:17:15.250 DEBUG: Command line string for the browser process: "I:\kemenkes\phpdesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="I:\kemenkes\phpdesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --remote-debugging-port=63530
+[1203/091715:WARNING:dns_config_service_win.cc(673)] Failed to read DnsConfig.
+- 09:20:53.172 INFO: --------------------------------------------------------
+- 09:20:53.172 INFO: Started application
+- 09:20:53.172 INFO: Logging to: I:\kemenkes\phpdesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log
+- 09:20:53.187 INFO: Log level = DEBUG4
+- 09:20:53.187 INFO: Starting Mongoose 3.9c web server
+- 09:20:53.187 INFO: WWW directory: I:\kemenkes\phpdesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\www\html\
+- 09:20:53.187 INFO: Index files: index.html,index.php
+- 09:20:53.187 INFO: CGI interpreter: I:\kemenkes\phpdesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\php\php-cgi.exe
+- 09:20:53.187 INFO: CGI pattern: **.php$
+- 09:20:53.187 INFO: Hide files patterns: 
+- 09:20:53.187 INFO: CGI environment variables set: TMP=C:\Users\nirwana\AppData\Local\Temp\,TEMP=C:\Users\nirwana\AppData\Local\Temp\,TMPDIR=C:\Users\nirwana\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 09:20:53.219 INFO: Web server url: http://127.0.0.1:61531/
+- 09:20:53.219 INFO: remote_debugging_port = 61382
+- 09:20:53.219 DEBUG: Command line string for the browser process: "I:\kemenkes\phpdesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="I:\kemenkes\phpdesktop\phpdesktop-chrome-47.5-rc-php-5.4.33\debug.log" --remote-debugging-port=61382
+- 23:20:59.047 INFO: --------------------------------------------------------
+- 23:20:59.047 INFO: Started application
+- 23:20:59.047 INFO: Logging to: I:\kemenkes\apps\kemenkes-app\debug.log
+- 23:20:59.047 INFO: Log level = DEBUG4
+- 23:20:59.047 INFO: Starting Mongoose 3.9c web server
+- 23:20:59.047 INFO: WWW directory: I:\kemenkes\apps\kemenkes-app\www\html\
+- 23:20:59.047 INFO: Index files: index.html,index.php
+- 23:20:59.047 INFO: CGI interpreter: I:\kemenkes\apps\kemenkes-app\php\php-cgi.exe
+- 23:20:59.047 INFO: CGI pattern: **.php$
+- 23:20:59.047 INFO: Hide files patterns: 
+- 23:20:59.047 INFO: CGI environment variables set: TMP=C:\Users\nirwana\AppData\Local\Temp\,TEMP=C:\Users\nirwana\AppData\Local\Temp\,TMPDIR=C:\Users\nirwana\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 23:20:59.063 INFO: Web server url: http://127.0.0.1:63976/
+- 23:20:59.063 INFO: remote_debugging_port = 53284
+- 23:20:59.063 DEBUG: Command line string for the browser process: "I:\kemenkes\apps\kemenkes-app\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="I:\kemenkes\apps\kemenkes-app\debug.log" --remote-debugging-port=53284
+- 23:21:00.125 DEBUG: App::OnContextInitialized()
+- 23:21:00.125 DEBUG: Window max width/height = 1512/792
+- 23:21:00.125 DEBUG: GetBrowserWindow(): not found, hwnd = 3081870
+- 23:21:00.125 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 23:21:00.125 DEBUG: BrowserWindow::CreateBrowserControl()
+- 23:21:00.125 DEBUG: StoreBrowserWindow(): hwnd = 3081870
+- 23:21:00.141 DEBUG: ClientHandler::OnAfterCreated()
+- 23:21:00.141 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 23:21:00.156 DEBUG: OnLoadingStateChange: loading=1, url=
+- 23:21:00.000 DEBUG: Command line string for the gpu-process process: "I:\kemenkes\apps\kemenkes-app\phpdesktop-chrome.exe" --type=gpu-process --channel="19404.0.1104040143\335601443" --no-sandbox --lang=en-US --log-file="I:\kemenkes\apps\kemenkes-app\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x0166 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=9.17.10.2843 --lang=en-US --log-file="I:\kemenkes\apps\kemenkes-app\debug.log" /prefetch:822062411
+- 23:21:00.000 DEBUG: Command line string for the renderer process: "I:\kemenkes\apps\kemenkes-app\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="I:\kemenkes\apps\kemenkes-app\debug.log" --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="19404.1.266531501\463226464" /prefetch:673131151
+- 23:21:01.967 DEBUG: OnBrowserCreated()
+- 23:21:12.293 INFO: GET 200 /plugins/bower_components/morrisjs/morris.css
+- 23:21:12.278 INFO: GET 200 /plugins/bower_components/toast-master/css/jquery.toast.css
+- 23:21:12.278 INFO: GET 200 /plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css
+- 23:21:12.293 INFO: GET 200 /plugins/bower_components/chartist-js/dist/chartist.min.css
+- 23:21:12.293 INFO: GET 200 /
+- 23:21:12.293 INFO: GET 200 /plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.css
+- 23:21:12.309 INFO: GET 200 /css/colors/default.css
+- 23:21:12.090 DEBUG: OnContextCreated()
+- 23:21:12.434 INFO: GET 200 /plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.js
+- 23:21:12.434 INFO: GET 200 /css/animate.css
+- 23:21:12.434 INFO: GET 200 /bootstrap/dist/css/bootstrap.min.css
+- 23:21:12.434 INFO: GET 200 /bootstrap/dist/js/bootstrap.min.js
+- 23:21:12.449 INFO: GET 200 /js/waves.js
+- 23:21:12.449 INFO: GET 200 /js/jquery.slimscroll.js
+- 23:21:12.465 INFO: GET 200 /plugins/bower_components/waypoints/lib/jquery.waypoints.js
+- 23:21:12.481 INFO: GET 200 /plugins/bower_components/jquery/dist/jquery.min.js
+- 23:21:12.481 INFO: GET 200 /plugins/bower_components/counterup/jquery.counterup.min.js
+- 23:21:12.527 INFO: GET 200 /css/style.css
+- 23:21:12.527 INFO: GET 200 /plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js
+- 23:21:12.543 INFO: GET 200 /js/custom.min.js
+- 23:21:12.574 INFO: GET 200 /plugins/bower_components/jquery-sparkline/jquery.sparkline.min.js
+- 23:21:12.574 INFO: GET 200 /plugins/bower_components/toast-master/js/jquery.toast.js
+- 23:21:12.574 INFO: GET 200 /js/dashboard1.js
+- 23:21:12.574 INFO: GET 200 /plugins/bower_components/chartist-js/dist/chartist.min.js
+- 23:21:12.668 INFO: GET 200 /plugins/images/logokemenkes.jpg
+- 23:21:12.668 INFO: GET 200 /css/spinners.css
+- 23:21:12.980 INFO: GET 200 /less/icons/font-awesome/fonts/fontawesome-webfont.woff2?v=4.5.0
+[1203/232113:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'querySelector' of null", source: http://127.0.0.1:63976/plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js (56)
+- 23:21:14.134 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63976/
+- 23:21:19.062 DEBUG: WM_DESTROY
+- 23:21:19.062 DEBUG: RemoveBrowserWindow(): hwnd = 3081870
+- 23:21:19.062 INFO: Stopping Mongoose web server
+- 23:21:19.062 DEBUG: Mongoose webserver stopped immediately
+- 23:21:19.062 DEBUG: OnBeforeClose() hwnd=2098664
+- 23:21:19.062 DEBUG: RemoveBrowserWindow(): hwnd = 2098664
+- 23:21:19.062 DEBUG: GetBrowserWindow(): not found, hwnd = 2098664
+- 23:21:19.062 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 23:21:19.078 DEBUG: Calling CefQuitMessageLoop()
+- 23:21:20.234 INFO: Ended application
+- 23:21:20.234 INFO: --------------------------------------------------------
