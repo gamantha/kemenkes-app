@@ -32,6 +32,32 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
+<script src="js/amcharts.js"></script>
+<script src="js/xy.js"></script>
+<script src="js/pie.js"></script>
+<script src="js/responsive.min.js"></script>
+<script src="js/export.js"></script>
+<script src="js/light.js"></script>
+<script src="js/data-eselon<?=$_GET['eselon'];?>.js"></script>
+<style>
+#chartdiv {
+  width: 100%;
+  height: 100%;
+  min-width: 300px;
+  min-height: 700px;
+  max-width: 700px;
+  max-height: 700px;
+}
+#chartpotensi {
+  width: 100%;
+  height: 300px;
+}
+
+#chartkompetensi {
+  width: 100%;
+  height: 300px;
+}
+</style>
 </head>
 
 <body class="fix-header">
@@ -99,10 +125,10 @@
             <div class="container-fluid">
                 <div class="row bg-title">
                     <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
-                        <h4 class="page-title">Profile page</h4> </div>
-                </div>
+                        <h4 class="page-title">Dashboard</h4> </div>
 
-				
+                    <!-- /.col-lg-12 -->
+                </div>
 <?
    class MyDB extends SQLite3
    {
@@ -118,8 +144,8 @@
       echo "";
    }
 
-   $sql ='select * from kemenkes_master_profile where profile_id = "'.$_GET['profile_id'].'"';
-//echo $sql;
+   $sql ='select level, count(*) jumlah from kemenkes_master_profile group by level order by level';
+
    $result  = $db->query($sql);
    $row = array(); 
        $i = 0;
@@ -128,105 +154,85 @@
 
              $i++;
 
-              $row[$i]['first_name'] = $res['first_name'];
-              $row[$i]['nip'] = $res['nip'];
-              $row[$i]['profile_id'] = $res['profile_id'];
-              $row[$i]['unit'] = $res['unit'];
               $row[$i]['level'] = $res['level'];
-              $row[$i]['rumpun'] = $res['rumpun'];
-              $row[$i]['satuan_kerja'] = $res['satuan_kerja'];
-              $row[$i]['current_position'] = $res['current_position'];
-              $row[$i]['home_address'] = $res['home_address'];
-              $row[$i]['birthplace'] = $res['birthplace'];
-              $row[$i]['education'] = $res['education'];
+              $row[$i]['jumlah'] = $res['jumlah'];
            
           }
 
-          //print_r($row);
+         // print_r($row);
    $db->close();
-?> 				
-				
+?>   
+   <div class="row">
+
+			                    <div class="col-lg-4 col-sm-4 col-xs-4">
+                        <div class="white-box analytics-info">
+                            <h3 class="box-title">JUMLAH ESELON <?=$_GET['eselon'];?></h3>
+                            <ul class="list-inline two-part">
+                                <li>
+                                    <div id="sparklinedash"></div>
+                                </li>
+                                <li class="text-right"><i class="ti-arrow-up text-success"></i> <span class="counter text-success">
+								<?
+								if ($_GET['eselon'] ==2) {echo $row[3]['jumlah'];}
+								else if ($_GET['eselon'] ==3) {echo $row[1]['jumlah'];}
+								else {echo $row[2]['jumlah'];}
+								?>
+								</span></li>
+                            </ul>
+                        </div>
+                    </div>
+</div>
 				
                 <div class="row">
-                    <div class="col-md-3 col-xs-15">
+ 
+
+                    <div class="col-lg-8 col-sm-8 col-xs-8">
                         <div class="white-box">
-                            <div class="user-bg"> <img width="100%" alt="user" src="http://projects.ppsdm.com/project-uploads/1/photos/<?=$row[1]['profile_id'];?>.jpg">
-                                <div class="overlay-box">
-                                    <div class="user-content">
-                                        <a href="javascript:void(0)"><img src="http://projects.ppsdm.com/project-uploads/1/photos/<?=$row[1]['profile_id'];?>.jpg" class="thumb-lg img-circle" alt="img"></a>
-                                        <h4 class="text-white"><?=$row[1]['first_name'];?></h4> </div>
-                                </div>
-                            </div>
-                            <div class="user-btm-box">
-							<center><h4><?=$row[1]['nip'];?><h4></center>
-                            </div>
+                            <h5 class="box-title">Ninecell ESELON <?=$_GET['eselon'];?></h5>
+							<hr/>
+                        
+                            <div id="chartdiv"></div>
+							
                         </div>
                     </div>
-                    <div class="col-md-8 col-xs-12">
-                        <div class="white-box">
-                            <form class="form-horizontal form-material">
-                                <div class="form-group">
-                                    <label class="col-md-12">Nama Lengkap</label>
-                                    <div class="col-md-12">
-                                        <input type="text" disabled placeholder="<?=$row[1]['first_name'];?>" class="form-control form-control-line"> </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="example-email" class="col-md-12">NIP</label>
-                                    <div class="col-md-12">
-                                        <input type="email"  disabled placeholder="<?=$row[1]['nip'];?>" class="form-control form-control-line" name="example-email" id="example-email"> </div>
-                                </div>
-                               <div class="form-group">
-                                    <label class="col-md-12">Jabatan</label>
-                                    <div class="col-md-12">
-                                        <input type="text" disabled placeholder="<?=$row[1]['current_position'];?>" class="form-control form-control-line"> </div>
-                                </div>
-                               <div class="form-group">
-                                    <label class="col-md-12">Unit</label>
-                                    <div class="col-md-12">
-                                        <input type="text" disabled placeholder="<?=$row[1]['unit'];?>" class="form-control form-control-line"> </div>
-                                </div>
-								                               <div class="form-group">
-                                    <label class="col-md-12">Rumpun</label>
-                                    <div class="col-md-12">
-                                        <input type="text" disabled placeholder="<?=$row[1]['rumpun'];?>" class="form-control form-control-line"> </div>
-                                </div>
-                               <div class="form-group">
-                                    <label class="col-md-12">Alamat</label>
-                                    <div class="col-md-12">
-                                        <input type="text" disabled placeholder="<?=$row[1]['home_address'];?>" class="form-control form-control-line"> </div>
-                                </div>
-								                               <div class="form-group">
-                                    <label class="col-md-12">Pendidikan</label>
-                                    <div class="col-md-12">
-                                        <input type="text" disabled placeholder="<?=$row[1]['education'];?>" class="form-control form-control-line"> </div>
-                                </div>
-                               <div class="form-group">
-                                    <label class="col-md-12">Satuan Kerja</label>
-                                    <div class="col-md-12">
-                                        <input type="text" disabled placeholder="<?=$row[1]['satuan_kerja'];?>" class="form-control form-control-line"> </div>
-                                </div>								
-                                <div class="form-group">
-                                    <div class="col-sm-12">
-										
-  <a  target="_blank" class="btn btn-success" href="javascript:window.open('http://projects.ppsdm.com/index.php/projects/activity/pdf?id=<?=$_GET['project_activity_id'];?>', '', 'width=800,height=600')">
-    View Report
-  </a>
-  </a>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
+               
+
+					
+                    <div class="col-lg-4 col-sm-4 col-xs-4">
+                        <div class="white-box analytics-info">
+						 <h5 class="box-title">POTENSI ESELON <?=$_GET['eselon'];?></h5>
+							<hr/>
+				<div id="chartpotensi"></div>
+           </div>
                     </div>
-                </div>
-                <!-- /.row -->
+					
+					
+					                    <div class="col-lg-4 col-sm-4 col-xs-4">
+                        <div class="white-box analytics-info">
+						 <h5 class="box-title">KOMPETENSI ESELON <?=$_GET['eselon'];?></h5>
+							<hr/>
+				<div id="chartkompetensi"></div>
+           </div>
+                    </div>
+					
+					
+                </div>				
+
+
             </div>
             <!-- /.container-fluid -->
             <footer class="footer text-center"> 2017 &copy; PPSDM </footer>
         </div>
-        <!-- /#page-wrapper -->
+        <!-- ============================================================== -->
+        <!-- End Page Content -->
+        <!-- ============================================================== -->
     </div>
-    <!-- /#wrapper -->
-    <!-- jQuery -->
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
     <script src="../plugins/bower_components/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="bootstrap/dist/js/bootstrap.min.js"></script>
@@ -236,8 +242,18 @@
     <script src="js/jquery.slimscroll.js"></script>
     <!--Wave Effects -->
     <script src="js/waves.js"></script>
+    <!--Counter js -->
+    <script src="../plugins/bower_components/waypoints/lib/jquery.waypoints.js"></script>
+    <script src="../plugins/bower_components/counterup/jquery.counterup.min.js"></script>
+    <!-- chartist chart -->
+    <script src="../plugins/bower_components/chartist-js/dist/chartist.min.js"></script>
+    <script src="../plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js"></script>
+    <!-- Sparkline chart JavaScript -->
+    <script src="../plugins/bower_components/jquery-sparkline/jquery.sparkline.min.js"></script>
     <!-- Custom Theme JavaScript -->
     <script src="js/custom.min.js"></script>
+    <script src="js/dashboard1.js"></script>
+    <script src="../plugins/bower_components/toast-master/js/jquery.toast.js"></script>
 </body>
 
 </html>
