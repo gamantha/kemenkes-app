@@ -133,8 +133,8 @@
                         <div class="white-box">
 						<h3 class="box-title"></i>CARI SELURUH PEGAWAI</h3>
 						<hr/>
-<div class="container">
-    <div class="row">
+
+   
         <div class="panel panel-primary filterable">
             <div >
                 <div class="pull-right">
@@ -189,8 +189,8 @@ left join mappingKemenkes b on a.profile_id = b.profile_id';
                 </tbody>
             </table>
         </div>
-    </div>
-</div>
+   
+
                     </div>
                 </div>
             </div>

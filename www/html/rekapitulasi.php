@@ -58,7 +58,7 @@
 }
 th.rotate {
   /* Something you can count on */
-  height: 180px;
+  height: 170px;
   white-space: nowrap;
   text-decoration: none;
 }
@@ -69,7 +69,7 @@ th.rotate > div {
     translate(0px, 80px)
     /* 45 is really 360 - 45 */
     rotate(270deg);
-  width: 30px;
+  width: 20px;
   text-decoration: none;
 }
 th.rotate > div > span {
@@ -139,26 +139,23 @@ th.rotate > div > span {
                 <div class="row bg-title">
                     <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
                         <h4 class="page-title">Tabel Rekapitulasi</h4> </div>
-
-                    <!-- /.col-lg-12 -->
+                      <div >
+                <div class="pull-right">
+                    <a class="btn btn-success" href="./files/kemenkes_master_table_final.xlsx">Download</a>
+                </div>
+            </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
                         <div class="white-box">
 <div class="container">
     <div class="row">
-        <div class="panel panel-primary filterable">
-		<!--
-            <div >
-                <div class="pull-right">
-                    <button class="btn btn-default btn-xs btn-filter"><span class="glyphicon glyphicon-filter"></span> Filter</button>
-                </div>
-            </div>
-		-->
-            <table border="1px" style="text-align:center">
+       
+
+            <table border="1px" style="text-align:center;font-size:10px;">
                 <thead>
                     <tr>
-                        <th style="text-align:center" >NAMA</th>
+                        <th style="text-align:center" >NAMA PEGAWAI</th>
 						<th class="rotate"><div><span>INTELIGENSI UMUM</span></div></th>
 						<th class="rotate"><div><span>BERPIKIR ANALITIS</span></div></th>
 						<th class="rotate"><div><span>LOGIKA BERFIKIR</span></div></th>
@@ -218,9 +215,9 @@ th.rotate > div > span {
 ?>
 								
 									
-                                        <tr style="text-align:center;font-size:11px;">
+                                        <tr style="text-align:center;font-size:10px;">
                                             
-                                            <td style="text-align:left;font-size:11px;"><b><?=$row['name'];?></b></td>
+                                            <td style="text-align:left;font-size:10px;padding-left:5px;"><b><?=$row['name'];?></b></td>
                                             <td ><?=$row['inteligensi_umum'];?></td>
                                             <td ><?=$row['berpikir_analitis'];?></td>
                                             <td ><?=$row['logika_berfikir'];?></td>
@@ -261,7 +258,7 @@ th.rotate > div > span {
 ?>	
                 </tbody>
             </table>
-        </div>
+        
     </div>
 </div>
                     </div>
