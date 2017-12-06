@@ -173,9 +173,9 @@
                                 </li>
                                 <li class="text-right"><i class="ti-arrow-up text-success"></i> <span class="counter text-success">
 								<?
-								if ($_GET['eselon'] ==2) {echo $row[3]['jumlah'];}
-								else if ($_GET['eselon'] ==3) {echo $row[1]['jumlah'];}
-								else {echo $row[2]['jumlah'];}
+								if ($_GET['eselon'] ==2) {echo '29';}
+								else if ($_GET['eselon'] ==3) {echo '119';}
+								else {echo '413';}
 								?>
 								</span></li>
                             </ul>

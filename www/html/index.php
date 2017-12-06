@@ -117,40 +117,7 @@
                         <h4 class="page-title">Dashboard</h4> </div>
 
                     <!-- /.col-lg-12 -->
-                </div>
-<?
-   class MyDB extends SQLite3
-   {
-      function __construct()
-      {
-         $this->open('kemenkes.sqlite');
-      }
-   }
-   $db = new MyDB();
-   if(!$db){
-      echo "<span class='text-danger'>".$db->lastErrorMsg()."</span>";
-   } else {
-      echo "";
-   }
-
-   $sql ='select level, count(*) jumlah from kemenkes_master_profile group by level order by level';
-
-   $result  = $db->query($sql);
-   $row = array(); 
-       $i = 0;
-
-         while($res = $result->fetchArray(SQLITE3_ASSOC)){
-
-             $i++;
-
-              $row[$i]['level'] = $res['level'];
-              $row[$i]['jumlah'] = $res['jumlah'];
-           
-          }
-
-         // print_r($row);
-   $db->close();
-?>   
+                </div> 
 
                 <div class="row">
                     <div class="col-lg-4 col-sm-4 col-xs-4">
@@ -160,7 +127,7 @@
                                 <li>
                                     <div id="sparklinedash"></div>
                                 </li>
-                                <li class="text-right"><i class="ti-arrow-up text-success"></i> <span class="counter text-success"><?=$row[3]['jumlah'];?></span></li>
+                                <li class="text-right"><i class="ti-arrow-up text-success"></i> <span class="counter text-success">29</span></li>
                             </ul>
                         </div>
                     </div>
@@ -171,7 +138,7 @@
                                 <li>
                                     <div id="sparklinedash2"></div>
                                 </li>
-                                <li class="text-right"><i class="ti-arrow-up text-purple"></i> <span class="counter text-purple"><?=$row[1]['jumlah'];?></span></li>
+                                <li class="text-right"><i class="ti-arrow-up text-purple"></i> <span class="counter text-purple">119</span></li>
                             </ul>
                         </div>
                     </div>
@@ -182,7 +149,7 @@
                                 <li>
                                     <div id="sparklinedash3"></div>
                                 </li>
-                                <li class="text-right"><i class="ti-arrow-up text-info"></i> <span class="counter text-info"><?=$row[2]['jumlah'];?></span></li>
+                                <li class="text-right"><i class="ti-arrow-up text-info"></i> <span class="counter text-info">413</span></li>
                             </ul>
                         </div>
                     </div>
