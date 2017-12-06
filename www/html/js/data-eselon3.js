@@ -346,13 +346,13 @@ var chart = AmCharts.makeChart( "chartpotensi", {
   "labelRadius": -22,
   "dataProvider": [ {
     "Potensi": "K-1",
-    "nilai": 2
+    "nilai": 4
   }, {
     "Potensi": "K-2",
-    "nilai": 115
+    "nilai": 88
   }, {
     "Potensi": "K-3",
-    "nilai": 6
+    "nilai": 27
   },],
   "valueField": "nilai",
   "titleField": "Potensi",
@@ -368,13 +368,13 @@ var chart = AmCharts.makeChart( "chartkompetensi", {
   "labelRadius": -22,
   "dataProvider": [ {
     "Potensi": "K-1",
-    "nilai": 4
+    "nilai": 2
   }, {
     "Potensi": "K-2",
-    "nilai": 88
+    "nilai": 115
   }, {
     "Potensi": "K-3",
-    "nilai": 31
+    "nilai": 2
   },],
   "valueField": "nilai",
   "titleField": "Potensi",

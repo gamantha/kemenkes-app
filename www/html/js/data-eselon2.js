@@ -11,7 +11,6 @@ var bullets = [
 {"x" :88,"y" :82,"url" : "profile.php?profile_id=1039&project_activity_id=806","value" : "dr. IMRAN AGUS NURALI, Sp.KO [K-2]",},
 {"x" :89,"y" :77,"url" : "profile.php?profile_id=1040&project_activity_id=807","value" : "dr. TRI HESTY WIDYASTOETI MARWOTOSOEKO, Sp.M [K-2]",},
 {"x" :86,"y" :92,"url" : "profile.php?profile_id=1041&project_activity_id=808","value" : "drg. R VENSYA SITOHANG, M.Epid [K-2]",},
-{"x" :0,"y" :0,"url" : "profile.php?profile_id=1042&project_activity_id=809","value" : "dr. ELIZABETH JANE SOEPARDI, MPH, Dsc [K-3]",},
 {"x" :92,"y" :89,"url" : "profile.php?profile_id=1043&project_activity_id=810","value" : "dr. TRISA WAHJUNI PUTRI, M.Kes [K-2]",},
 {"x" :97,"y" :83,"url" : "profile.php?profile_id=1044&project_activity_id=811","value" : "Dr. ACHMAD YURIANTO [K-2]",},
 {"x" :108,"y" :97,"url" : "profile.php?profile_id=1045&project_activity_id=812","value" : "drg. ARIANTI ANAYA, M. K.M [K-2]",},
@@ -253,13 +252,13 @@ var chart = AmCharts.makeChart( "chartpotensi", {
   "labelRadius": -22,
   "dataProvider": [ {
     "Potensi": "K-1",
-    "nilai": 6
+    "nilai": 5
   }, {
     "Potensi": "K-2",
-    "nilai": 23
+    "nilai": 20
   }, {
     "Potensi": "K-3",
-    "nilai": 1
+    "nilai": 4
   },],
   "valueField": "nilai",
   "titleField": "Potensi",
@@ -275,13 +274,13 @@ var chart = AmCharts.makeChart( "chartkompetensi", {
   "labelRadius": -22,
   "dataProvider": [ {
     "Potensi": "K-1",
-    "nilai": 2
+    "nilai": 6
   }, {
     "Potensi": "K-2",
-    "nilai": 20
+    "nilai": 23
   }, {
     "Potensi": "K-3",
-    "nilai": 5
+    "nilai": 0
   },],
   "valueField": "nilai",
   "titleField": "Potensi",
