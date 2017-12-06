@@ -215,7 +215,7 @@ th.rotate > div > span {
       echo "";
    }
 
-   $sql ='select * from kemenkes_master_table_final';
+   $sql ='select * from kemenkes_master_table_final_3 where status= "active"';
 
    $ret = $db->query($sql);
    while($row = $ret->fetchArray(SQLITE3_ASSOC) ){
