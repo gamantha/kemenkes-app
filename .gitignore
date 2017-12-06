@@ -3,3 +3,6 @@
 /webcache/
 debug.log
 debug.log.orig
+webcache/*
+webcache/GPUCache/data_0
+webcache/GPUCache/index

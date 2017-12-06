@@ -148,7 +148,7 @@ th.rotate > div > span {
                         <h4 class="page-title">Tabel Rekapitulasi</h4> </div>
                       <div >
                 <div class="pull-right">
-                    <a class="btn btn-success" href="./files/rekapitulasi_app.xlsx">Download</a>
+                    <a class="btn btn-success" href="./files/kemenkes_master_table_final.xlsx">Download</a>
                 </div>
             </div>
                 </div>
@@ -162,16 +162,40 @@ th.rotate > div > span {
             <table border="1px" style="text-align:center;font-size:10px;">
                 <thead>
                     <tr>
-					<th style="text-align:center" ><div><span>NO.</span></div></th>
-                        <th style="text-align:center" >NAMA PEGAWAI</th>					
-						<th style="text-align:center" ><div><span>NIP</span></div></th>
-						<th style="text-align:center" ><div><span>JABATAN</span></div></th>
-						<th style="text-align:center" ><div><span>PROSENTASE POTENSI</span></div></th>
-						<th style="text-align:center" ><div><span>REK POTENSI</span></div></th>
-						<th style="text-align:center" ><div><span>PROSENTASE KOMPETENSI</span></div></th>
-						<th style="text-align:center" ><div><span>REK KOMPETENSI</span></div></th>
-						<th style="text-align:center" ><div><span>POSISI 9CELL</span></div></th>
-		
+                        <th style="text-align:center" >NAMA PEGAWAI</th>
+						<th class="rotate"><div><span>INTELIGENSI UMUM</span></div></th>
+						<th class="rotate"><div><span>BERPIKIR ANALITIS</span></div></th>
+						<th class="rotate"><div><span>LOGIKA BERFIKIR</span></div></th>
+						<th class="rotate"><div><span>KEMAMPUAN BELAJAR</span></div></th>
+						<th class="rotate"><div><span>EQ</span></div></th>
+						<th class="rotate"><div><span>SISTEMATIKA KERJA</span></div></th>
+						<th class="rotate"><div><span>TEMPO KERJA</span></div></th>
+						<th class="rotate"><div><span>KETELITIAN</span></div></th>
+						<th class="rotate"><div><span>KETEKUNAN</span></div></th>
+						<th class="rotate"><div><span>MOTIVASI</span></div></th>
+						<th class="rotate"><div><span>KONSEP DIRI</span></div></th>
+						<th class="rotate"><div><span>EMPATI</span></div></th>
+						<th class="rotate"><div><span>PEMAHAMAN SOSIAL</span></div></th>
+						<th class="rotate"><div><span>PENGATURAN DIRI</span></div></th>
+						<th class="rotate"><div><span>INT</span></div></th>
+						<th class="rotate"><div><span>BPL</span></div></th>
+						<th class="rotate"><div><span>KSN</span></div></th>
+						<th class="rotate"><div><span>PFS</span></div></th>
+						<th class="rotate"><div><span>BST</span></div></th>
+						<th class="rotate"><div><span>ATP</span></div></th>
+						<th class="rotate"><div><span>BKS</span></div></th>
+						<th class="rotate"><div><span>BAN</span></div></th>
+						<th class="rotate"><div><span>BKU</span></div></th>
+						<th class="rotate"><div><span>KTO</span></div></th>
+						<th class="rotate"><div><span>PKP</span></div></th>
+						<th class="rotate"><div><span>INO</span></div></th>
+						<th class="rotate"><div><span>PPO</span></div></th>
+						<th class="rotate"><div><span>PIN</span></div></th>
+						<th class="rotate"><div><span>KPT</span></div></th>
+						<th class="rotate"><div><span>NGO</span></div></th>
+						<th class="rotate"><div><span>ITP</span></div></th>
+						<th class="rotate"><div><span>MOL</span></div></th>
+						<th class="rotate"><div><span>TOTAL LKJ</span></div></th>	
 					</tr>				
                 </thead>
                 <tbody>
@@ -191,7 +215,7 @@ th.rotate > div > span {
       echo "";
    }
 
-   $sql ='select *  from rekapitulasi_app';
+   $sql ='select * from kemenkes_master_table_final where status= "active"';
 
    $ret = $db->query($sql);
    while($row = $ret->fetchArray(SQLITE3_ASSOC) ){
@@ -199,15 +223,41 @@ th.rotate > div > span {
 								
 									
                                         <tr style="text-align:center;font-size:10px;">
-                                            <td ><?=$row['NOMOR'];?></td>
-                                            <td style="text-align:left;font-size:10px;padding-left:5px;"><b><?=$row['NAMALENGKAP'];?></b></td>                                            
-                                            <td ><?=$row['NIP'];?></td>
-                                            <td ><?=$row['JABATAN'];?></td>
-                                            <td ><?=$row['PROSENTASEPOTENSI'];?></td>
-                                            <td ><?=$row['REK-POTENSI'];?></td>
-                                            <td ><?=$row['PROSENTASEKOMPETENSI'];?></td>
-                                            <td ><?=$row['REK-KOMPETENSI'];?></td>
-                                            <td ><?=$row['POSISI9CELL'];?></td>
+                                            
+                                            <td style="text-align:left;font-size:10px;padding-left:5px;"><b><?=$row['name'];?></b></td>
+                                            <td ><?=$row['inteligensi_umum'];?></td>
+                                            <td ><?=$row['berpikir_analitis'];?></td>
+                                            <td ><?=$row['logika_berfikir'];?></td>
+                                            <td ><?=$row['kemampuan_belajar'];?></td>
+                                            <td ><?=$row['eq'];?></td>
+                                            <td ><?=$row['sistematika_kerja'];?></td>
+                                            <td ><?=$row['tempo_kerja'];?></td>
+                                            <td ><?=$row['ketelitian'];?></td>
+                                            <td ><?=$row['ketekunan'];?></td>
+                                            <td ><?=$row['motivasi'];?></td>
+                                            <td ><?=$row['konsep_diri'];?></td>
+                                            <td ><?=$row['empati'];?></td>
+                                            <td ><?=$row['pemahaman_sosial'];?></td>
+                                            <td ><?=$row['pengaturan_diri'];?></td>
+                                            <td ><?=$row['int'];?></td>
+                                            <td ><?=$row['bpl'];?></td>
+                                            <td ><?=$row['ksn'];?></td>
+                                            <td ><?=$row['pfs'];?></td>
+                                            <td ><?=$row['bst'];?></td>
+                                            <td ><?=$row['atp'];?></td>
+                                            <td ><?=$row['bks'];?></td>
+                                            <td ><?=$row['ban'];?></td>
+                                            <td ><?=$row['bku'];?></td>
+                                            <td ><?=$row['kto'];?></td>
+                                            <td ><?=$row['pkp'];?></td>
+                                            <td ><?=$row['ino'];?></td>
+                                            <td ><?=$row['ppo'];?></td>
+                                            <td ><?=$row['pin'];?></td>
+                                            <td ><?=$row['kpt'];?></td>
+                                            <td ><?=$row['ngo'];?></td>
+                                            <td ><?=$row['itp'];?></td>
+                                            <td ><?=$row['mol'];?></td>
+                                            <td ><?=$row['total_lkj'];?></td>
                                         </tr>
 <?										
    }
