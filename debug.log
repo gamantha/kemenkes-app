@@ -1,0 +1,36 @@
+- 10:52:43.639 INFO: --------------------------------------------------------
+- 10:52:43.639 INFO: Started application
+- 10:52:43.639 INFO: Logging to: I:\kemenkes\apps\kemenkes-app\debug.log
+- 10:52:43.639 INFO: Log level = DEBUG4
+- 10:52:43.639 INFO: Starting Mongoose 3.9c web server
+- 10:52:43.639 INFO: WWW directory: I:\kemenkes\apps\kemenkes-app\www\html\
+- 10:52:43.639 INFO: Index files: index.html,index.php
+- 10:52:43.639 INFO: CGI interpreter: I:\kemenkes\apps\kemenkes-app\php\php-cgi.exe
+- 10:52:43.639 INFO: CGI pattern: **.php$
+- 10:52:43.639 INFO: Hide files patterns: 
+- 10:52:43.639 INFO: CGI environment variables set: TMP=C:\Users\nirwana\AppData\Local\Temp\,TEMP=C:\Users\nirwana\AppData\Local\Temp\,TMPDIR=C:\Users\nirwana\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 10:52:43.717 INFO: Web server url: http://127.0.0.1:54052/
+- 10:52:43.717 INFO: remote_debugging_port = 59093
+- 10:52:43.717 DEBUG: Command line string for the browser process: "I:\kemenkes\apps\kemenkes-app\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="I:\kemenkes\apps\kemenkes-app\debug.log" --remote-debugging-port=59093
+- 10:52:45.000 DEBUG: Command line string for the gpu-process process: "I:\kemenkes\apps\kemenkes-app\phpdesktop-chrome.exe" --type=gpu-process --channel="12332.0.560560269\1372383375" --no-sandbox --lang=en-US --log-file="I:\kemenkes\apps\kemenkes-app\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x0166 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=9.17.10.2843 --lang=en-US --log-file="I:\kemenkes\apps\kemenkes-app\debug.log" /prefetch:822062411
+- 10:52:45.574 DEBUG: App::OnContextInitialized()
+- 10:52:45.574 DEBUG: Window max width/height = 1512/792
+- 10:52:45.589 DEBUG: GetBrowserWindow(): not found, hwnd = 462774
+- 10:52:45.589 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 10:52:45.589 DEBUG: BrowserWindow::CreateBrowserControl()
+- 10:52:45.589 DEBUG: StoreBrowserWindow(): hwnd = 462774
+- 10:52:45.621 DEBUG: ClientHandler::OnAfterCreated()
+- 10:52:45.621 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 10:52:45.636 DEBUG: OnLoadingStateChange: loading=1, url=
+- 10:52:45.016 DEBUG: Command line string for the renderer process: "I:\kemenkes\apps\kemenkes-app\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="I:\kemenkes\apps\kemenkes-app\debug.log" --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="12332.1.1322172630\1523429445" /prefetch:673131151
+- 10:55:43.867 DEBUG: WM_DESTROY
+- 10:55:43.867 DEBUG: RemoveBrowserWindow(): hwnd = 462774
+- 10:55:43.867 INFO: Stopping Mongoose web server
+- 10:55:43.867 DEBUG: Mongoose webserver stopped immediately
+- 10:55:43.867 DEBUG: OnBeforeClose() hwnd=200720
+- 10:55:43.867 DEBUG: RemoveBrowserWindow(): hwnd = 200720
+- 10:55:43.883 DEBUG: GetBrowserWindow(): not found, hwnd = 200720
+- 10:55:43.883 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 10:55:43.883 DEBUG: Calling CefQuitMessageLoop()
+- 10:55:43.930 INFO: Ended application
+- 10:55:43.930 INFO: --------------------------------------------------------
