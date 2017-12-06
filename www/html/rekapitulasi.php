@@ -166,11 +166,11 @@ th.rotate > div > span {
                         <th style="text-align:center" >NAMA PEGAWAI</th>					
 						<th style="text-align:center" ><div><span>NIP</span></div></th>
 						<th style="text-align:center" ><div><span>JABATAN</span></div></th>
-						<th style="text-align:center" ><div><span>PROSENTASE POTENSI</span></div></th>
+						<th style="text-align:center" ><div><span>% POTENSI</span></div></th>
 						<th style="text-align:center" ><div><span>REK POTENSI</span></div></th>
-						<th style="text-align:center" ><div><span>PROSENTASE KOMPETENSI</span></div></th>
+						<th style="text-align:center" ><div><span>% KOMPETENSI</span></div></th>
 						<th style="text-align:center" ><div><span>REK KOMPETENSI</span></div></th>
-						<th style="text-align:center" ><div><span>POSISI 9CELL</span></div></th>
+						<th style="text-align:center" ><div><span>9-CELL</span></div></th>
 		
 					</tr>				
                 </thead>

@@ -109,17 +109,14 @@
                             <h3 class="box-title"></h3> 
 							
 <h3>Laporan Ahir kegiatan hasil Profile Assessment Competency ini terdiri dari 3 bagian, sebagai berikut :</h3>
-<br/>
-<br/>
 <ol>
 <li>Berisi penjelasan dan keterangan tentang model dan jenis kompetensi yang dipakai termasuk di dalamnya  definisi / batasan kompetensi, perbedaan jumlah / jenis kompetensi dan level kompetensi pada setiap kelompok jabatan dan  golongan pegawai serta klasifikasi / rekomendasi hasil pengukuran / asesmen kompetensi dan Potensi. Disamping itu juga di sampaikan jadwal dan sekuen  kerja yang telah dilaksanakan .</li>
 <li>Berisi Tabel Rekapitulasi hasil asesmen kompetensi yang diurutkan atas  peringkat berdasarkan (”sort by”) Penguasaan kompetensi (job Fit), dan  posisi dalam “9 cell” (penilaian gabungan antara “job fit” dan kapasitas potensi diri)  . </li>
 <li>Laporan individual untuk setiap peserta. Laporan Individual ini diurutkan  berdasarkan Nomor Induk Pegawai (NIP) pada kelompok jabatan atau golongan kepegawaiannya. Disajikan dalam bentuk “soft copy”  oada satu keping CD.</li>
 </ol>
 <br/>
-<br/>
 <h3>Membaca dan memahami Laporan  Profile Assessment  ini,  ada beberapa hal yang perlu diperhatikan yaitu :</h3>
-<br/><br/><ol>
+<ol>
 <li>Proses objektifikasi penilaian aspek aspek kompetensi /  potensi Psikologik l   melalui cara kuantifikasi (“penilaian dengan skala rasional”) semua aspek  yang ada, pada dasarnya bertujuan hanya untuk memudahkan sekali lagi hanya untuk memudahkan Manajemen pengelola SDM dilingkungan Kementrian Kesehatan RI  dalam melihat gambaran umum kapasitas kompetensi dan membandingkan kondisi aspek aspek kompetensi para pegawai . Sehingga, pada dasarnya  tidak menyederhanakan permasalahan adanya dinamika  perilaku para pegawai dalam kenyataan kerja / kinerja  sehari harinya. </li>
 <li>Dengan kata lain, tidak tertutup adanya kemungkinan  di mana pegawai yang dalam hasil asesmen kompetensi saat ini hasilnya terlihat kurang memuaskan, namun kenyataan kinerja sehari dirasakan cukup baik / berprestasi cukup baik, atau sebaliknya.   Hal ini dapat terjadi, biasanya berkaitan dengan aspek aspek detil penilaian yang dilakukan dalam asesment kompetensi ini dengan penilaian kinerjaq sehari hari.</li>
 <li>Potret profile kompetensi yang telah dilakukan ini telah mempertimbangkan dan menilai juga aspek potensi Psikologik dengan penekanan pada Attitude dan kemampuan belajar. Hal ini sejalan dengan dasar teori dan konsep Komptensi yang dipakai dimana, kompetensi tersebut terdiri dari tiga dimensi dasar yaitu : Knowledge , Skill dan Attitide (S – K – A).</li>
