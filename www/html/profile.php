@@ -142,10 +142,10 @@
                 <div class="row">
                     <div class="col-md-3 col-xs-15">
                         <div class="white-box">
-                            <div class="user-bg"> <img width="100%" alt="user" src="http://projects.ppsdm.com/project-uploads/1/photos/<?=$row[1]['profile_id'];?>.jpg">
+                            <div class="user-bg"> <img width="100%" alt="user" src="photos/<?=$row[1]['profile_id'];?>.jpg">
                                 <div class="overlay-box">
                                     <div class="user-content">
-                                        <a href="javascript:void(0)"><img src="http://projects.ppsdm.com/project-uploads/1/photos/<?=$row[1]['profile_id'];?>.jpg" class="thumb-lg img-circle" alt="img"></a>
+                                        <a href="javascript:void(0)"><img src="photos/<?=$row[1]['profile_id'];?>.jpg" class="thumb-lg img-circle" alt="img"></a>
                                         <h4 class="text-white"><?=$row[1]['first_name'];?></h4> </div>
                                 </div>
                             </div>
