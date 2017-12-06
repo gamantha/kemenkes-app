@@ -89,17 +89,24 @@
 				<br/>
                 <ul class="nav" id="side-menu">
                     <li style="padding: 70px 0 0;">
-                        <a href="index.php" class="waves-effect"><i class="fa fa-clock-o fa-fw" aria-hidden="true"></i>Dashboard</a>
+                        <a href="index.php" class="waves-effect"><i class="fa fa-desktop fa-fw" aria-hidden="true"></i>Dashboard</a>
+						<ul style="list-style: none;" id="side-menu">
+						<li><a href="index.php" class="waves-effect"><i class="fa fa-dot-circle-o fa-fw" aria-hidden="true"></i>Keseluruhan</a></li>
+						<li><a href="dashboard.php?eselon=2" class="waves-effect"><i class="fa fa-dot-circle-o fa-fw" aria-hidden="true"></i>Eselon 2</a></li>
+						<li><a href="dashboard.php?eselon=3" class="waves-effect"><i class="fa fa-dot-circle-o fa-fw" aria-hidden="true"></i>Eselon 3</a></li>
+						<li><a href="dashboard.php?eselon=4" class="waves-effect"><i class="fa fa-dot-circle-o fa-fw" aria-hidden="true"></i>Eselon 4</a></li>
+						</ul>
+						
                     </li>
                     <li>
-                        <a href="blank.php" class="waves-effect"><i class="fa fa-columns fa-fw" aria-hidden="true"></i>Pengantar</a>
+                        <a href="blank.php" class="waves-effect"><i class="fa fa-info fa-fw" aria-hidden="true"></i>Pengantar</a>
                     </li>					
                     <li>
-                        <a href="basic-table.php" class="waves-effect"><i class="fa fa-table fa-fw" aria-hidden="true"></i>Daftar Assessee</a>
+                        <a href="basic-table.php" class="waves-effect"><i class="fa fa-users fa-fw" aria-hidden="true"></i>Daftar Assessee</a>
                     </li>					
 
-                     <li>
-                        <a href="rekapitulasi.php" class="waves-effect"><i class="fa fa-info-circle fa-fw" aria-hidden="true"></i>Rekapitulasi</a>
+                    <li>
+                        <a href="rekapitulasi.php" class="waves-effect"><i class="fa fa-book fa-fw" aria-hidden="true"></i>Rekapitulasi</a>
                     </li>
 
                 </ul>
@@ -133,8 +140,8 @@
                         <div class="white-box">
 						<h3 class="box-title"></i>CARI SELURUH PEGAWAI</h3>
 						<hr/>
-<div class="container">
-    <div class="row">
+
+   
         <div class="panel panel-primary filterable">
             <div >
                 <div class="pull-right">
@@ -189,8 +196,8 @@ left join mappingKemenkes b on a.profile_id = b.profile_id';
                 </tbody>
             </table>
         </div>
-    </div>
-</div>
+   
+
                     </div>
                 </div>
             </div>

@@ -58,7 +58,7 @@
 }
 th.rotate {
   /* Something you can count on */
-  height: 180px;
+  height: 170px;
   white-space: nowrap;
   text-decoration: none;
 }
@@ -69,7 +69,7 @@ th.rotate > div {
     translate(0px, 80px)
     /* 45 is really 360 - 45 */
     rotate(270deg);
-  width: 30px;
+  width: 20px;
   text-decoration: none;
 }
 th.rotate > div > span {
@@ -110,17 +110,24 @@ th.rotate > div > span {
 				<br/>
                 <ul class="nav" id="side-menu">
                     <li style="padding: 70px 0 0;">
-                        <a href="index.php" class="waves-effect"><i class="fa fa-clock-o fa-fw" aria-hidden="true"></i>Dashboard</a>
+                        <a href="index.php" class="waves-effect"><i class="fa fa-desktop fa-fw" aria-hidden="true"></i>Dashboard</a>
+						<ul style="list-style: none;" id="side-menu">
+						<li><a href="index.php" class="waves-effect"><i class="fa fa-dot-circle-o fa-fw" aria-hidden="true"></i>Keseluruhan</a></li>
+						<li><a href="dashboard.php?eselon=2" class="waves-effect"><i class="fa fa-dot-circle-o fa-fw" aria-hidden="true"></i>Eselon 2</a></li>
+						<li><a href="dashboard.php?eselon=3" class="waves-effect"><i class="fa fa-dot-circle-o fa-fw" aria-hidden="true"></i>Eselon 3</a></li>
+						<li><a href="dashboard.php?eselon=4" class="waves-effect"><i class="fa fa-dot-circle-o fa-fw" aria-hidden="true"></i>Eselon 4</a></li>
+						</ul>
+						
                     </li>
                     <li>
-                        <a href="blank.php" class="waves-effect"><i class="fa fa-columns fa-fw" aria-hidden="true"></i>Pengantar</a>
+                        <a href="blank.php" class="waves-effect"><i class="fa fa-info fa-fw" aria-hidden="true"></i>Pengantar</a>
                     </li>					
                     <li>
-                        <a href="basic-table.php" class="waves-effect"><i class="fa fa-table fa-fw" aria-hidden="true"></i>Daftar Assessee</a>
+                        <a href="basic-table.php" class="waves-effect"><i class="fa fa-users fa-fw" aria-hidden="true"></i>Daftar Assessee</a>
                     </li>					
 
-                     <li>
-                        <a href="rekapitulasi.php" class="waves-effect"><i class="fa fa-info-circle fa-fw" aria-hidden="true"></i>Rekapitulasi</a>
+                    <li>
+                        <a href="rekapitulasi.php" class="waves-effect"><i class="fa fa-book fa-fw" aria-hidden="true"></i>Rekapitulasi</a>
                     </li>
 
                 </ul>
@@ -139,26 +146,23 @@ th.rotate > div > span {
                 <div class="row bg-title">
                     <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
                         <h4 class="page-title">Tabel Rekapitulasi</h4> </div>
-
-                    <!-- /.col-lg-12 -->
+                      <div >
+                <div class="pull-right">
+                    <a class="btn btn-success" href="./files/kemenkes_master_table_final.xlsx">Download</a>
+                </div>
+            </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
                         <div class="white-box">
 <div class="container">
     <div class="row">
-        <div class="panel panel-primary filterable">
-		<!--
-            <div >
-                <div class="pull-right">
-                    <button class="btn btn-default btn-xs btn-filter"><span class="glyphicon glyphicon-filter"></span> Filter</button>
-                </div>
-            </div>
-		-->
-            <table border="1px" style="text-align:center">
+       
+
+            <table border="1px" style="text-align:center;font-size:10px;">
                 <thead>
                     <tr>
-                        <th style="text-align:center" >NAMA</th>
+                        <th style="text-align:center" >NAMA PEGAWAI</th>
 						<th class="rotate"><div><span>INTELIGENSI UMUM</span></div></th>
 						<th class="rotate"><div><span>BERPIKIR ANALITIS</span></div></th>
 						<th class="rotate"><div><span>LOGIKA BERFIKIR</span></div></th>
@@ -218,9 +222,9 @@ th.rotate > div > span {
 ?>
 								
 									
-                                        <tr style="text-align:center;font-size:11px;">
+                                        <tr style="text-align:center;font-size:10px;">
                                             
-                                            <td style="text-align:left;font-size:11px;"><b><?=$row['name'];?></b></td>
+                                            <td style="text-align:left;font-size:10px;padding-left:5px;"><b><?=$row['name'];?></b></td>
                                             <td ><?=$row['inteligensi_umum'];?></td>
                                             <td ><?=$row['berpikir_analitis'];?></td>
                                             <td ><?=$row['logika_berfikir'];?></td>
@@ -261,7 +265,7 @@ th.rotate > div > span {
 ?>	
                 </tbody>
             </table>
-        </div>
+        
     </div>
 </div>
                     </div>
