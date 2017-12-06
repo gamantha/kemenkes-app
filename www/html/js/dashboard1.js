@@ -3,7 +3,7 @@
      // toat popup js
      $.toast({
          heading: 'Kemenkes Dashboard',
-         text: 'Monggo ini diubah di www-html-js-dashboard1.js',
+         text: 'Selamat Datang. silahkan pilih dari menu panel di kanan',
          position: 'bottom-right',
          loaderBg: '#fff',
          icon: 'info',

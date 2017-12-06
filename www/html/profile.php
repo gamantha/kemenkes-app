@@ -213,7 +213,7 @@
   </a>
  !-->
  
-   <a  target="_blank" class="btn btn-success" href="reports/<?=$_GET['project_activity_id'];?>.pdf', '', 'width=800,height=600')">
+   <a  target="_blank" class="btn btn-success" href="reports/<?=$_GET['project_activity_id'];?>.pdf">
     View Report
   </a>
                                     </div>

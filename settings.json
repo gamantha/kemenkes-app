@@ -17,14 +17,14 @@
         "maximum_size": [0, 0],
         "disable_maximize_button": false,
         "center_on_screen": true,
-        "start_maximized": false,
+        "start_maximized": true,
         "start_fullscreen": false,
         "always_on_top": false,
         "minimize_to_tray": false,
         "minimize_to_tray_message": "Minimized to tray"
     },
     "popup_window": {
-        "icon": "",
+        "icon": "favicon.ico",
         "fixed_title": "",
         "center_relative_to_parent": true,
         "default_size": [800, 600]
