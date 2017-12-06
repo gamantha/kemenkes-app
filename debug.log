@@ -1238,3 +1238,239 @@
 - 23:56:43.703 DEBUG: Calling CefQuitMessageLoop()
 - 23:56:43.781 INFO: Ended application
 - 23:56:43.781 INFO: --------------------------------------------------------
+- 09:22:12.062 INFO: --------------------------------------------------------
+- 09:22:12.062 INFO: Started application
+- 09:22:12.062 INFO: Logging to: C:\xampp\htdocs\ppsdm\kemenkes-app\debug.log
+- 09:22:12.062 INFO: Log level = DEBUG4
+- 09:22:12.062 INFO: Starting Mongoose 3.9c web server
+- 09:22:12.062 INFO: WWW directory: C:\xampp\htdocs\ppsdm\kemenkes-app\www\html\
+- 09:22:12.062 INFO: Index files: index.html,index.php
+- 09:22:12.062 INFO: CGI interpreter: C:\xampp\htdocs\ppsdm\kemenkes-app\php\php-cgi.exe
+- 09:22:12.062 INFO: CGI pattern: **.php$
+- 09:22:12.062 INFO: Hide files patterns: 
+- 09:22:12.062 INFO: CGI environment variables set: TMP=C:\Users\RENO\AppData\Local\Temp\,TEMP=C:\Users\RENO\AppData\Local\Temp\,TMPDIR=C:\Users\RENO\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 09:22:12.078 INFO: Web server url: http://127.0.0.1:32824/
+- 09:22:12.078 INFO: remote_debugging_port = 63123
+- 09:22:12.078 DEBUG: Command line string for the browser process: "C:\xampp\htdocs\ppsdm\kemenkes-app\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\xampp\htdocs\ppsdm\kemenkes-app\debug.log" --remote-debugging-port=63123
+- 09:22:13.000 DEBUG: Command line string for the gpu-process process: "C:\xampp\htdocs\ppsdm\kemenkes-app\phpdesktop-chrome.exe" --type=gpu-process --channel="5188.0.1037891670\277412041" --no-sandbox --lang=en-US --log-file="C:\xampp\htdocs\ppsdm\kemenkes-app\debug.log" --disable-d3d11 --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,8,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x0046 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2900 --lang=en-US --log-file="C:\xampp\htdocs\ppsdm\kemenkes-app\debug.log" /prefetch:822062411
+- 09:22:13.046 DEBUG: App::OnContextInitialized()
+- 09:22:13.046 DEBUG: Window max width/height = 1360/822
+- 09:22:13.046 DEBUG: GetBrowserWindow(): not found, hwnd = 2428430
+- 09:22:13.046 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 09:22:13.046 DEBUG: BrowserWindow::CreateBrowserControl()
+- 09:22:13.046 DEBUG: StoreBrowserWindow(): hwnd = 2428430
+- 09:22:13.140 DEBUG: ClientHandler::OnAfterCreated()
+- 09:22:13.156 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 09:22:13.171 DEBUG: OnLoadingStateChange: loading=1, url=
+- 09:22:13.000 DEBUG: Command line string for the renderer process: "C:\xampp\htdocs\ppsdm\kemenkes-app\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\xampp\htdocs\ppsdm\kemenkes-app\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="5188.1.1481373410\2022797919" /prefetch:673131151
+- 09:22:13.172 DEBUG: OnBrowserCreated()
+[1206/092213:ERROR:backend_impl.cc(1997)] Corrupt Index file
+[1206/092213:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[1206/092213:ERROR:cache_util.cc(132)] Unable to move cache folder C:\xampp\htdocs\ppsdm\kemenkes-app\webcache to C:\xampp\htdocs\ppsdm\kemenkes-app\old_webcache_000
+[1206/092213:ERROR:cache_creator.cc(127)] Unable to create cache
+- 09:22:15.031 INFO: GET 200 /plugins/bower_components/chartist-js/dist/chartist.min.css
+- 09:22:15.031 INFO: GET 200 /plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css
+- 09:22:15.031 INFO: GET 200 /plugins/bower_components/toast-master/css/jquery.toast.css
+- 09:22:15.046 INFO: GET 200 /plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.css
+- 09:22:15.046 INFO: GET 200 /css/animate.css
+- 09:22:15.046 INFO: GET 200 /js/amcharts.js
+- 09:22:15.046 INFO: GET 200 /js/xy.js
+- 09:22:15.031 INFO: GET 200 /bootstrap/dist/css/bootstrap.min.css
+- 09:22:15.062 INFO: GET 200 /
+- 09:22:15.062 INFO: GET 200 /plugins/bower_components/morrisjs/morris.css
+- 09:22:15.062 INFO: GET 200 /css/colors/default.css
+- 09:22:15.891 DEBUG: OnContextCreated()
+- 09:22:15.078 INFO: GET 200 /css/style.css
+- 09:22:15.093 INFO: GET 200 /js/responsive.min.js
+- 09:22:15.093 INFO: GET 200 /js/data.js
+- 09:22:15.093 INFO: GET 200 /plugins/images/logokemenkes.jpg
+- 09:22:15.156 INFO: GET 200 /css/spinners.css
+- 09:22:15.296 INFO: GET 200 /js/waves.js
+- 09:22:15.296 INFO: GET 200 /js/jquery.slimscroll.js
+- 09:22:15.250 INFO: GET 200 /plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.js
+- 09:22:15.312 INFO: GET 200 /plugins/bower_components/waypoints/lib/jquery.waypoints.js
+- 09:22:15.359 INFO: GET 200 /bootstrap/dist/js/bootstrap.min.js
+- 09:22:15.375 INFO: GET 200 /plugins/bower_components/counterup/jquery.counterup.min.js
+- 09:22:15.421 INFO: GET 200 /plugins/bower_components/jquery/dist/jquery.min.js
+- 09:22:15.421 INFO: GET 200 /js/dashboard1.js
+- 09:22:15.421 INFO: GET 200 /plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js
+- 09:22:15.437 INFO: GET 200 /js/custom.min.js
+- 09:22:15.437 INFO: GET 200 /plugins/bower_components/chartist-js/dist/chartist.min.js
+- 09:22:15.468 INFO: GET 200 /plugins/bower_components/toast-master/js/jquery.toast.js
+- 09:22:15.531 INFO: GET 200 /plugins/bower_components/jquery-sparkline/jquery.sparkline.min.js
+- 09:22:17.640 INFO: GET 200 /less/icons/font-awesome/fonts/fontawesome-webfont.woff2?v=4.5.0
+[1206/092218:INFO:CONSOLE(0)] "SVG's SMIL animations (<animate>, <set>, etc.) are deprecated and will be removed. Please use CSS animations or Web animations instead.", source:  (0)
+[1206/092218:INFO:CONSOLE(738)] "[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]", source: http://127.0.0.1:32824/js/data.js (738)
+- 09:22:19.859 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:32824/
+- 09:22:43.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:32824/
+- 09:22:43.953 INFO: GET 200 /dashboard.php?eselon=2
+- 09:22:43.766 DEBUG: OnContextCreated()
+- 09:22:43.953 INFO: GET 200 /js/pie.js
+- 09:22:43.968 INFO: GET 200 /js/light.js
+- 09:22:43.968 INFO: GET 200 /js/data-eselon2.js
+- 09:22:43.968 INFO: GET 200 /js/export.js
+[1206/092243:INFO:CONSOLE(192)] "[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]", source: http://127.0.0.1:32824/js/data-eselon2.js (192)
+- 09:22:43.562 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:32824/dashboard.php?eselon=2
+[1206/092243:INFO:CONSOLE(8)] "Uncaught TypeError: Cannot read property 'querySelectorAll' of null", source: http://127.0.0.1:32824/plugins/bower_components/chartist-js/dist/chartist.min.js (8)
+- 09:22:47.890 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:32824/dashboard.php?eselon=2
+- 09:22:47.781 DEBUG: OnContextCreated()
+- 09:22:47.968 INFO: GET 200 /profile.php?profile_id=1449&project_activity_id=1202
+- 09:22:47.046 INFO: GET 200 /photos/1449.jpg
+- 09:22:47.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:32824/profile.php?profile_id=1449&project_activity_id=1202
+- 09:22:50.109 DEBUG: ClientHandler::OnBeforePopup()
+- 09:22:50.109 DEBUG: Window max width/height = 1360/822
+- 09:22:50.922 DEBUG: OnBrowserCreated()
+- 09:22:50.125 DEBUG: ClientHandler::OnAfterCreated()
+- 09:22:50.125 DEBUG: GetBrowserWindow(): not found, hwnd = 1837674
+- 09:22:50.125 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 09:22:50.125 DEBUG: StoreBrowserWindow(): hwnd = 1837674
+- 09:22:50.938 DEBUG: OnContextCreated()
+- 09:22:50.125 DEBUG: Centering popup window relative to its parent
+- 09:22:50.125 DEBUG: OnLoadingStateChange: loading=1, url=
+- 09:22:51.156 DEBUG: OnContextCreated()
+- 09:22:54.828 DEBUG: OnLoadingStateChange: loading=0, url=http://projects.ppsdm.com/index.php/projects/activity/pdf?id=1202
+- 09:22:55.984 DEBUG: OnBeforeClose() hwnd=1837674
+- 09:22:55.984 DEBUG: RemoveBrowserWindow(): hwnd = 1837674
+- 09:22:55.828 DEBUG: OnBrowserDestroyed()
+- 09:22:59.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:32824/profile.php?profile_id=1449&project_activity_id=1202
+- 09:22:59.094 DEBUG: OnContextCreated()
+- 09:22:59.296 INFO: GET 200 /js/amcharts.js
+- 09:22:59.296 INFO: GET 200 /dashboard.php?eselon=2
+- 09:22:59.328 INFO: GET 200 /js/responsive.min.js
+- 09:22:59.328 INFO: GET 200 /js/pie.js
+- 09:22:59.328 INFO: GET 200 /js/light.js
+- 09:22:59.328 INFO: GET 200 /js/data-eselon2.js
+- 09:22:59.328 INFO: GET 200 /js/export.js
+- 09:22:59.328 INFO: GET 200 /js/xy.js
+- 09:22:59.343 INFO: GET 200 /plugins/bower_components/waypoints/lib/jquery.waypoints.js
+- 09:22:59.343 INFO: GET 200 /plugins/bower_components/counterup/jquery.counterup.min.js
+- 09:22:59.343 INFO: GET 200 /plugins/bower_components/chartist-js/dist/chartist.min.js
+- 09:22:59.343 INFO: GET 200 /plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js
+- 09:22:59.343 INFO: GET 200 /js/dashboard1.js
+- 09:22:59.343 INFO: GET 200 /plugins/bower_components/toast-master/js/jquery.toast.js
+- 09:22:59.343 INFO: GET 200 /plugins/bower_components/jquery-sparkline/jquery.sparkline.min.js
+[1206/092259:INFO:CONSOLE(192)] "[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]", source: http://127.0.0.1:32824/js/data-eselon2.js (192)
+- 09:23:00.984 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:32824/dashboard.php?eselon=2
+[1206/092300:INFO:CONSOLE(8)] "Uncaught TypeError: Cannot read property 'querySelectorAll' of null", source: http://127.0.0.1:32824/plugins/bower_components/chartist-js/dist/chartist.min.js (8)
+- 09:44:30.546 DEBUG: WM_DESTROY
+- 09:44:30.546 DEBUG: RemoveBrowserWindow(): hwnd = 2428430
+- 09:44:30.546 INFO: Stopping Mongoose web server
+- 09:44:30.546 DEBUG: Mongoose webserver stopped immediately
+- 09:44:30.562 DEBUG: OnBeforeClose() hwnd=459248
+- 09:44:30.562 DEBUG: RemoveBrowserWindow(): hwnd = 459248
+- 09:44:30.562 DEBUG: GetBrowserWindow(): not found, hwnd = 459248
+- 09:44:30.562 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 09:44:30.562 DEBUG: Calling CefQuitMessageLoop()
+- 09:44:30.656 INFO: Ended application
+- 09:44:30.656 INFO: --------------------------------------------------------
+- 09:46:58.046 INFO: --------------------------------------------------------
+- 09:46:58.046 INFO: Started application
+- 09:46:58.046 INFO: Logging to: C:\xampp\htdocs\ppsdm\kemenkes-app\debug.log
+- 09:46:58.046 INFO: Log level = DEBUG4
+- 09:46:58.046 INFO: Starting Mongoose 3.9c web server
+- 09:46:58.046 INFO: WWW directory: C:\xampp\htdocs\ppsdm\kemenkes-app\www\html\
+- 09:46:58.046 INFO: Index files: index.html,index.php
+- 09:46:58.046 INFO: CGI interpreter: C:\xampp\htdocs\ppsdm\kemenkes-app\php\php-cgi.exe
+- 09:46:58.046 INFO: CGI pattern: **.php$
+- 09:46:58.046 INFO: Hide files patterns: 
+- 09:46:58.046 INFO: CGI environment variables set: TMP=C:\Users\RENO\AppData\Local\Temp\,TEMP=C:\Users\RENO\AppData\Local\Temp\,TMPDIR=C:\Users\RENO\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=47.5
+- 09:46:58.046 INFO: Web server url: http://127.0.0.1:34533/
+- 09:46:58.062 INFO: remote_debugging_port = 60163
+- 09:46:58.062 DEBUG: Command line string for the browser process: "C:\xampp\htdocs\ppsdm\kemenkes-app\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\xampp\htdocs\ppsdm\kemenkes-app\debug.log" --remote-debugging-port=60163
+- 09:46:58.125 DEBUG: App::OnContextInitialized()
+- 09:46:58.125 DEBUG: Window max width/height = 1360/822
+- 09:46:58.125 DEBUG: GetBrowserWindow(): not found, hwnd = 3147462
+- 09:46:58.125 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 09:46:58.125 DEBUG: BrowserWindow::CreateBrowserControl()
+- 09:46:58.125 DEBUG: StoreBrowserWindow(): hwnd = 3147462
+- 09:46:58.000 DEBUG: Command line string for the gpu-process process: "C:\xampp\htdocs\ppsdm\kemenkes-app\phpdesktop-chrome.exe" --type=gpu-process --channel="14960.0.1550648022\77373935" --no-sandbox --lang=en-US --log-file="C:\xampp\htdocs\ppsdm\kemenkes-app\debug.log" --disable-d3d11 --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,8,23,51 --gpu-vendor-id=0x8086 --gpu-device-id=0x0046 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2900 --lang=en-US --log-file="C:\xampp\htdocs\ppsdm\kemenkes-app\debug.log" /prefetch:822062411
+- 09:46:58.156 DEBUG: ClientHandler::OnAfterCreated()
+- 09:46:58.156 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 09:46:58.171 DEBUG: OnLoadingStateChange: loading=1, url=
+- 09:46:58.000 DEBUG: Command line string for the renderer process: "C:\xampp\htdocs\ppsdm\kemenkes-app\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\xampp\htdocs\ppsdm\kemenkes-app\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel="14960.1.1184859684\387019170" /prefetch:673131151
+- 09:46:58.047 DEBUG: OnBrowserCreated()
+[1206/094658:ERROR:backend_impl.cc(1997)] Corrupt Index file
+[1206/094658:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[1206/094658:ERROR:cache_util.cc(132)] Unable to move cache folder C:\xampp\htdocs\ppsdm\kemenkes-app\webcache to C:\xampp\htdocs\ppsdm\kemenkes-app\old_webcache_000
+[1206/094658:ERROR:cache_creator.cc(127)] Unable to create cache
+- 09:46:59.375 INFO: GET 200 /bootstrap/dist/css/bootstrap.min.css
+- 09:46:59.375 INFO: GET 200 /plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css
+- 09:46:59.390 INFO: GET 200 /plugins/bower_components/morrisjs/morris.css
+- 09:46:59.390 INFO: GET 200 /plugins/bower_components/chartist-js/dist/chartist.min.css
+- 09:46:59.390 INFO: GET 200 /css/animate.css
+- 09:46:59.390 INFO: GET 200 /css/colors/default.css
+- 09:46:59.390 INFO: GET 200 /css/style.css
+- 09:46:59.390 INFO: GET 200 /plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.css
+- 09:46:59.390 INFO: GET 200 /plugins/bower_components/toast-master/css/jquery.toast.css
+- 09:46:59.406 INFO: GET 200 /js/amcharts.js
+- 09:46:59.203 DEBUG: OnContextCreated()
+- 09:46:59.421 INFO: GET 200 /js/xy.js
+- 09:46:59.421 INFO: GET 200 /
+- 09:46:59.421 INFO: GET 200 /js/responsive.min.js
+- 09:46:59.421 INFO: GET 200 /plugins/images/logokemenkes.jpg
+- 09:46:59.421 INFO: GET 200 /js/data.js
+- 09:46:59.484 INFO: GET 200 /css/spinners.css
+- 09:46:59.515 INFO: GET 200 /plugins/bower_components/jquery/dist/jquery.min.js
+- 09:46:59.515 INFO: GET 200 /bootstrap/dist/js/bootstrap.min.js
+- 09:46:59.515 INFO: GET 200 /js/jquery.slimscroll.js
+- 09:46:59.515 INFO: GET 200 /plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.js
+- 09:46:59.515 INFO: GET 200 /js/waves.js
+- 09:46:59.515 INFO: GET 200 /plugins/bower_components/waypoints/lib/jquery.waypoints.js
+- 09:46:59.531 INFO: GET 200 /plugins/bower_components/counterup/jquery.counterup.min.js
+- 09:46:59.531 INFO: GET 200 /plugins/bower_components/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js
+- 09:46:59.531 INFO: GET 200 /plugins/bower_components/chartist-js/dist/chartist.min.js
+- 09:46:59.531 INFO: GET 200 /plugins/bower_components/jquery-sparkline/jquery.sparkline.min.js
+- 09:46:59.531 INFO: GET 200 /js/custom.min.js
+- 09:46:59.531 INFO: GET 200 /js/dashboard1.js
+- 09:46:59.531 INFO: GET 200 /plugins/bower_components/toast-master/js/jquery.toast.js
+- 09:47:01.453 INFO: GET 200 /less/icons/font-awesome/fonts/fontawesome-webfont.woff2?v=4.5.0
+[1206/094702:INFO:CONSOLE(0)] "SVG's SMIL animations (<animate>, <set>, etc.) are deprecated and will be removed. Please use CSS animations or Web animations instead.", source:  (0)
+[1206/094702:INFO:CONSOLE(738)] "[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]", source: http://127.0.0.1:34533/js/data.js (738)
+- 09:47:03.843 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:34533/
+- 09:47:15.125 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:34533/
+- 09:47:15.015 DEBUG: OnContextCreated()
+- 09:47:15.218 INFO: GET 200 /basic-table.php
+- 09:47:15.296 INFO: GET 200 /bootstrap/dist/fonts/glyphicons-halflings-regular.woff2
+- 09:47:16.984 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:34533/basic-table.php
+[1206/094716:INFO:CONSOLE(8)] "Uncaught TypeError: Cannot read property 'querySelectorAll' of null", source: http://127.0.0.1:34533/plugins/bower_components/chartist-js/dist/chartist.min.js (8)
+- 09:47:18.937 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:34533/basic-table.php
+- 09:47:18.015 INFO: GET 200 /profile.php?profile_id=62&project_activity_id=
+- 09:47:18.812 DEBUG: OnContextCreated()
+- 09:47:18.046 INFO: GET 404 /photos/62.jpg
+- 09:47:18.171 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:34533/profile.php?profile_id=62&project_activity_id=
+- 09:47:20.625 DEBUG: ClientHandler::OnBeforePopup()
+- 09:47:20.625 DEBUG: Window max width/height = 1360/822
+- 09:47:20.422 DEBUG: OnBrowserCreated()
+- 09:47:20.640 DEBUG: ClientHandler::OnAfterCreated()
+- 09:47:20.640 DEBUG: GetBrowserWindow(): not found, hwnd = 2688770
+- 09:47:20.640 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 09:47:20.640 DEBUG: StoreBrowserWindow(): hwnd = 2688770
+- 09:47:20.437 DEBUG: OnContextCreated()
+- 09:47:20.640 DEBUG: Centering popup window relative to its parent
+- 09:47:20.656 DEBUG: OnLoadingStateChange: loading=1, url=
+- 09:47:21.734 DEBUG: OnContextCreated()
+- 09:47:23.843 DEBUG: OnLoadingStateChange: loading=0, url=http://projects.ppsdm.com/index.php/projects/activity/pdf?id=
+- 09:47:24.812 DEBUG: OnBeforeClose() hwnd=2688770
+- 09:47:24.812 DEBUG: RemoveBrowserWindow(): hwnd = 2688770
+- 09:47:24.609 DEBUG: OnBrowserDestroyed()
+- 09:47:27.046 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:34533/profile.php?profile_id=62&project_activity_id=
+- 09:47:27.906 DEBUG: OnContextCreated()
+- 09:47:27.125 INFO: GET 200 /basic-table.php
+- 09:47:27.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:34533/basic-table.php
+[1206/094727:INFO:CONSOLE(8)] "Uncaught TypeError: Cannot read property 'querySelectorAll' of null", source: http://127.0.0.1:34533/plugins/bower_components/chartist-js/dist/chartist.min.js (8)
+- 09:47:29.296 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:34533/basic-table.php
+- 09:47:29.390 INFO: GET 200 /profile.php?profile_id=63&project_activity_id=60
+- 09:47:29.203 DEBUG: OnContextCreated()
+- 09:47:29.468 INFO: GET 200 /photos/63.jpg
+- 09:47:29.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:34533/profile.php?profile_id=63&project_activity_id=60
+- 09:47:35.125 DEBUG: WM_DESTROY
+- 09:47:35.125 DEBUG: RemoveBrowserWindow(): hwnd = 3147462
+- 09:47:35.125 INFO: Stopping Mongoose web server
+- 09:47:35.125 DEBUG: Mongoose webserver stopped immediately
+- 09:47:35.125 DEBUG: OnBeforeClose() hwnd=2427244
+- 09:47:35.125 DEBUG: RemoveBrowserWindow(): hwnd = 2427244
+- 09:47:35.125 DEBUG: GetBrowserWindow(): not found, hwnd = 2427244
+- 09:47:35.125 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 09:47:35.140 DEBUG: Calling CefQuitMessageLoop()
+- 09:47:35.187 INFO: Ended application
+- 09:47:35.187 INFO: --------------------------------------------------------
