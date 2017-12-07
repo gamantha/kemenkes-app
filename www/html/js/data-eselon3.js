@@ -308,7 +308,7 @@ var chart = AmCharts.makeChart( "chartdiv", {
    
 	  "startDuration": 0.2,
   "graphs": [ {
-	"balloonText": "<b>[[value]]<b> <br/> Potensi : <b>[[x]]</b> | Kompetensi : <b>[[y]]</b>",	  
+	"balloonText": "<b>[[value]]<b> <br/> Kompetensi : <b>[[x]]</b> | Potensi : <b>[[y]]</b>",	 
     "bullet": "bubble",
          "bulletBorderAlpha": 0.2,
     "bulletBorderThickness": 1,
