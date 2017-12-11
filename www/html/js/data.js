@@ -735,14 +735,14 @@ var chart = AmCharts.makeChart( "chartdiv", {
   "quadrants": quadrants,
   "valueAxes": [ {
     "position": "bottom",
-    "title": "Kompetensi",
+    "title": "Potensi",
     "integersOnly": true,
     "minimum": 0,
     "maximum": 140,
 
   }, {
     "position": "left",
-    "title": "Potensi",
+    "title": "Kompetensi",
     "integersOnly": true,
     "minimum": 0,
     "maximum": 140
@@ -750,7 +750,7 @@ var chart = AmCharts.makeChart( "chartdiv", {
    
 	  "startDuration": 0.2,
   "graphs": [ {
-	"balloonText": "<b>[[value]]<b> <br/> Potensi : <b>[[x]]</b> | Kompetensi : <b>[[y]]</b>",	
+	"balloonText": "<b>[[value]]<b> <br/> Kompetensi : <b>[[x]]</b> | Potensi : <b>[[y]]</b>",	 
     "bullet": "bubble",
          "bulletBorderAlpha": 0.2,
     "bulletBorderThickness": 1,
